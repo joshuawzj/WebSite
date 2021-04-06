@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="submitvote.aspx.cs" Inherits="label_vote_submitvote" %>

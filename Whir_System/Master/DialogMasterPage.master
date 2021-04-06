@@ -1,0 +1,208 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="DialogMasterPage.master.cs"
+    Inherits="Whir_System_Master_DialogMasterPage" %>
+
+<%@ Import Namespace="Whir.Language" %>
+<%@ Import Namespace="Whir.Framework" %>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>
+        <%=AppSettingUtil.GetString("ProductName")%></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="万户网络">
+    <link rel="stylesheet" href="<%=SysPath%>Res/assets/css/style.css">
+    <link rel="stylesheet" href="<%=SysPath%>Res/assets/css/loader-style.css">
+    <link rel="stylesheet" href="<%=SysPath%>Res/assets/css/bootstrap-reset.css">
+    <link rel="stylesheet" href="<%=SysPath%>Res/assets/css/bootstrap.css">
+    <%--提示toastr--%>
+    <link rel="stylesheet" href="<%=SysPath%>Res/assets/js/toastr-master/toastr.css" />
+    <%--表格--%>
+    <link rel="stylesheet" href="<%=SysPath%>Res/assets/js/dataTable/lib/jquery.dataTables/css/DT_bootstrap.css">
+    <link rel="stylesheet" href="<%=SysPath%>Res/assets/js/dataTable/css/datatables.responsive.css">
+    <%--单选、多选按钮--%>
+    <link rel="stylesheet" href="<%=SysPath%>Res/assets/js/iCheck/flat/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="<%=SysPath%>Res/css/css_whir_v450.css" />
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+    <!-- Fav and touch icons -->
+
+
+    <script type="text/javascript" src="<%=SysPath%>Res/assets/js/jquery.js"></script>
+    <%--提示toastr--%>
+    <script type="text/javascript" src="<%=SysPath%>Res/assets/js/toastr-master/toastr.js"></script>
+    <%--单选、多选按钮--%>
+    <script type="text/javascript" src="<%=SysPath%>Res/assets/js/iCheck/jquery.icheck.js"></script>
+
+    <%--表单验证--%>
+    <link rel="stylesheet" href="<%=SysPath%>Res/assets/js/bootstrapvalidator/bootstrapValidator.css">
+    <script type="text/javascript" src="<%=SysPath%>Res/assets/js/bootstrapvalidator/bootstrapValidator.js"></script>
+
+    <%--日期控件--%>
+    <link rel="stylesheet" href="<%=SysPath%>Res/assets/js/bootstrap-datetimepicker/css/bootstrap-datetimepicker.min.css" />
+    <script type="text/javascript" src="<%=SysPath%>Res/assets/js/bootstrap-datetimepicker/js/bootstrap-datetimepicker.js"></script>
+    <script type="text/javascript" src="<%=SysPath%>Res/assets/js/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.zh-CN.js"></script>
+    <script src="<%=SysPath%>res/js/base64.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        var _appName = "<%=AppName%>";
+        var _sysPath = "<%=SysPath%>";
+        var _uploadFilesPath = "<%= UploadFilePath %>";
+        var WHIR_APPNAME = "<%=AppName%>";
+        var _sysPageList = <%=GetPageList()%>; 
+        var _sysCurrentPage = 1;
+        var _editorCssUrl = "";
+        var _sysPageSizeCookieName = "ezEIPListPageSize";
+    </script>
+    <!--列表-->
+    <link rel="stylesheet" href="<%=SysPath%>Res/assets/js/bootstrap-table/src/bootstrap-table.css" />
+    <script src="<%=SysPath%>Res/assets/js/bootstrap-table/src/bootstrap-table.js"></script>
+
+    <script src="<%=SysPath%>Res/assets/js/bootstrap-table/src/extensions/export/bootstrap-table-export.js"></script>
+    <script src="<%=SysPath%>Res/assets/js/bootstrap-table/src/extensions/column/bootstrap-table-column.js"></script>
+    <script src="<%=SysPath%>Res/assets/js/bootstrap-table/src/extensions/print/bootstrap-table-print.js"></script>
+    <%--上传控件排序功能--%>
+    <script type="text/javascript" src="<%=SysPath%>res/assets/js/fileinput/js/sortable.min.js"></script>
+    <script type="text/javascript" src="<%=SysPath%>Res/assets/js/preloader.js"></script>
+    <script type="text/javascript" src="<%=SysPath%>Res/assets/js/bootstrap.js"></script>
+    <script type="text/javascript" src="<%=SysPath%>Res/assets/js/load.js"></script>
+    <script type="text/javascript" src="<%=SysPath%>res/js/Whir/whir.cookie.js"></script>
+    <script type="text/javascript" src="<%=SysPath%>res/js/whir/whir.ajax.js"></script>
+    <script type="text/javascript" src="<%=SysPath%>res/js/whir/whir.form.js"></script>
+    <script type="text/javascript" src="<%=SysPath%>res/js/whir/whir.ui.js" lang="<%=Whir.ezEIP.Web.SysManagePageBase.GetLoginUserLanguageType() %>"></script>
+    <script type="text/javascript" src="<%=SysPath%>res/js/commons.js"></script>
+    <script type="text/javascript" src="<%=SysPath%>res/js/whir/whir.TipMessage.js"></script>
+    <%if ("kindeditor".Equals(Whir.Config.ConfigHelper.GetSystemConfig().Editor))
+        {%>
+    <link rel="stylesheet" href="<%=AppName%>Editor/KindEditor/themes/default/default.css" />
+    <link rel="stylesheet" href="<%=AppName%>Editor/KindEditor/plugins/code/prettify.css" />
+    <script type="text/javascript" charset="utf-8" src="<%=AppName%>Editor/KindEditor/kindeditor.js"></script>
+    <script type="text/javascript" charset="utf-8" src="<%=AppName%>Editor/KindEditor/lang/zh_CN.js"></script>
+    <script type="text/javascript" charset="utf-8" src="<%=AppName%>Editor/KindEditor/plugins/code/prettify.js"></script>
+    <%}%>
+    <%if ("wueditor".Equals(Whir.Config.ConfigHelper.GetSystemConfig().Editor))
+        {%>
+    <script type="text/javascript" src="<%=AppName%>Editor/wueditor/ueditor.config.js"></script>
+    <script type="text/javascript" src="<%=AppName%>Editor/wueditor/ueditor.all.js"></script>
+    <%}%>
+    <%if ("ueditor".Equals(Whir.Config.ConfigHelper.GetSystemConfig().Editor))
+        {%>
+    <script type="text/javascript" src="<%=AppName%>Editor/ueditor/ueditor.config.js"></script>
+    <script type="text/javascript" src="<%=AppName%>Editor/ueditor/ueditor.all.js"></script>
+    <%}%>
+    <!--上传控件-->
+    <link href="<%=SysPath%>res/assets/js/fileinput/css/fileinput.min.css" rel="stylesheet" type="text/css" />
+    <script src="<%=SysPath%>res/assets/js/fileinput/js/fileinput.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="<%=SysPath%>res/assets/js/fileinput/js/sortable.min.js"></script>
+    <!--语言版本控制-->
+    <%if (CurrentUser.SystemLanguage == 2)
+        {%>
+    <script type="text/javascript" src="<%=SysPath%>Res/assets/js/bootstrap-table/src/locale/bootstrap-table-zh-TW.js"></script>
+    <script type="text/javascript" src="<%=SysPath%>Res/assets/js/bootstrapvalidator/language/zh_TW.js"></script>
+    <script type="text/javascript" src="<%=SysPath%>Res/assets/js/fileinput/locales/zh-TW.js"></script>
+    <%}
+        else if (CurrentUser.SystemLanguage == 3)
+        { %>
+    <script type="text/javascript" src="<%=SysPath%>Res/assets/js/bootstrap-table/src/locale/bootstrap-table-en-US.js"></script>
+    <script type="text/javascript" src="<%=SysPath%>Res/assets/js/bootstrapvalidator/language/en_US.js"></script>
+    <script type="text/javascript" src="<%=SysPath%>Res/assets/js/fileinput/locales/lang.js"></script>
+    <%}
+        else
+        {  %>
+    <script type="text/javascript" src="<%=SysPath%>Res/assets/js/bootstrap-table/src/locale/bootstrap-table-zh-CN.js"></script>
+    <script type="text/javascript" src="<%=SysPath%>Res/assets/js/bootstrapvalidator/language/zh_CN.js"></script>
+    <script type="text/javascript" src="<%=SysPath%>Res/assets/js/fileinput/locales/zh.js"></script>
+    <%} %>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body style="padding-left: 0px!important;">
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+    </asp:ContentPlaceHolder>
+    <script type="text/javascript">
+        //页面高度
+        var bodyHeight = $("body").height();
+        var windowHeight = $(window).height();
+        if (bodyHeight < windowHeight) {
+            $("body").height(windowHeight);
+        }
+        //整站无图处理
+        jQuery.each(jQuery("img"), function (i, n) { jQuery(n).on('error', function () { n.src = '<%=UploadFilePath%>nopic/1.gif'; }); n.src = n.src; });
+
+        //美化单选、多选按钮
+        whir.skin.radio();
+        whir.skin.checkbox();
+
+        //提示
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip();
+        });
+
+        function TipMessage(text, callback) {
+            whir.toastr.info(text);
+            if (typeof (callback) == "function") {
+                callback();
+            }
+        }
+
+        function TipError(text, callback) {
+            whir.toastr.error(text);
+            if (typeof (callback) == "function") {
+                callback();
+            }
+        }
+
+        //打开图片库、文件库 选择
+        function openPicker(url, title) {
+            var opts = {
+                title: title,
+                content: '',
+                ok: function (dialog) {
+                },
+                cancel: function (dialog) { dialog.close(); },
+                okText: '<%="确定".ToLang()%>',
+                cancelText: '<%="取消".ToLang()%>',
+                showOk: true,
+                showCancel: true,
+                iframe: {
+                    url: url,
+                    width: 1200,
+                    height: 600,
+                    scroll: true
+                },
+                zIndex: 1003
+            };
+            whir.dialog.show(opts);
+        }
+        //预览图片
+        function view(imgUrl) {
+            var opts = {
+                title: '<%="预览".ToLang()%>',
+                content: '<img id="pViewPic" src="' + imgUrl + '" style="max-width:800px;max-height:' + ($(window).height() - 90) + 'px">',
+                ok: function (dialog) {
+                },
+                cancel: function (dialog) { dialog.close(); },
+                okText: '<%="确定".ToLang()%>',
+                cancelText: '<%="关闭".ToLang()%>',
+                showOk: false,
+                showCancel: true,
+                iframe: {
+                    url: '',
+                    width: 500,
+                    height: 500,
+                    scroll: false
+                },
+                zIndex: 1003
+            };
+            whir.dialog.show(opts);
+
+            var _test = $('#pViewPic');
+            _test.load(function () {
+                imgSize.call();
+            });
+        }
+    </script>
+</body>
+</html>

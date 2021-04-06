@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="getshopcategorylist.aspx.cs" Inherits="whir_system_ajax_common_getshopcategorylist" %>

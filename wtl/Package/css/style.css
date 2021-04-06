@@ -1,0 +1,43 @@
+/*
+ .Top014 为demo编号
+ */
+.Top014{ position:absolute; width:100%; left:0; top:0; z-index:100; }
+.Top014 .auto{ position:relative;}
+.Top014 .logo{ position:absolute; left:0; top:56px;}
+.Top014 .share{ padding:10px 0 18px 0;}
+.Top014 .share ul{ float:right;}
+.Top014 .share  li{ float:left; margin-left:10px;}
+.Top014 .share  li div{ display:none;}
+.Top014 .share  li a{ width:28px; height:28px; display:inline-block;background-image:url(../images/Top014-ico.png); background-repeat:no-repeat;}
+.Top014 .share  li.sina a{ background-position:-35px 0;}
+.Top014 .share  li.qq a{ background-position:right 0;}
+.Top014 .share  li.search,
+.Top014 .share  li.webchat{width:28px; height:28px;background-image:url(../images/Top014-ico.png); background-repeat:no-repeat;cursor:pointer;}
+.Top014 .share  li.search{background-position:0 0; }
+.Top014 .share  li.webchat{background-position:-70px 0; position:relative;}
+.Top014 .share  li.webchat .code{ position:absolute; right:0; top:28px; z-index:10;}
+.Top014 .share  li.webchat .code img{ width:150px; height:150px; border:1px dotted #015198; background-color:#fff; padding:5px;}
+.Top014 .share  li.webchat:hover .code{ display:block;}
+.Top014 .share  li.search .search_show{ display:none; width:155px; background:url(../images/Top014-search_bg.png) no-repeat; height:28px; overflow:hidden;}
+.Top014 .share  .search_show .text{ height:28px; line-height:28px; width:127px; padding:0 15px; border:none; background:none; float:left; color:#fff;}
+.Top014 .share  .search_show .btn{ float:left; height:28px;}
+.Top014 .share  li#search{ cursor:default; width:auto; background:none;}
+
+.Top014 .Menu ul{ float:right;}
+.Top014 .Menu li{ float:left; width:110px;  margin-left:1px; position:relative;}
+.Top014 .Menu li span{ display:block; text-align:center; font-size:14px; font-weight:bold;}
+.Top014 .Menu li span a{ display:block;height:46px; line-height:46px; background:url(../images/Top014-li.png) repeat; color:#bcdefd;}
+.Top014 .Menu li.aon span a,
+.Top014 .Menu li span a:hover{ background-image:url(../images/Top014-li_hover.png); color:#fff;}
+.Top014 .Menu li .subnav,
+.Top014 .Menu li .sub{ display:none; position:absolute; left:0; width:100%;}
+.Top014 .Menu li .subnav{ top:46px; background:url(../images/Top014-subnav_bg.jpg) no-repeat center bottom #0e78ce; padding:15px 0; min-height:226px;}
+.Top014 .Menu li .subnav dd{ text-align:center; line-height:26px;}
+.Top014 .Menu li .subnav dd a{ position:relative; color:#fff; display:block;}
+.Top014 .Menu li .subnav dd.on a i{ border-left:7px solid #0061ae; border-top:7px solid transparent;border-bottom:7px solid transparent; position:absolute; right:-6px; top:50%; margin-top:-7px;}
+.Top014 .Menu li .sub{ left:110px; top:0; height:100%;z-index:10; background:url(../images/Top014-subnav_dl.png) repeat;}
+.Top014 .Menu li .subnav dd .sub a{ color:#7f7f7f; line-height:32px;}
+.Top014 .Menu li .subnav dd .sub a:hover{ color:#4bb13f; font-weight:bold;}
+.Top014 .Menu li .sub p{ margin:0; padding-top:20px;}
+
+

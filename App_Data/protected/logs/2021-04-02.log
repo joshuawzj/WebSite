@@ -1,0 +1,1143 @@
+2021/4/2 4:51:49 # 开始下单 : 
+
+2021/4/2 4:51:49 # 下单签名 : 7AAB084585991B99E31B3EC0D5891B42
+
+2021/4/2 4:51:49 # 下单结果 : {"msg":"下单成功，请扫码支付","code":0,"data":"http://images.yungouos.com/merge/native/code/210402045149519815307.png"}
+
+2021/4/2 4:52:25 # 支付成功回调参数： payNo ------ 4200000994202104023679661663
+
+2021/4/2 4:52:25 # 支付成功回调参数： code ------ 1
+
+2021/4/2 4:52:25 # 支付成功回调参数： mchId ------ 1607191737
+
+2021/4/2 4:52:25 # 支付成功回调参数： orderNo ------ Y04521488471147
+
+2021/4/2 4:52:25 # 支付成功回调参数： money ------ 666.00
+
+2021/4/2 4:52:25 # 支付成功回调参数： openId ------ o-_-it-HlcDxvTOeqrdKOphRksIM
+
+2021/4/2 4:52:25 # 支付成功回调参数： outTradeNo ------ 2104020451495198
+
+2021/4/2 4:52:25 # 支付成功回调参数： sign ------ 51109CC3558C553596CC9F11E08DE355
+
+2021/4/2 4:52:25 # 支付成功回调参数： payChannel ------ wxpay
+
+2021/4/2 4:52:25 # 支付成功回调参数： time ------ 2021-04-02 04:52:23
+
+2021/4/2 4:52:25 # 支付成功回调的新签名为 : 51109CC3558C553596CC9F11E08DE355
+
+2021/4/2 4:52:25 # 支付成功回调签名验证通过 。
+
+2021/4/2 5:12:24 # 开始下单 : 
+
+2021/4/2 5:12:24 # 下单签名 : 1869028B4994CA535FDF2E9C4EA31BA6
+
+2021/4/2 5:12:25 # 下单结果 : {"msg":"下单成功，请扫码支付","code":0,"data":"http://images.yungouos.com/merge/native/code/210402051224200315307.png"}
+
+2021/4/2 5:12:50 # 支付成功回调参数： payNo ------ 4200000985202104022141715987
+
+2021/4/2 5:12:50 # 支付成功回调参数： code ------ 1
+
+2021/4/2 5:12:50 # 支付成功回调参数： mchId ------ 1607191737
+
+2021/4/2 5:12:50 # 支付成功回调参数： orderNo ------ Y05123765124288
+
+2021/4/2 5:12:50 # 支付成功回调参数： money ------ 666.00
+
+2021/4/2 5:12:50 # 支付成功回调参数： openId ------ o-_-itwj-pR9m6KxH6SfrW2c1WTA
+
+2021/4/2 5:12:50 # 支付成功回调参数： outTradeNo ------ 2104020512242003
+
+2021/4/2 5:12:50 # 支付成功回调参数： sign ------ 540697B4D11FB5BA1D6305DF3287A7C9
+
+2021/4/2 5:12:50 # 支付成功回调参数： payChannel ------ wxpay
+
+2021/4/2 5:12:50 # 支付成功回调参数： time ------ 2021-04-02 05:12:48
+
+2021/4/2 5:12:50 # 支付成功回调的新签名为 : 540697B4D11FB5BA1D6305DF3287A7C9
+
+2021/4/2 5:12:50 # 支付成功回调签名验证通过 。
+
+2021/4/2 9:06:31 # 开始下单 : 
+
+2021/4/2 9:06:31 # 下单签名 : 34296386AF0DD3557C0FBE97913BD835
+
+2021/4/2 9:06:31 # 下单结果 : {"msg":"下单成功，请扫码支付","code":0,"data":"http://images.yungouos.com/merge/native/code/210402090631797015307.png"}
+
+2021/4/2 9:07:21 # 支付成功回调参数： payNo ------ 2021040222001485671415078481
+
+2021/4/2 9:07:21 # 支付成功回调参数： code ------ 1
+
+2021/4/2 9:07:21 # 支付成功回调参数： mchId ------ 2088110896172724
+
+2021/4/2 9:07:21 # 支付成功回调参数： orderNo ------ Y09070484131649
+
+2021/4/2 9:07:21 # 支付成功回调参数： money ------ 666.00
+
+2021/4/2 9:07:21 # 支付成功回调参数： outTradeNo ------ 2104020906317970
+
+2021/4/2 9:07:21 # 支付成功回调参数： sign ------ E74B7A24B7DF414DB6B06105329351C2
+
+2021/4/2 9:07:21 # 支付成功回调参数： payChannel ------ alipay
+
+2021/4/2 9:07:21 # 支付成功回调参数： time ------ 2021-04-02 09:07:19
+
+2021/4/2 9:07:21 # 支付成功回调的新签名为 : E74B7A24B7DF414DB6B06105329351C2
+
+2021/4/2 9:07:21 # 支付成功回调签名验证通过 。
+
+2021/4/2 9:35:39 # 开始下单 : 
+
+2021/4/2 9:35:39 # 下单签名 : 738EA7CB44B29C9B31EEF60019295A76
+
+2021/4/2 9:35:39 # 下单结果 : {"msg":"下单成功，请扫码支付","code":0,"data":"http://images.yungouos.com/merge/native/code/210402093539474115307.png"}
+
+2021/4/2 9:36:09 # 支付成功回调参数： payNo ------ 2021040222001441291421673831
+
+2021/4/2 9:36:09 # 支付成功回调参数： code ------ 1
+
+2021/4/2 9:36:09 # 支付成功回调参数： mchId ------ 2088110896172724
+
+2021/4/2 9:36:09 # 支付成功回调参数： orderNo ------ Y09355566430968
+
+2021/4/2 9:36:09 # 支付成功回调参数： money ------ 666.00
+
+2021/4/2 9:36:09 # 支付成功回调参数： outTradeNo ------ 2104020935394741
+
+2021/4/2 9:36:09 # 支付成功回调参数： sign ------ 1085D66C346943E4C2C0A3E2C256C73E
+
+2021/4/2 9:36:09 # 支付成功回调参数： payChannel ------ alipay
+
+2021/4/2 9:36:09 # 支付成功回调参数： time ------ 2021-04-02 09:36:07
+
+2021/4/2 9:36:09 # 支付成功回调的新签名为 : 1085D66C346943E4C2C0A3E2C256C73E
+
+2021/4/2 9:36:09 # 支付成功回调签名验证通过 。
+
+2021/4/2 9:36:21 # 开始下单 : 
+
+2021/4/2 9:36:21 # 下单签名 : 5F28CAE94DD0CD17D03C7B317ED3B11D
+
+2021/4/2 9:36:22 # 下单结果 : {"msg":"下单成功，请扫码支付","code":0,"data":"http://images.yungouos.com/merge/native/code/210402093621343515307.png"}
+
+2021/4/2 11:08:25 # c:\wwwroot\WebSite\Ajax\paypal.aspx.cs(26): error CS0246: 未能找到类型或命名空间名称“PayPalModel”(是否缺少 using 指令或程序集引用?)
+   在 System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   在 System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   在 System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+2021/4/2 11:08:48 # 开始下单 : 
+
+2021/4/2 11:08:48 # 下单签名 : D02754F35D5F77966CC969EA7412A50D
+
+2021/4/2 11:08:49 # 下单结果 : {"msg":"下单成功，请扫码支付","code":0,"data":"http://images.yungouos.com/merge/native/code/210402110848729715307.png"}
+
+2021/4/2 11:09:22 # 支付成功回调参数： payNo ------ 4200000980202104021089137891
+
+2021/4/2 11:09:22 # 支付成功回调参数： code ------ 1
+
+2021/4/2 11:09:22 # 支付成功回调参数： mchId ------ 1607191737
+
+2021/4/2 11:09:22 # 支付成功回调参数： orderNo ------ Y11090219385842
+
+2021/4/2 11:09:22 # 支付成功回调参数： money ------ 666.00
+
+2021/4/2 11:09:22 # 支付成功回调参数： openId ------ o-_-it_rWwEPWbjUz_9h8C-6uAGo
+
+2021/4/2 11:09:22 # 支付成功回调参数： outTradeNo ------ 2104021108487297
+
+2021/4/2 11:09:22 # 支付成功回调参数： sign ------ 6783B0CA0C6F123361A5B3B53619628F
+
+2021/4/2 11:09:22 # 支付成功回调参数： payChannel ------ wxpay
+
+2021/4/2 11:09:22 # 支付成功回调参数： time ------ 2021-04-02 11:09:16
+
+2021/4/2 11:09:22 # 支付成功回调的新签名为 : 6783B0CA0C6F123361A5B3B53619628F
+
+2021/4/2 11:09:22 # 支付成功回调签名验证通过 。
+
+2021/4/2 11:12:55 # 文件“/cpzx/ajax/addOrder.aspx”不存在。
+   在 System.Web.UI.Util.CheckVirtualFileExists(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   在 System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   在 System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+2021/4/2 11:13:16 # 文件“/cpzx/ajax/addOrder.aspx”不存在。
+   在 System.Web.UI.Util.CheckVirtualFileExists(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   在 System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   在 System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+2021/4/2 11:59:42 # 开始下单 : 
+
+2021/4/2 11:59:42 # 下单签名 : 6B57B2EF7FAB43647A8E673F0F63C18D
+
+2021/4/2 11:59:42 # 下单结果 : {"msg":"下单成功，请扫码支付","code":0,"data":"http://images.yungouos.com/merge/native/code/210402115942529815307.png"}
+
+2021/4/2 12:00:49 # 支付成功回调参数： payNo ------ 2021040222001468641418545752
+
+2021/4/2 12:00:49 # 支付成功回调参数： code ------ 1
+
+2021/4/2 12:00:49 # 支付成功回调参数： mchId ------ 2088110896172724
+
+2021/4/2 12:00:49 # 支付成功回调参数： orderNo ------ Y12000228655848
+
+2021/4/2 12:00:49 # 支付成功回调参数： money ------ 666.00
+
+2021/4/2 12:00:49 # 支付成功回调参数： outTradeNo ------ 2104021159425298
+
+2021/4/2 12:00:49 # 支付成功回调参数： sign ------ 4C8C5E7E37DDC4A583E6C3F62991F674
+
+2021/4/2 12:00:49 # 支付成功回调参数： payChannel ------ alipay
+
+2021/4/2 12:00:49 # 支付成功回调参数： time ------ 2021-04-02 12:00:47
+
+2021/4/2 12:00:49 # 支付成功回调的新签名为 : 4C8C5E7E37DDC4A583E6C3F62991F674
+
+2021/4/2 12:00:49 # 支付成功回调签名验证通过 。
+
+2021/4/2 12:09:20 # 开始下单 : 
+
+2021/4/2 12:09:20 # 下单签名 : 9952228F271E314E779457614125750B
+
+2021/4/2 12:09:20 # 下单结果 : {"msg":"下单成功，请扫码支付","code":0,"data":"http://images.yungouos.com/merge/native/code/210402120920621115307.png"}
+
+2021/4/2 14:14:35 # c:\wwwroot\WebSite\Ajax\paypal.aspx.cs(13): error CS1502: 与“Ajax_paypal.SendPayPal(string, string, decimal)”最匹配的重载方法具有一些无效参数
+   在 System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   在 System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   在 System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+2021/4/2 14:14:48 # c:\wwwroot\WebSite\Ajax\paypal.aspx.cs(13): error CS1502: 与“Ajax_paypal.SendPayPal(string, string, decimal)”最匹配的重载方法具有一些无效参数
+   在 System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   在 System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   在 System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+2021/4/2 14:34:46 # 支付成功回调参数： payment_type ------ instant
+
+2021/4/2 14:34:46 # 支付成功回调参数： payment_date ------ 14:29:22 Apr 01, 2021 PST
+
+2021/4/2 14:34:46 # 支付成功回调参数： payment_status ------ Completed
+
+2021/4/2 14:34:46 # 支付成功回调参数： address_status ------ confirmed
+
+2021/4/2 14:34:46 # 支付成功回调参数： payer_status ------ verified
+
+2021/4/2 14:34:46 # 支付成功回调参数： first_name ------ John
+
+2021/4/2 14:34:46 # 支付成功回调参数： last_name ------ Smith
+
+2021/4/2 14:34:46 # 支付成功回调参数： payer_email ------ buyer@paypalsandbox.com
+
+2021/4/2 14:34:46 # 支付成功回调参数： payer_id ------ 2104012037244508
+
+2021/4/2 14:34:46 # 支付成功回调参数： address_name ------ John Smith
+
+2021/4/2 14:34:46 # 支付成功回调参数： address_country ------ United States
+
+2021/4/2 14:34:46 # 支付成功回调参数： address_country_code ------ US
+
+2021/4/2 14:34:46 # 支付成功回调参数： address_zip ------ 95131
+
+2021/4/2 14:34:46 # 支付成功回调参数： address_state ------ CA
+
+2021/4/2 14:34:46 # 支付成功回调参数： address_city ------ San Jose
+
+2021/4/2 14:34:46 # 支付成功回调参数： address_street ------ 123 any street
+
+2021/4/2 14:34:46 # 支付成功回调参数： business ------ seller@paypalsandbox.com
+
+2021/4/2 14:34:46 # 支付成功回调参数： receiver_email ------ seller@paypalsandbox.com
+
+2021/4/2 14:34:46 # 支付成功回调参数： receiver_id ------ seller@paypalsandbox.com
+
+2021/4/2 14:34:46 # 支付成功回调参数： residence_country ------ US
+
+2021/4/2 14:34:46 # 支付成功回调参数： item_name1 ------ something
+
+2021/4/2 14:34:46 # 支付成功回调参数： item_number1 ------ AK-1234
+
+2021/4/2 14:34:46 # 支付成功回调参数： tax ------ 2.02
+
+2021/4/2 14:34:46 # 支付成功回调参数： mc_currency ------ USD
+
+2021/4/2 14:34:46 # 支付成功回调参数： mc_fee ------ 0.44
+
+2021/4/2 14:34:46 # 支付成功回调参数： mc_gross ------ 12.34
+
+2021/4/2 14:34:46 # 支付成功回调参数： mc_gross_1 ------ 12.34
+
+2021/4/2 14:34:46 # 支付成功回调参数： mc_handling ------ 2.06
+
+2021/4/2 14:34:46 # 支付成功回调参数： mc_handling1 ------ 1.67
+
+2021/4/2 14:34:46 # 支付成功回调参数： mc_shipping ------ 3.02
+
+2021/4/2 14:34:46 # 支付成功回调参数： mc_shipping1 ------ 1.02
+
+2021/4/2 14:34:46 # 支付成功回调参数： txn_type ------ cart
+
+2021/4/2 14:34:46 # 支付成功回调参数： txn_id ------ 522657663
+
+2021/4/2 14:34:46 # 支付成功回调参数： notify_version ------ 2.1
+
+2021/4/2 14:34:46 # 支付成功回调参数： custom ------ xyz123
+
+2021/4/2 14:34:46 # 支付成功回调参数： invoice ------ 2104012037244508
+
+2021/4/2 14:34:46 # 支付成功回调参数： test_ipn ------ 1
+
+2021/4/2 14:34:46 # 支付成功回调参数： verify_sign ------ AppfbkB3cfJyRm3ilU8CJCs46kznAl3q-C7muBz0pXyTwv43Eev6x0-H
+
+2021/4/2 14:34:46 # 支付成功回调签名验证通过 。
+
+2021/4/2 14:39:19 # c:\wwwroot\WebSite\Ajax\Return_Notify.aspx.cs(30): error CS1501: “Info”方法没有任何重载采用 1 个参数
+   在 System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   在 System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   在 System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+2021/4/2 14:41:17 # 支付成功回调参数： payment_type ------ instant
+
+2021/4/2 14:41:17 # 支付成功回调参数： payment_date ------ 14:29:22 Apr 01, 2021 PST
+
+2021/4/2 14:41:17 # 支付成功回调参数： payment_status ------ Completed
+
+2021/4/2 14:41:17 # 支付成功回调参数： address_status ------ confirmed
+
+2021/4/2 14:41:17 # 支付成功回调参数： payer_status ------ verified
+
+2021/4/2 14:41:17 # 支付成功回调参数： first_name ------ John
+
+2021/4/2 14:41:17 # 支付成功回调参数： last_name ------ Smith
+
+2021/4/2 14:41:17 # 支付成功回调参数： payer_email ------ buyer@paypalsandbox.com
+
+2021/4/2 14:41:17 # 支付成功回调参数： payer_id ------ 2104012037244508
+
+2021/4/2 14:41:17 # 支付成功回调参数： address_name ------ John Smith
+
+2021/4/2 14:41:17 # 支付成功回调参数： address_country ------ United States
+
+2021/4/2 14:41:17 # 支付成功回调参数： address_country_code ------ US
+
+2021/4/2 14:41:17 # 支付成功回调参数： address_zip ------ 95131
+
+2021/4/2 14:41:17 # 支付成功回调参数： address_state ------ CA
+
+2021/4/2 14:41:17 # 支付成功回调参数： address_city ------ San Jose
+
+2021/4/2 14:41:17 # 支付成功回调参数： address_street ------ 123 any street
+
+2021/4/2 14:41:17 # 支付成功回调参数： business ------ seller@paypalsandbox.com
+
+2021/4/2 14:41:17 # 支付成功回调参数： receiver_email ------ seller@paypalsandbox.com
+
+2021/4/2 14:41:17 # 支付成功回调参数： receiver_id ------ seller@paypalsandbox.com
+
+2021/4/2 14:41:17 # 支付成功回调参数： residence_country ------ US
+
+2021/4/2 14:41:17 # 支付成功回调参数： item_name1 ------ something
+
+2021/4/2 14:41:17 # 支付成功回调参数： item_number1 ------ AK-1234
+
+2021/4/2 14:41:17 # 支付成功回调参数： tax ------ 2.02
+
+2021/4/2 14:41:17 # 支付成功回调参数： mc_currency ------ USD
+
+2021/4/2 14:41:17 # 支付成功回调参数： mc_fee ------ 0.44
+
+2021/4/2 14:41:17 # 支付成功回调参数： mc_gross ------ 12.34
+
+2021/4/2 14:41:17 # 支付成功回调参数： mc_gross_1 ------ 12.34
+
+2021/4/2 14:41:17 # 支付成功回调参数： mc_handling ------ 2.06
+
+2021/4/2 14:41:17 # 支付成功回调参数： mc_handling1 ------ 1.67
+
+2021/4/2 14:41:17 # 支付成功回调参数： mc_shipping ------ 3.02
+
+2021/4/2 14:41:17 # 支付成功回调参数： mc_shipping1 ------ 1.02
+
+2021/4/2 14:41:17 # 支付成功回调参数： txn_type ------ cart
+
+2021/4/2 14:41:17 # 支付成功回调参数： txn_id ------ 522657663
+
+2021/4/2 14:41:17 # 支付成功回调参数： notify_version ------ 2.1
+
+2021/4/2 14:41:17 # 支付成功回调参数： custom ------ xyz123
+
+2021/4/2 14:41:17 # 支付成功回调参数： invoice ------ 2104012037244508
+
+2021/4/2 14:41:17 # 支付成功回调参数： test_ipn ------ 1
+
+2021/4/2 14:41:17 # 支付成功回调参数： verify_sign ------ A9I2Vv6pEH0PrkEiFK7YJnTy8dkBA6QuLMusDnYTzNnlmyVVaQKHoHYM
+
+2021/4/2 14:41:17 # 支付成功回调签名验证通过 。
+
+2021/4/2 14:43:54 # 支付成功回调参数： payment_type ------ instant
+
+2021/4/2 14:43:54 # 支付成功回调参数： payment_date ------ 14:29:22 Apr 01, 2021 PST
+
+2021/4/2 14:43:54 # 支付成功回调参数： payment_status ------ Completed
+
+2021/4/2 14:43:54 # 支付成功回调参数： address_status ------ confirmed
+
+2021/4/2 14:43:54 # 支付成功回调参数： payer_status ------ verified
+
+2021/4/2 14:43:54 # 支付成功回调参数： first_name ------ John
+
+2021/4/2 14:43:54 # 支付成功回调参数： last_name ------ Smith
+
+2021/4/2 14:43:54 # 支付成功回调参数： payer_email ------ buyer@paypalsandbox.com
+
+2021/4/2 14:43:54 # 支付成功回调参数： payer_id ------ 2104012037244508
+
+2021/4/2 14:43:54 # 支付成功回调参数： address_name ------ John Smith
+
+2021/4/2 14:43:54 # 支付成功回调参数： address_country ------ United States
+
+2021/4/2 14:43:54 # 支付成功回调参数： address_country_code ------ US
+
+2021/4/2 14:43:54 # 支付成功回调参数： address_zip ------ 95131
+
+2021/4/2 14:43:54 # 支付成功回调参数： address_state ------ CA
+
+2021/4/2 14:43:54 # 支付成功回调参数： address_city ------ San Jose
+
+2021/4/2 14:43:54 # 支付成功回调参数： address_street ------ 123 any street
+
+2021/4/2 14:43:54 # 支付成功回调参数： business ------ seller@paypalsandbox.com
+
+2021/4/2 14:43:54 # 支付成功回调参数： receiver_email ------ seller@paypalsandbox.com
+
+2021/4/2 14:43:54 # 支付成功回调参数： receiver_id ------ seller@paypalsandbox.com
+
+2021/4/2 14:43:54 # 支付成功回调参数： residence_country ------ US
+
+2021/4/2 14:43:54 # 支付成功回调参数： item_name1 ------ something
+
+2021/4/2 14:43:54 # 支付成功回调参数： item_number1 ------ AK-1234
+
+2021/4/2 14:43:54 # 支付成功回调参数： tax ------ 2.02
+
+2021/4/2 14:43:54 # 支付成功回调参数： mc_currency ------ USD
+
+2021/4/2 14:43:54 # 支付成功回调参数： mc_fee ------ 0.44
+
+2021/4/2 14:43:54 # 支付成功回调参数： mc_gross ------ 12.34
+
+2021/4/2 14:43:54 # 支付成功回调参数： mc_gross_1 ------ 12.34
+
+2021/4/2 14:43:54 # 支付成功回调参数： mc_handling ------ 2.06
+
+2021/4/2 14:43:54 # 支付成功回调参数： mc_handling1 ------ 1.67
+
+2021/4/2 14:43:54 # 支付成功回调参数： mc_shipping ------ 3.02
+
+2021/4/2 14:43:54 # 支付成功回调参数： mc_shipping1 ------ 1.02
+
+2021/4/2 14:43:54 # 支付成功回调参数： txn_type ------ cart
+
+2021/4/2 14:43:54 # 支付成功回调参数： txn_id ------ 522657663
+
+2021/4/2 14:43:54 # 支付成功回调参数： notify_version ------ 2.1
+
+2021/4/2 14:43:54 # 支付成功回调参数： custom ------ xyz123
+
+2021/4/2 14:43:54 # 支付成功回调参数： invoice ------ 2104012037244508
+
+2021/4/2 14:43:54 # 支付成功回调参数： test_ipn ------ 1
+
+2021/4/2 14:43:54 # 支付成功回调参数： verify_sign ------ ASyJoN7EGxsj17qwL-kM1KiphDWqAvbE.rqcfQ4Df1TQAXQ1aQBgstef
+
+2021/4/2 14:43:54 # 支付成功回调签名验证通过 。
+
+2021/4/2 14:47:59 # 开始下单 : 
+
+2021/4/2 14:47:59 # 下单签名 : 62DDEF86439ACC485302C9830955D81F
+
+2021/4/2 14:48:00 # 下单结果 : {"msg":"下单成功，请扫码支付","code":0,"data":"http://images.yungouos.com/merge/native/code/210402144759827215307.png"}
+
+2021/4/2 14:49:27 # 开始下单 : 
+
+2021/4/2 14:49:27 # 下单签名 : 2CEB6FB14258136367409C3A2611637D
+
+2021/4/2 14:49:27 # 下单结果 : {"msg":"下单成功，请扫码支付","code":0,"data":"http://images.yungouos.com/merge/native/code/210402144927134015307.png"}
+
+2021/4/2 14:57:47 # 开始下单 : 
+
+2021/4/2 14:57:47 # 下单签名 : 71C3577BF15542BE1BC39086437ABEE6
+
+2021/4/2 14:57:48 # 下单结果 : {"msg":"下单成功，请扫码支付","code":0,"data":"http://images.yungouos.com/merge/native/code/210402145747405715307.png"}
+
+2021/4/2 14:59:03 # 开始下单 : 
+
+2021/4/2 14:59:03 # 下单签名 : 703352CF51AB574CD2F3CC1FE2A84394
+
+2021/4/2 14:59:04 # 下单结果 : {"msg":"下单成功，请扫码支付","code":0,"data":"http://images.yungouos.com/merge/native/code/210402145903646015307.png"}
+
+2021/4/2 14:59:20 # 开始下单 : 
+
+2021/4/2 14:59:20 # 下单签名 : B30147B3CF11D5348613E6571608C26A
+
+2021/4/2 15:03:20 # 开始下单 : 
+
+2021/4/2 15:03:20 # 下单签名 : 9DE97952D2C6C823652E2D6E9C6B9DEF
+
+2021/4/2 15:04:46 # 开始下单 : 
+
+2021/4/2 15:04:46 # 下单签名 : BE452AB27C9D82B1914905D53639C47E
+
+2021/4/2 15:05:01 # 开始下单 : 
+
+2021/4/2 15:05:01 # 下单签名 : ECDE7F01B965545D476C8EDA15E6FE26
+
+2021/4/2 15:05:01 # 下单结果 : {"msg":"下单成功，请扫码支付","code":0,"data":"http://images.yungouos.com/merge/native/code/210402150501161515307.png"}
+
+2021/4/2 15:05:06 # 开始下单 : 
+
+2021/4/2 15:05:06 # 下单签名 : 753381133E3EE6FACB36FF1E6B4EB836
+
+2021/4/2 15:08:53 # 开始下单 : 
+
+2021/4/2 15:08:53 # 下单签名 : 3A1BCD5B740A152D9F179C8BF00C1FAD
+
+2021/4/2 15:09:04 # 开始下单 : 
+
+2021/4/2 15:09:04 # 下单签名 : 92627366ABD4F5C2A00A03249FD20D76
+
+2021/4/2 15:12:12 # 开始下单 : 
+
+2021/4/2 15:12:12 # 下单签名 : A0115FA596795944118348DC6C92BB02
+
+2021/4/2 15:13:14 # 支付成功回调参数： insurance_amount ------ 0.00
+
+2021/4/2 15:13:14 # 支付成功回调参数： discount ------ 0.00
+
+2021/4/2 15:13:14 # 支付成功回调参数： transaction_subject ------ 
+
+2021/4/2 15:13:14 # 支付成功回调参数： txn_type ------ web_accept
+
+2021/4/2 15:13:14 # 支付成功回调参数： payment_date ------ 00:13:05 Apr 02, 2021 PDT
+
+2021/4/2 15:13:14 # 支付成功回调参数： last_name ------ Ma
+
+2021/4/2 15:13:14 # 支付成功回调参数： residence_country ------ SG
+
+2021/4/2 15:13:14 # 支付成功回调参数： pending_reason ------ unilateral
+
+2021/4/2 15:13:14 # 支付成功回调参数： shipping_method ------ Default
+
+2021/4/2 15:13:14 # 支付成功回调参数： item_name ------ 
+
+2021/4/2 15:13:14 # 支付成功回调参数： payment_gross ------ 666.00
+
+2021/4/2 15:13:14 # 支付成功回调参数： mc_currency ------ USD
+
+2021/4/2 15:13:14 # 支付成功回调参数： payment_type ------ instant
+
+2021/4/2 15:13:14 # 支付成功回调参数： protection_eligibility ------ Ineligible
+
+2021/4/2 15:13:14 # 支付成功回调参数： verify_sign ------ AP.3RiF-qoBOIZ4IUokU2bVYFENqACRBdBxc20Qu05CGwDZY79E2XvEQ
+
+2021/4/2 15:13:14 # 支付成功回调参数： payer_status ------ unverified
+
+2021/4/2 15:13:14 # 支付成功回调参数： payer_email ------ renfan.daxian@yahoo.com
+
+2021/4/2 15:13:14 # 支付成功回调参数： txn_id ------ 8DJ351112J279584C
+
+2021/4/2 15:13:14 # 支付成功回调参数： quantity ------ 1
+
+2021/4/2 15:13:14 # 支付成功回调参数： receiver_email ------ sb-scbln5551272@business.example.com
+
+2021/4/2 15:13:14 # 支付成功回调参数： first_name ------ Ringo
+
+2021/4/2 15:13:14 # 支付成功回调参数： invoice ------ 2104021512120784
+
+2021/4/2 15:13:14 # 支付成功回调参数： payer_id ------ 9HYBPMKC8XKZU
+
+2021/4/2 15:13:14 # 支付成功回调参数： item_number ------ 
+
+2021/4/2 15:13:14 # 支付成功回调参数： payment_status ------ Pending
+
+2021/4/2 15:13:14 # 支付成功回调参数： mc_gross ------ 666.00
+
+2021/4/2 15:13:14 # 支付成功回调参数： custom ------ 
+
+2021/4/2 15:13:14 # 支付成功回调参数： charset ------ windows-1252
+
+2021/4/2 15:13:14 # 支付成功回调参数： notify_version ------ 3.9
+
+2021/4/2 15:13:14 # 支付成功回调参数： shipping_discount ------ 0.00
+
+2021/4/2 15:13:14 # 支付成功回调参数： ipn_track_id ------ 453ef539c3cb5
+
+2021/4/2 15:14:18 # 支付成功回调参数： mc_gross ------ 666.00
+
+2021/4/2 15:14:18 # 支付成功回调参数： invoice ------ 2104021512120784
+
+2021/4/2 15:14:18 # 支付成功回调参数： protection_eligibility ------ Ineligible
+
+2021/4/2 15:14:18 # 支付成功回调参数： payer_id ------ 9HYBPMKC8XKZU
+
+2021/4/2 15:14:18 # 支付成功回调参数： tax ------ 0.00
+
+2021/4/2 15:14:18 # 支付成功回调参数： payment_date ------ 00:13:05 Apr 02, 2021 PDT
+
+2021/4/2 15:14:18 # 支付成功回调参数： payment_status ------ Refunded
+
+2021/4/2 15:14:18 # 支付成功回调参数： charset ------ windows-1252
+
+2021/4/2 15:14:18 # 支付成功回调参数： first_name ------ Ringo
+
+2021/4/2 15:14:18 # 支付成功回调参数： notify_version ------ 3.9
+
+2021/4/2 15:14:18 # 支付成功回调参数： custom ------ 
+
+2021/4/2 15:14:18 # 支付成功回调参数： payer_status ------ unverified
+
+2021/4/2 15:14:18 # 支付成功回调参数： quantity ------ 1
+
+2021/4/2 15:14:18 # 支付成功回调参数： verify_sign ------ ApLi0hjrXFHuq40xdCoOLGBalmfLACZUjig5MQpFYp095b1oF.kBrGbA
+
+2021/4/2 15:14:18 # 支付成功回调参数： payer_email ------ renfan.daxian@yahoo.com
+
+2021/4/2 15:14:18 # 支付成功回调参数： txn_id ------ 8DJ351112J279584C
+
+2021/4/2 15:14:18 # 支付成功回调参数： payment_type ------ instant
+
+2021/4/2 15:14:18 # 支付成功回调参数： last_name ------ Ma
+
+2021/4/2 15:14:18 # 支付成功回调参数： receiver_email ------ sb-scbln5551272@business.example.com
+
+2021/4/2 15:14:18 # 支付成功回调参数： shipping_discount ------ 0.00
+
+2021/4/2 15:14:18 # 支付成功回调参数： insurance_amount ------ 0.00
+
+2021/4/2 15:14:18 # 支付成功回调参数： txn_type ------ web_accept
+
+2021/4/2 15:14:18 # 支付成功回调参数： item_name ------ 
+
+2021/4/2 15:14:18 # 支付成功回调参数： discount ------ 0.00
+
+2021/4/2 15:14:18 # 支付成功回调参数： mc_currency ------ USD
+
+2021/4/2 15:14:18 # 支付成功回调参数： item_number ------ 
+
+2021/4/2 15:14:18 # 支付成功回调参数： residence_country ------ SG
+
+2021/4/2 15:14:18 # 支付成功回调参数： handling_amount ------ 0.00
+
+2021/4/2 15:14:18 # 支付成功回调参数： shipping_method ------ Default
+
+2021/4/2 15:14:18 # 支付成功回调参数： transaction_subject ------ 
+
+2021/4/2 15:14:18 # 支付成功回调参数： payment_gross ------ 666.00
+
+2021/4/2 15:14:18 # 支付成功回调参数： shipping ------ 0.00
+
+2021/4/2 15:14:18 # 支付成功回调参数： ipn_track_id ------ fa7636f3a7d89
+
+2021/4/2 15:15:30 # 开始下单 : 
+
+2021/4/2 15:15:30 # 下单签名 : FD8FCE0C80388A97F5CE95BE80DA4488
+
+2021/4/2 15:15:30 # 下单结果 : {"msg":"下单成功，请扫码支付","code":0,"data":"http://images.yungouos.com/merge/native/code/210402151530097315307.png"}
+
+2021/4/2 15:15:33 # 开始下单 : 
+
+2021/4/2 15:15:33 # 下单签名 : 71926648642931FF7DE7B828E0A720BE
+
+2021/4/2 15:18:12 # 开始下单 : 
+
+2021/4/2 15:18:12 # 下单签名 : C08F175C72EFF47AAAAA7B357261464F
+
+2021/4/2 15:21:01 # 开始下单 : 
+
+2021/4/2 15:21:01 # 下单签名 : 5DEE9F5647C03F976A0072BC5E2A94EE
+
+2021/4/2 15:28:48 # 支付成功回调参数： mc_gross ------ 1.00
+
+2021/4/2 15:28:48 # 支付成功回调参数： invoice ------ 2104021521018576
+
+2021/4/2 15:28:48 # 支付成功回调参数： protection_eligibility ------ Ineligible
+
+2021/4/2 15:28:48 # 支付成功回调参数： payer_id ------ MDMHVPYQNYWQC
+
+2021/4/2 15:28:48 # 支付成功回调参数： payment_date ------ 00:28:38 Apr 02, 2021 PDT
+
+2021/4/2 15:28:48 # 支付成功回调参数： payment_status ------ Pending
+
+2021/4/2 15:28:48 # 支付成功回调参数： charset ------ gb2312
+
+2021/4/2 15:28:48 # 支付成功回调参数： first_name ------ �ӿ�
+
+2021/4/2 15:28:48 # 支付成功回调参数： mc_fee ------ 0.34
+
+2021/4/2 15:28:48 # 支付成功回调参数： notify_version ------ 3.9
+
+2021/4/2 15:28:48 # 支付成功回调参数： custom ------ 
+
+2021/4/2 15:28:48 # 支付成功回调参数： payer_status ------ verified
+
+2021/4/2 15:28:48 # 支付成功回调参数： business ------ renfan.daxian@yahoo.com
+
+2021/4/2 15:28:48 # 支付成功回调参数： quantity ------ 1
+
+2021/4/2 15:28:48 # 支付成功回调参数： verify_sign ------ AoOVaU2s8f3ojE60jOpOKW1Zgzo0AYw48T7e-RPlciZLTy4DbhLoxVwM
+
+2021/4/2 15:28:48 # 支付成功回调参数： payer_email ------ 89716235@qq.com
+
+2021/4/2 15:28:48 # 支付成功回调参数： txn_id ------ 20289000J9069240X
+
+2021/4/2 15:28:48 # 支付成功回调参数： payment_type ------ instant
+
+2021/4/2 15:28:48 # 支付成功回调参数： last_name ------ ��
+
+2021/4/2 15:28:48 # 支付成功回调参数： receiver_email ------ renfan.daxian@yahoo.com
+
+2021/4/2 15:28:48 # 支付成功回调参数： payment_fee ------ 0.34
+
+2021/4/2 15:28:48 # 支付成功回调参数： shipping_discount ------ 0.00
+
+2021/4/2 15:28:48 # 支付成功回调参数： receiver_id ------ 9HYBPMKC8XKZU
+
+2021/4/2 15:28:48 # 支付成功回调参数： pending_reason ------ paymentreview
+
+2021/4/2 15:28:48 # 支付成功回调参数： insurance_amount ------ 0.00
+
+2021/4/2 15:28:48 # 支付成功回调参数： txn_type ------ web_accept
+
+2021/4/2 15:28:48 # 支付成功回调参数： item_name ------ 伡���
+
+2021/4/2 15:28:48 # 支付成功回调参数： discount ------ 0.00
+
+2021/4/2 15:28:48 # 支付成功回调参数： mc_currency ------ USD
+
+2021/4/2 15:28:48 # 支付成功回调参数： item_number ------ 
+
+2021/4/2 15:28:48 # 支付成功回调参数： residence_country ------ CN
+
+2021/4/2 15:28:48 # 支付成功回调参数： shipping_method ------ Default
+
+2021/4/2 15:28:48 # 支付成功回调参数： transaction_subject ------ 
+
+2021/4/2 15:28:48 # 支付成功回调参数： payment_gross ------ 1.00
+
+2021/4/2 15:28:48 # 支付成功回调参数： ipn_track_id ------ 4dd05f05d6c5
+
+2021/4/2 15:35:10 # 支付成功回调参数： mc_gross ------ -1.00
+
+2021/4/2 15:35:10 # 支付成功回调参数： invoice ------ 2104021521018576
+
+2021/4/2 15:35:10 # 支付成功回调参数： protection_eligibility ------ Ineligible
+
+2021/4/2 15:35:10 # 支付成功回调参数： payer_id ------ MDMHVPYQNYWQC
+
+2021/4/2 15:35:10 # 支付成功回调参数： payment_date ------ 00:35:02 Apr 02, 2021 PDT
+
+2021/4/2 15:35:10 # 支付成功回调参数： payment_status ------ Refunded
+
+2021/4/2 15:35:10 # 支付成功回调参数： charset ------ gb2312
+
+2021/4/2 15:35:10 # 支付成功回调参数： first_name ------ �ӿ�
+
+2021/4/2 15:35:10 # 支付成功回调参数： mc_fee ------ -0.34
+
+2021/4/2 15:35:10 # 支付成功回调参数： notify_version ------ 3.9
+
+2021/4/2 15:35:10 # 支付成功回调参数： reason_code ------ refund
+
+2021/4/2 15:35:10 # 支付成功回调参数： custom ------ 
+
+2021/4/2 15:35:10 # 支付成功回调参数： business ------ renfan.daxian@yahoo.com
+
+2021/4/2 15:35:10 # 支付成功回调参数： verify_sign ------ Ahja9nYWkdDYwSDAGkOHdj8-Rq-DADX4VeiIebHQwL.GgEIORkTYS2m4
+
+2021/4/2 15:35:10 # 支付成功回调参数： payer_email ------ 89716235@qq.com
+
+2021/4/2 15:35:10 # 支付成功回调参数： parent_txn_id ------ 20289000J9069240X
+
+2021/4/2 15:35:10 # 支付成功回调参数： txn_id ------ 4D964662YJ312344S
+
+2021/4/2 15:35:10 # 支付成功回调参数： payment_type ------ instant
+
+2021/4/2 15:35:10 # 支付成功回调参数： last_name ------ ��
+
+2021/4/2 15:35:10 # 支付成功回调参数： receiver_email ------ renfan.daxian@yahoo.com
+
+2021/4/2 15:35:10 # 支付成功回调参数： payment_fee ------ -0.34
+
+2021/4/2 15:35:10 # 支付成功回调参数： shipping_discount ------ 0.00
+
+2021/4/2 15:35:10 # 支付成功回调参数： receiver_id ------ 9HYBPMKC8XKZU
+
+2021/4/2 15:35:10 # 支付成功回调参数： insurance_amount ------ 0.00
+
+2021/4/2 15:35:10 # 支付成功回调参数： item_name ------ 伡���
+
+2021/4/2 15:35:10 # 支付成功回调参数： discount ------ 0.00
+
+2021/4/2 15:35:10 # 支付成功回调参数： mc_currency ------ USD
+
+2021/4/2 15:35:10 # 支付成功回调参数： item_number ------ 
+
+2021/4/2 15:35:10 # 支付成功回调参数： residence_country ------ CN
+
+2021/4/2 15:35:10 # 支付成功回调参数： handling_amount ------ 0.00
+
+2021/4/2 15:35:10 # 支付成功回调参数： shipping_method ------ Default
+
+2021/4/2 15:35:10 # 支付成功回调参数： transaction_subject ------ 
+
+2021/4/2 15:35:10 # 支付成功回调参数： payment_gross ------ -1.00
+
+2021/4/2 15:35:10 # 支付成功回调参数： shipping ------ 0.00
+
+2021/4/2 15:35:10 # 支付成功回调参数： ipn_track_id ------ 7c70d2d7b8ecb
+
+2021/4/2 15:41:56 # 开始下单 : 
+
+2021/4/2 15:41:56 # 下单签名 : 38EFFCA601F74E5309DE08F0C4F0F291
+
+2021/4/2 15:42:23 # 支付成功回调参数： mc_gross ------ 1.00
+
+2021/4/2 15:42:23 # 支付成功回调参数： invoice ------ 2104021541568208
+
+2021/4/2 15:42:23 # 支付成功回调参数： protection_eligibility ------ Ineligible
+
+2021/4/2 15:42:23 # 支付成功回调参数： payer_id ------ MDMHVPYQNYWQC
+
+2021/4/2 15:42:23 # 支付成功回调参数： payment_date ------ 00:42:15 Apr 02, 2021 PDT
+
+2021/4/2 15:42:23 # 支付成功回调参数： payment_status ------ Pending
+
+2021/4/2 15:42:23 # 支付成功回调参数： charset ------ gb2312
+
+2021/4/2 15:42:23 # 支付成功回调参数： first_name ------ �ӿ�
+
+2021/4/2 15:42:23 # 支付成功回调参数： mc_fee ------ 0.34
+
+2021/4/2 15:42:23 # 支付成功回调参数： notify_version ------ 3.9
+
+2021/4/2 15:42:23 # 支付成功回调参数： custom ------ 
+
+2021/4/2 15:42:23 # 支付成功回调参数： payer_status ------ verified
+
+2021/4/2 15:42:23 # 支付成功回调参数： business ------ renfan.daxian@yahoo.com
+
+2021/4/2 15:42:23 # 支付成功回调参数： quantity ------ 1
+
+2021/4/2 15:42:23 # 支付成功回调参数： verify_sign ------ Ai38-2NWNzEDBvUaYo2H33DKMOSlArQs8ylS5fEbFtqAt8b5fpHJyFIW
+
+2021/4/2 15:42:23 # 支付成功回调参数： payer_email ------ 89716235@qq.com
+
+2021/4/2 15:42:23 # 支付成功回调参数： txn_id ------ 5U547049W5475553W
+
+2021/4/2 15:42:23 # 支付成功回调参数： payment_type ------ instant
+
+2021/4/2 15:42:23 # 支付成功回调参数： last_name ------ ��
+
+2021/4/2 15:42:23 # 支付成功回调参数： receiver_email ------ renfan.daxian@yahoo.com
+
+2021/4/2 15:42:23 # 支付成功回调参数： payment_fee ------ 0.34
+
+2021/4/2 15:42:23 # 支付成功回调参数： shipping_discount ------ 0.00
+
+2021/4/2 15:42:23 # 支付成功回调参数： receiver_id ------ 9HYBPMKC8XKZU
+
+2021/4/2 15:42:23 # 支付成功回调参数： pending_reason ------ paymentreview
+
+2021/4/2 15:42:23 # 支付成功回调参数： insurance_amount ------ 0.00
+
+2021/4/2 15:42:23 # 支付成功回调参数： txn_type ------ web_accept
+
+2021/4/2 15:42:23 # 支付成功回调参数： item_name ------ 伡���
+
+2021/4/2 15:42:23 # 支付成功回调参数： discount ------ 0.00
+
+2021/4/2 15:42:23 # 支付成功回调参数： mc_currency ------ USD
+
+2021/4/2 15:42:23 # 支付成功回调参数： item_number ------ 
+
+2021/4/2 15:42:23 # 支付成功回调参数： residence_country ------ CN
+
+2021/4/2 15:42:23 # 支付成功回调参数： shipping_method ------ Default
+
+2021/4/2 15:42:23 # 支付成功回调参数： transaction_subject ------ 
+
+2021/4/2 15:42:23 # 支付成功回调参数： payment_gross ------ 1.00
+
+2021/4/2 15:42:23 # 支付成功回调参数： ipn_track_id ------ ea5937b8636a5
+
+2021/4/2 16:30:25 # c:\wwwroot\WebSite\Ajax\AjaxData.aspx.cs(177): error CS1026: 应输入 )
+   在 System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   在 System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   在 System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+2021/4/2 16:35:31 # 引发类型为“System.Web.HttpUnhandledException”的异常。 -- Parameter '@qq' specified but none of the passed arguments have a property with this name (in 'select * from 	Whir_Mem_Member where  Email=1670743900@qq.com')
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.ajax_ajaxdata_aspx.ProcessRequest(HttpContext context) 位置 c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\3feaf4f5\23222d20\App_Web_lo4wbaq5.8.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+2021/4/2 16:37:54 # 引发类型为“System.Web.HttpUnhandledException”的异常。 -- Parameter '@qq' specified but none of the passed arguments have a property with this name (in 'select * from 	Whir_Mem_Member where  Email='1670743900@qq.com'')
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.ajax_ajaxdata_aspx.ProcessRequest(HttpContext context) 位置 c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\3feaf4f5\23222d20\App_Web_ddj4wzzj.2.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+2021/4/2 16:39:55 # c:\wwwroot\WebSite\Ajax\AjaxData.aspx.cs(175): error CS1002: 应输入 ;
+   在 System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   在 System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   在 System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+2021/4/2 16:40:24 # 引发类型为“System.Web.HttpUnhandledException”的异常。 -- Parameter '@qq' specified but none of the passed arguments have a property with this name (in 'select * from Whir_Mem_Member where  Email='1670743900@qq.com'')
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.ajax_ajaxdata_aspx.ProcessRequest(HttpContext context) 位置 c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\3feaf4f5\23222d20\App_Web_nhadjkjy.0.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+2021/4/2 16:42:10 # 引发类型为“System.Web.HttpUnhandledException”的异常。 -- Parameter '@email2' specified but none of the passed arguments have a property with this name (in 'select * from Whir_Mem_Member where  Email='@email2'')
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.ajax_ajaxdata_aspx.ProcessRequest(HttpContext context) 位置 c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\3feaf4f5\23222d20\App_Web_1jlmgal4.2.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+2021/4/2 16:56:39 # 开始下单 : 
+
+2021/4/2 16:56:39 # 下单签名 : F15C4F67DE54A81323351C25FA093986
+
+2021/4/2 16:56:39 # 下单结果 : {"msg":"下单成功，请扫码支付","code":0,"data":"http://images.yungouos.com/merge/native/code/210402165639218515307.png"}
+
+2021/4/2 16:56:44 # 开始下单 : 
+
+2021/4/2 16:56:44 # 下单签名 : CD7D3D58BBC93961D396E1E249F3149B
+
+2021/4/2 17:00:00 # 开始下单 : 
+
+2021/4/2 17:00:00 # 下单签名 : B257C71397A59754FB508A05533D049C
+
+2021/4/2 17:00:00 # 下单结果 : {"msg":"下单成功，请扫码支付","code":0,"data":"http://images.yungouos.com/merge/native/code/210402170000172615307.png"}
+
+2021/4/2 17:00:26 # 支付成功回调参数： payNo ------ 4200000993202104027816512031
+
+2021/4/2 17:00:26 # 支付成功回调参数： code ------ 1
+
+2021/4/2 17:00:26 # 支付成功回调参数： mchId ------ 1607191737
+
+2021/4/2 17:00:26 # 支付成功回调参数： orderNo ------ Y17001323720854
+
+2021/4/2 17:00:26 # 支付成功回调参数： money ------ 666.00
+
+2021/4/2 17:00:26 # 支付成功回调参数： openId ------ o-_-it7K7pppauFDxUw04HyBfvq8
+
+2021/4/2 17:00:26 # 支付成功回调参数： outTradeNo ------ 2104021700001726
+
+2021/4/2 17:00:26 # 支付成功回调参数： sign ------ C99C2872FA5E2246FD5C3F62D29C31A6
+
+2021/4/2 17:00:26 # 支付成功回调参数： payChannel ------ wxpay
+
+2021/4/2 17:00:26 # 支付成功回调参数： time ------ 2021-04-02 17:00:25
+
+2021/4/2 17:00:26 # 支付成功回调的新签名为 : C99C2872FA5E2246FD5C3F62D29C31A6
+
+2021/4/2 17:00:26 # 支付成功回调签名验证通过 。
+
+2021/4/2 17:00:59 # 开始下单 : 
+
+2021/4/2 17:00:59 # 下单签名 : 99C1C2DA606C8A4D95BE7540FA31131E
+
+2021/4/2 17:01:00 # 下单结果 : {"msg":"下单成功，请扫码支付","code":0,"data":"http://images.yungouos.com/merge/native/code/210402170059562315307.png"}
+
+2021/4/2 17:01:03 # 开始下单 : 
+
+2021/4/2 17:01:03 # 下单签名 : A012684DAC0ABD10804FCF427C4A6BC3
+
+2021/4/2 17:01:03 # 下单结果 : {"msg":"下单成功，请扫码支付","code":0,"data":"http://images.yungouos.com/merge/native/code/210402170103588215307.png"}
+
+2021/4/2 17:01:06 # 开始下单 : 
+
+2021/4/2 17:01:06 # 下单签名 : BF00235F07CADD5DD865C83D90116C36
+
+2021/4/2 17:01:50 # 开始下单 : 
+
+2021/4/2 17:01:50 # 下单签名 : F91589B138F68F3351C4DFD82845D9AF
+
+2021/4/2 17:02:06 # 开始下单 : 
+
+2021/4/2 17:02:06 # 下单签名 : 49D6C95C5CC8D0D1A65B2DCCA8E4F094
+
+2021/4/2 17:04:30 # 开始下单 : 
+
+2021/4/2 17:04:30 # 下单签名 : 0548264CD881C6E6D95F1F23BC2956B4
+
+2021/4/2 17:04:42 # 开始下单 : 
+
+2021/4/2 17:04:42 # 下单签名 : 0986FF4E86F3FF5A967D5279646E5EA1
+
+2021/4/2 17:05:20 # 开始下单 : 
+
+2021/4/2 17:05:20 # 下单签名 : AF5DE4F1082B8602ACF05A7F2F06092E
+
+2021/4/2 17:11:56 # 开始下单 : 
+
+2021/4/2 17:11:56 # 下单签名 : 144B11D33E20C4DA3A6D4DE5154F00D4
+
+2021/4/2 17:14:11 # 开始下单 : 
+
+2021/4/2 17:14:11 # 下单签名 : B67B324723DF616F6744AA507ABB2403
+
+2021/4/2 17:22:11 # 开始下单 : 
+
+2021/4/2 17:22:11 # 下单签名 : E8F4D496EE34F9CA6C9BFD5DADE9AF2E
+
+2021/4/2 17:22:11 # 下单结果 : {"msg":"下单成功，请扫码支付","code":0,"data":"http://images.yungouos.com/merge/native/code/210402172211955615307.png"}
+
+2021/4/2 17:22:14 # 开始下单 : 
+
+2021/4/2 17:22:14 # 下单签名 : 42EFF361980DACEB0654E9171CDDC30E
+
+2021/4/2 17:22:14 # 下单结果 : {"msg":"下单成功，请扫码支付","code":0,"data":"http://images.yungouos.com/merge/native/code/210402172214519715307.png"}
+
+2021/4/2 17:22:16 # 开始下单 : 
+
+2021/4/2 17:22:16 # 下单签名 : FD3D1E7832DA48E9F2084F63EA5A7625
+
+2021/4/2 17:22:17 # 引发类型为“System.Web.HttpUnhandledException”的异常。 -- 列名 'price2' 无效。
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.ajax_addorder2_aspx.ProcessRequest(HttpContext context) 位置 c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\3feaf4f5\23222d20\App_Web_kafe44ad.2.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+2021/4/2 17:22:53 # 开始下单 : 
+
+2021/4/2 17:22:53 # 下单签名 : B7B8DDD34B5941BC406DE0D7E8EEE882
+
+2021/4/2 19:00:35 # 开始下单 : 
+
+2021/4/2 19:00:35 # 下单签名 : D918E79D545238F713ECF8ED35528C32
+
+2021/4/2 19:00:36 # 下单结果 : {"msg":"下单成功，请扫码支付","code":0,"data":"http://images.yungouos.com/merge/native/code/210402190035422015307.png"}
+
+2021/4/2 19:01:17 # 支付成功回调参数： payNo ------ 2021040222001405671417002242
+
+2021/4/2 19:01:17 # 支付成功回调参数： code ------ 1
+
+2021/4/2 19:01:17 # 支付成功回调参数： mchId ------ 2088110896172724
+
+2021/4/2 19:01:17 # 支付成功回调参数： orderNo ------ Y19010119655150
+
+2021/4/2 19:01:17 # 支付成功回调参数： money ------ 666.00
+
+2021/4/2 19:01:17 # 支付成功回调参数： outTradeNo ------ 2104021900354220
+
+2021/4/2 19:01:17 # 支付成功回调参数： sign ------ 3E7156E8994AAA21157D3763CC898EB3
+
+2021/4/2 19:01:17 # 支付成功回调参数： payChannel ------ alipay
+
+2021/4/2 19:01:17 # 支付成功回调参数： time ------ 2021-04-02 19:01:15
+
+2021/4/2 19:01:17 # 支付成功回调的新签名为 : 3E7156E8994AAA21157D3763CC898EB3
+
+2021/4/2 19:01:17 # 支付成功回调签名验证通过 。
+
+2021/4/2 19:05:10 # 开始下单 : 
+
+2021/4/2 19:05:10 # 下单签名 : 634A4EB7A0CE5B7AB3EE5772CEFD2683
+
+2021/4/2 19:05:10 # 下单结果 : {"msg":"下单成功，请扫码支付","code":0,"data":"http://images.yungouos.com/merge/native/code/210402190510475515307.png"}
+
+2021/4/2 19:39:19 # 开始下单 : 
+
+2021/4/2 19:39:19 # 下单签名 : DCC898699EBFFF73146CDC2640A03AC8
+
+2021/4/2 19:39:56 # 开始下单 : 
+
+2021/4/2 19:39:56 # 下单签名 : 4B89B1A0DB2C0638F918FC2B5E535328
+
+2021/4/2 19:39:56 # 下单结果 : {"msg":"下单成功，请扫码支付","code":0,"data":"http://images.yungouos.com/merge/native/code/210402193956866515307.png"}
+
+2021/4/2 21:38:42 # 开始下单 : 
+
+2021/4/2 21:38:43 # 下单签名 : D1A8165F37EC4893D9F6D6593CBE5D2F
+
+2021/4/2 21:38:43 # 下单结果 : {"msg":"下单成功，请扫码支付","code":0,"data":"http://images.yungouos.com/merge/native/code/210402213842326115307.png"}
+
+2021/4/2 22:10:49 # 开始下单 : 
+
+2021/4/2 22:10:49 # 下单签名 : 29C8E041EAD7927850BA5CE1C2D1ECEA
+
+2021/4/2 22:12:59 # 开始下单 : 
+
+2021/4/2 22:12:59 # 下单签名 : 8B0696EBC454A0890434FDEB95AB1262
+

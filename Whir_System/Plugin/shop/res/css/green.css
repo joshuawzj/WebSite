@@ -1,0 +1,19 @@
+@charset "utf-8";
+/* CSS Document */ 
+
+/*2013 1*/
+.Add_Editor h5{background: url(../../../../res/images/green/list_common_table_thbg.jpg) repeat-x center center; }
+.Add_Editor h5 a{ background:url(../../../../res/images/green/title_column_bg.jpg) no-repeat left center;}
+.Add_Editor h5 a b{background:url(../../../../res/images/green/title_column_bg.jpg) no-repeat right center;}
+a.oil{ background:url(../../../../res/images/green/operate_head_button_add_bg.jpg) no-repeat left center;}
+a.oil b{ background:url(../../../../res/images/green/operate_head_button_add_bg.jpg) no-repeat right center;}
+a.add_btn{ background:url(../../../../res/images/green/title_column_bg.jpg) no-repeat left center; }
+a.add_btn b{background:url(../../../../res/images/green/title_column_bg.jpg) no-repeat right center; }
+.addBack{ background:url(../../../../res/images/green/header_mainnav_bg.jpg) no-repeat left top; }
+.addBack b{background:url(../../../../res/images/green/header_mainnav_bg.jpg) no-repeat right top;}
+.Product_Infotable tr.th_second_title th{ background:url(../../../../res/images/green/list_common_table_thbg.jpg) repeat-x left bottom;}
+.ordertitle span{background:url(../../../../res/images/green/button_common_back.jpg) no-repeat;}
+
+.order_search .btn{ background:url(../../../../res/images/green/btn_Update.jpg) no-repeat; }
+.SPinfo .th_titlebg{background: url(../../../../res/images/green/list_common_table_thbg.jpg) repeat-x center top;}
+.norm tr.th_second_title th{ height:30px; background:url(../../../../res/images/green/list_common_table_thbg.jpg) repeat-x left bottom;}

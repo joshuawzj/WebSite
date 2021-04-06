@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Model>
+    <ModelMark>Member_v0.0.01</ModelMark>
+    <ModelName>会员系统</ModelName>
+    <ModelDesc />
+    <Fields>
+        <Field FieldName="MemberType" FieldAlias="会员组" IsSystemField="False" Sort="1" FieldType="4" TypeName="nvarchar" TypeLength="16" IsDefaultForm="True" />
+        <Field FieldName="LoginName" FieldAlias="用户名" IsSystemField="True" IsDefaultForm="True" Sort="2" IsDefaultListShow="True" FieldType="1" TypeName="nvarchar" TypeLength="2048"   IsWorkFlowTitle="True" IsEnableListShow="-1" />
+        <Field FieldName="Password" FieldAlias="密码" IsSystemField="True" Sort="3" FieldType="14" TypeName="nvarchar" TypeLength="2048"  />
+        <Field FieldName="RealName" FieldAlias="真实姓名" IsSystemField="False" IsDefaultForm="True" Sort="2" IsDefaultListShow="True" FieldType="1" TypeName="nvarchar" TypeLength="2048"   />
+        <Field FieldName="Sex" FieldAlias="性别" IsSystemField="False" Sort="5" FieldType="4" TypeName="nvarchar" TypeLength="8" BindText="男|男,女|女"   />
+        <Field FieldName="Mobile" FieldAlias="手机号码" IsSystemField="False" Sort="6" FieldType="1" TypeName="nvarchar" TypeLength="2048"   />
+        <Field FieldName="Email" FieldAlias="电子邮箱" IsSystemField="True" IsDefaultForm="True" Sort="2" IsDefaultListShow="True" FieldType="1" TypeName="nvarchar" TypeLength="2048"   />
+        <Field FieldName="Address" FieldAlias="详细地址" IsSystemField="False" Sort="8" FieldType="1" TypeName="nvarchar" TypeLength="2048"  />
+        <Field FieldName="Integral" FieldAlias="积分" FieldType="5" TypeName="int" TypeLength="8" IsSystemField="False" Sort="9" TextWidth="50"   />
+        <Field FieldName="AccountState" FieldAlias="账户状态" FieldType="5" TypeName="int" TypeLength="8" Sort="0" IsSystemField="True" IsHidden="true" />
+
+        <Field FieldName="TypeID" FieldAlias="栏目编号" FieldType="1" TypeName="nvarchar" TypeLength="64" IsSystemField="True" IsDefaultForm="True" IsHidden="true" Sort="0" IsEnableListShow="-1" />
+        <Field FieldName="SubjectId" FieldAlias="所属子站ID" FieldType="1" TypeName="nvarchar" TypeLength="64" IsSystemField="True" IsDefaultForm="True" IsHidden="true" Sort="0" IsEnableListShow="-1" />
+        <Field FieldName="State" FieldAlias="状态" FieldType="5" TypeName="bigint" TypeLength="16" IsSystemField="True" IsDefaultForm="True" IsHidden="true" Sort="0" IsEnableListShow="-1" DefaultValue="0"/>
+        <Field FieldName="Sort" FieldAlias="排序" FieldType="5" TypeName="bigint" TypeLength="16" IsSystemField="True" IsDefaultForm="True" IsHidden="true" Sort="0" IsEnableListShow="-1" />
+        <Field FieldName="IsDel" FieldAlias="是否删除" FieldType="9" TypeName="bit" TypeLength="1" IsSystemField="True" IsDefaultForm="True" IsHidden="true" Sort="0" IsEnableListShow="-1" />
+
+      <Field FieldName="MetaTitle" FieldAlias="SEO标题" FieldType="1" TypeName="nvarchar" TypeLength="512" IsSystemField="False" IsDefaultForm="False" Sort="8"  />
+      <Field FieldName="MetaKeyword" FieldAlias="SEO关键字" FieldType="1" TypeName="nvarchar" TypeLength="512" IsSystemField="False" IsDefaultForm="False" Sort="8"  />
+      <Field FieldName="MetaDesc" FieldAlias="SEO描述" FieldType="2" TypeName="nvarchar" TypeLength="1024" IsSystemField="False" IsDefaultForm="False" Sort="8"  />
+      
+        <Field FieldName="CreateDate" FieldAlias="创建时间" FieldType="7" TypeName="datetime" TypeLength="8" Sort="6" IsSystemField="True" IsDefaultForm="True" IsHidden="false" IsDefaultListShow="True" IsEnableListShow="1" DefaultValue="2" />
+        <Field FieldName="CreateUser" FieldAlias="创建人" FieldType="1" TypeName="nvarchar" TypeLength="128" Sort="7" IsSystemField="True" IsDefaultForm="True" IsHidden="true" IsEnableListShow="-1" />
+        <Field FieldName="UpdateUser" FieldAlias="修改人" FieldType="1" TypeName="nvarchar" TypeLength="128" Sort="3" IsSystemField="True" IsDefaultForm="True" IsHidden="true" IsEnableListShow="-1" />
+        <Field FieldName="UpdateDate" FieldAlias="修改时间" FieldType="7" TypeName="datetime" TypeLength="8" Sort="4" IsSystemField="True" IsDefaultForm="True" IsHidden="true" IsEnableListShow="-1" DefaultValue="2" />
+
+    </Fields>
+</Model>

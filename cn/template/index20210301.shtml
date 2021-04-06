@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+<meta charset="utf-8">
+           <wtl:include filename="head.html"></wtl:include>
+</head>
+<body>
+
+<!--top--> 
+      <wtl:include filename="top.html"></wtl:include>
+<!--top End--> 
+<div class="Banner002625">
+  <ul class="ul slides">
+    <wtl:list columnid="7">
+    <li>
+     <a href="{$linkurl}"></a>
+     <div class="xycenterbox"><img src="{$uploadpath}{$Imageurl}"></div>
+    <img src="{$uploadpath}{$Imageurl2}">
+    <div class="ban_btn">
+      <div class="ban_left">
+        <img src="{$sitepath}images/dl.png"/>
+        <a href="{$syspath}cn/denglu.aspx">登录</a>
+      </div>
+      <div class="ban_right">
+       <img src="{$sitepath}images/zc.png"/>
+       <a href="{$syspath}cn/zhuche.aspx">注册</a>
+     </div>
+    </div>
+    </li>
+        </wtl:list>
+  </ul>
+  <script>
+  window.onload=function() {
+   $('.Banner002625').flexslider({
+    slideshowSpeed: 6000
+   });
+ }
+  </script>
+ </div>
+ <!--Banner002625 end-->
+<!-- content -->
+<div class="HomeMain">
+  <div class="auto auto_1200">
+    <div class="HomeMain_box">
+      <div class="main_list">
+          <wtl:list columnid="4">
+              <div class="main_li">
+          <img src="{$uploadpath}{$Imageurl}"/>
+          <h1>{$title}</h1>
+          <p>{$content}</p>
+          <ul>
+              <wtl:many splitstr='{$lable}' Split="," > 
+                  <li>{$value}</li>
+
+            </wtl:many> 
+
+       
+          </ul>
+          <div class="btn_a"><a href="{$pageurl}">立即购买</a></div>
+        </div>
+         </wtl:list>
+        
+        
+      </div>
+    </div>
+
+    <div class="Home_bot">
+      <div class="home_bot_left">
+        <h2>真知灼见·管理风险</h2>
+        <p>面向全球华人，普及财经常识，构筑风控防线，守卫财务安康<br/>解释系主任的内容创业项目</p>
+      </div>
+      <div class="home_bot_right">
+        <a href="#"><img src="{$sitepath}images/fx.png"/></a>
+        <a href="#"><img src="{$sitepath}images/weibo.png"/></a>
+      </div>
+    </div>
+
+  </div>
+</div>
+<!-- content -->
+<!--top--> 
+       <wtl:include filename="bottom.html"></wtl:include>
+<!--top End--> 
+</body>
+</html>

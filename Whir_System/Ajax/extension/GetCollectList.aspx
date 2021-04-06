@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="GetCollectList.aspx.cs" Inherits="whir_system_ajax_extension_GetCollectList" %>

@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="picshow.aspx.cs" Inherits="whir_system_module_common_picshow" %>

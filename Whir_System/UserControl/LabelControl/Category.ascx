@@ -1,0 +1,1 @@
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeFile="Category.ascx.cs" Inherits="whir_system_UserControl_LabelControl_Category" %>

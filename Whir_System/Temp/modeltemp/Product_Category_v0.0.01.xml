@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Model>
+    <ModelMark>Category_v0.0.01</ModelMark>
+    <ModelName>产品展示类别管理</ModelName>
+    <ModelDesc />
+    <Fields>
+
+        <Field FieldName="CategoryName" FieldAlias="类别名称" FieldType="1" TypeName="nvarchar" TypeLength="2048" IsSystemField="True" IsDefaultForm="True" Sort="1" IsDefaultListShow="True" IsEnableListShow="0" />
+        <Field FieldName="ParentID" FieldAlias="父类别" FieldType="4" TypeName="nvarchar" TypeLength="2048" IsSystemField="True" IsDefaultForm="True" Sort="2" IsDefaultListShow="True" IsEnableListShow="0" />
+        <Field FieldName="ParentPath" FieldAlias="父路径" FieldType="1" TypeName="nvarchar" TypeLength="512" IsSystemField="True" IsDefaultForm="True" IsHidden="true" Sort="0" IsEnableListShow="-1" />
+
+        <Field FieldName="TypeID" FieldAlias="栏目编号" FieldType="1" TypeName="nvarchar" TypeLength="64" IsSystemField="True" IsDefaultForm="True" IsHidden="true" Sort="0" IsEnableListShow="-1" />
+        <Field FieldName="SubjectId" FieldAlias="所属子站ID" FieldType="1" TypeName="nvarchar" TypeLength="64" IsSystemField="True" IsDefaultForm="True" IsHidden="true" Sort="0" IsEnableListShow="-1" />
+        <Field FieldName="State" FieldAlias="状态" FieldType="5" TypeName="bigint" TypeLength="16" IsSystemField="True" IsDefaultForm="True" IsHidden="true" Sort="0" IsEnableListShow="-1" DefaultValue="0"/>
+        <Field FieldName="Sort" FieldAlias="排序" FieldType="5" TypeName="bigint" TypeLength="16" IsSystemField="True" IsDefaultForm="True" IsHidden="true" Sort="0" IsEnableListShow="-1" />
+        <Field FieldName="IsDel" FieldAlias="是否删除" FieldType="9" TypeName="bit" TypeLength="1" IsSystemField="True" IsDefaultForm="True" IsHidden="true" Sort="0" IsEnableListShow="-1" />
+
+      <Field FieldName="MetaTitle" FieldAlias="SEO标题" FieldType="1" TypeName="nvarchar" TypeLength="512" IsSystemField="False" IsDefaultForm="False" Sort="8"  />
+      <Field FieldName="MetaKeyword" FieldAlias="SEO关键字" FieldType="1" TypeName="nvarchar" TypeLength="512" IsSystemField="False" IsDefaultForm="False" Sort="8"  />
+      <Field FieldName="MetaDesc" FieldAlias="SEO描述" FieldType="2" TypeName="nvarchar" TypeLength="1024" IsSystemField="False" IsDefaultForm="False" Sort="8"  />
+      
+        <Field FieldName="CreateDate" FieldAlias="创建时间" FieldType="7" TypeName="datetime" TypeLength="8" Sort="6" IsSystemField="True" IsDefaultForm="True" IsHidden="false" IsDefaultListShow="True" IsEnableListShow="1" DefaultValue="2" />
+        <Field FieldName="CreateUser" FieldAlias="创建人" FieldType="1" TypeName="nvarchar" TypeLength="128" Sort="7" IsSystemField="True" IsDefaultForm="True" IsHidden="true" IsEnableListShow="-1" />
+        <Field FieldName="UpdateUser" FieldAlias="修改人" FieldType="1" TypeName="nvarchar" TypeLength="128" Sort="3" IsSystemField="True" IsDefaultForm="True" IsHidden="true" IsEnableListShow="-1" />
+        <Field FieldName="UpdateDate" FieldAlias="修改时间" FieldType="7" TypeName="datetime" TypeLength="8" Sort="4" IsSystemField="True" IsDefaultForm="True" IsHidden="true" IsEnableListShow="-1" DefaultValue="2" />
+
+    </Fields>
+</Model>

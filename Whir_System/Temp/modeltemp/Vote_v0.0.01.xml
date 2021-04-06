@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Model>
+    <ModelMark>Vote_v0.0.01.xml</ModelMark>
+    <ModelName>网上投票主题管理</ModelName>
+    <ModelDesc />
+    <Fields>
+
+        <Field FieldName="Hits" FieldAlias="点击率" FieldType="1" TypeName="nvarchar" TypeLength="16" IsSystemField="False" IsDefaultForm="Flase" Sort="8" IsDefaultListShow="False" DefaultValue="0" ValidateType="非负整数" ValidateExpression="[\+]?\d" />
+        <Field FieldName="Title" FieldAlias="投票主题" FieldType="1" TypeName="nvarchar" TypeLength="2048" IsSystemField="True" IsDefaultForm="True" Sort="2" IsDefaultListShow="True" IsWorkFlowTitle="True" />
+        <Field FieldName="Enable" FieldAlias="是否启用" FieldType="9" TypeName="bit" TypeLength="1" IsSystemField="True" IsDefaultForm="True" IsHidden="True" IsDefaultListShow="True" Sort="0" />
+        <Field FieldName="QuestionType" FieldAlias="投票问题类型" FieldType="4" TypeName="nvarchar"  TypeLength="32" IsSystemField="True" IsDefaultForm="True" IsHidden="false" Sort="3" BindText="false|单选,true|多选" />
+        <Field FieldName="Count" FieldAlias="参与人数" FieldType="5" TypeName="int" TypeLength="4" IsSystemField="False" Sort="2" IsHidden="true" />
+        <Field FieldName="Description" FieldAlias="描述" FieldType="2" TypeName="nvarchar" TypeLength="2048" IsSystemField="False" Sort="3"  TextType="2" />
+        <Field FieldName="IsIPLimit" FieldAlias="是否IP限制" FieldType="9" TypeName="bit" TypeLength="1" IsSystemField="True" IsDefaultForm="True" Sort="4"  />
+        <Field FieldName="BeginDate" FieldAlias="开始时间" FieldType="7" TypeName="datetime" TypeLength="8" IsSystemField="True" IsDefaultForm="True" Sort="6" DefaultValue="2" />
+        <Field FieldName="EndDate" FieldAlias="结束时间" FieldType="7" TypeName="datetime" TypeLength="8" IsSystemField="True" IsDefaultForm="True" Sort="7" DefaultValue="2" />
+
+        <Field FieldName="TypeID" FieldAlias="栏目编号" FieldType="1" TypeName="nvarchar" TypeLength="64" IsSystemField="True" IsDefaultForm="True" IsHidden="true" Sort="0" IsEnableListShow="-1" />
+        <Field FieldName="SubjectId" FieldAlias="所属子站ID" FieldType="1" TypeName="nvarchar" TypeLength="64" IsSystemField="True" IsDefaultForm="True" IsHidden="true" Sort="0" IsEnableListShow="-1" />
+        <Field FieldName="State" FieldAlias="状态" FieldType="5" TypeName="bigint" TypeLength="16" IsSystemField="True" IsDefaultForm="True" IsHidden="true" Sort="0" IsEnableListShow="-1" DefaultValue="0"/>
+        <Field FieldName="Sort" FieldAlias="排序" FieldType="5" TypeName="bigint" TypeLength="16" IsSystemField="True" IsDefaultForm="True" IsHidden="true" Sort="0" IsEnableListShow="-1" />
+        <Field FieldName="IsDel" FieldAlias="是否删除" FieldType="9" TypeName="bit" TypeLength="1" IsSystemField="True" IsDefaultForm="True" IsHidden="true" Sort="0" IsEnableListShow="-1" />
+
+      <Field FieldName="MetaTitle" FieldAlias="SEO标题" FieldType="1" TypeName="nvarchar" TypeLength="512" IsSystemField="False" IsDefaultForm="False" Sort="8"  />
+      <Field FieldName="MetaKeyword" FieldAlias="SEO关键字" FieldType="1" TypeName="nvarchar" TypeLength="512" IsSystemField="False" IsDefaultForm="False" Sort="8"  />
+      <Field FieldName="MetaDesc" FieldAlias="SEO描述" FieldType="2" TypeName="nvarchar" TypeLength="1024" IsSystemField="False" IsDefaultForm="False" Sort="8"  />
+      
+        <Field FieldName="CreateDate" FieldAlias="创建时间" FieldType="7" TypeName="datetime" TypeLength="8" Sort="6" IsSystemField="True" IsDefaultForm="True" IsHidden="false" IsDefaultListShow="True" IsEnableListShow="1" DefaultValue="2" />
+        <Field FieldName="CreateUser" FieldAlias="创建人" FieldType="1" TypeName="nvarchar" TypeLength="128" Sort="7" IsSystemField="True" IsDefaultForm="True" IsHidden="true" IsEnableListShow="-1" />
+        <Field FieldName="UpdateUser" FieldAlias="修改人" FieldType="1" TypeName="nvarchar" TypeLength="128" Sort="3" IsSystemField="True" IsDefaultForm="True" IsHidden="true" IsEnableListShow="-1" />
+        <Field FieldName="UpdateDate" FieldAlias="修改时间" FieldType="7" TypeName="datetime" TypeLength="8" Sort="4" IsSystemField="True" IsDefaultForm="True" IsHidden="true" IsEnableListShow="-1" DefaultValue="2" />
+
+    </Fields>
+</Model>

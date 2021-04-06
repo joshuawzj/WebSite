@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+<meta charset="utf-8">
+    <wtl:include filename="head.html"></wtl:include>
+</head>
+<body>
+<!--top--> 
+        <wtl:include filename="top.html"></wtl:include>
+<!--top End--> 
+<div class="ban">
+  <img src='<wtl:banner></wtl:banner>'/>
+</div>
+<div class="zf">
+  <div class="auto auto_1200">
+    <div class="zf_box">
+        <wtl:list columnid="4">
+      <div class="zf_li">
+        <div class="zf_li_box">
+          <h3>{$title}</h3>
+          <h1>{$price}<span>元</span></h1>
+          <p>{$content}</p>
+          <div class="zf_bot">
+            <ul>
+              <wtl:many splitstr='{$lable}' Split="," > 
+                  <li>{$value}</li>
+            </wtl:many> 
+            </ul>
+            <div class="zf_btn">
+              <a href="#">立即购买</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      </wtl:list>
+    </div>
+  </div>
+</div>
+
+<!--bottom--> 
+       <wtl:include filename="bottom.html"></wtl:include>
+<!--bottom End--> 
+</body>
+
+</html>

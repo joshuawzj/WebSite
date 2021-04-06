@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<items>
+  <item>
+    <count>12</count>
+    <index>1</index>
+    <message>登录[附带发布 -2] -附带发布, 完成</message>
+    <previewUrl>/wzj/cn/denglu.aspx</previewUrl>
+  </item>
+  <item>
+    <count>13</count>
+    <index>2</index>
+    <message>注册[附带发布 -1] -附带发布, 完成</message>
+    <previewUrl>/wzj/cn/zhuche.aspx</previewUrl>
+  </item>
+  <item>
+    <count>13</count>
+    <index>3</index>
+    <message>公共文件 -发布, 完成</message>
+  </item>
+  <item>
+    <count>13</count>
+    <index>4</index>
+    <message>默认站[1] -站点首页, 发布, 完成</message>
+    <previewUrl>/wzj/index.aspx</previewUrl>
+  </item>
+  <item>
+    <count>13</count>
+    <index>5</index>
+    <message>首页维护[2] -首页, 无需发布, 完成</message>
+  </item>
+  <item>
+    <count>13</count>
+    <index>5</index>
+    <message>首页维护[2] -列表页, 无需发布, 完成</message>
+  </item>
+  <item>
+    <count>13</count>
+    <index>5</index>
+    <message>首页维护[2] -内容页, 无需发布, 完成</message>
+  </item>
+  <item>
+    <count>13</count>
+    <index>6</index>
+    <message>零散维护[3] -首页, 无需发布, 完成</message>
+  </item>
+  <item>
+    <count>13</count>
+    <index>6</index>
+    <message>零散维护[3] -列表页, 无需发布, 完成</message>
+  </item>
+  <item>
+    <count>13</count>
+    <index>6</index>
+    <message>零散维护[3] -内容页, 无需发布, 完成</message>
+  </item>
+  <item>
+    <count>13</count>
+    <index>7</index>
+    <message>首页轮播[7] -首页, 无需发布, 完成</message>
+  </item>
+  <item>
+    <count>13</count>
+    <index>7</index>
+    <message>首页轮播[7] -列表页, 无需发布, 完成</message>
+  </item>
+  <item>
+    <count>13</count>
+    <index>7</index>
+    <message>首页轮播[7] -内容页, 无需发布, 完成</message>
+  </item>
+  <item>
+    <count>13</count>
+    <index>8</index>
+    <message>产品中心[4] -首页, 无需发布, 完成</message>
+  </item>
+  <item>
+    <count>13</count>
+    <index>8</index>
+    <message>产品中心[4] -列表页, 无需发布, 完成</message>
+  </item>
+  <item>
+    <count>13</count>
+    <index>8</index>
+    <message>产品中心[4] -内容页, 发布, 完成</message>
+    <previewUrl>/wzj/cpzx/info.aspx</previewUrl>
+  </item>
+  <item>
+    <count>13</count>
+    <index>9</index>
+    <message>用户中心[6] -首页, 发布, 完成</message>
+    <previewUrl>/wzj/yhzx/index.aspx</previewUrl>
+  </item>
+  <item>
+    <count>13</count>
+    <index>9</index>
+    <message>用户中心[6] -列表页, 无需发布, 完成</message>
+  </item>
+  <item>
+    <count>13</count>
+    <index>9</index>
+    <message>用户中心[6] -内容页, 无需发布, 完成</message>
+  </item>
+  <item>
+    <count>13</count>
+    <index>10</index>
+    <message>专享文章[9] -首页, 无需发布, 完成</message>
+  </item>
+  <item>
+    <count>13</count>
+    <index>10</index>
+    <message>专享文章[9] -列表页, 无需发布, 完成</message>
+  </item>
+  <item>
+    <count>13</count>
+    <index>10</index>
+    <message>专享文章[9] -内容页, 发布, 完成</message>
+    <previewUrl>/wzj/BulletinBoard/info.aspx</previewUrl>
+  </item>
+  <item>
+    <count>13</count>
+    <index>11</index>
+    <message>推荐阅读[11] -首页, 无需发布, 完成</message>
+  </item>
+  <item>
+    <count>13</count>
+    <index>11</index>
+    <message>推荐阅读[11] -列表页, 无需发布, 完成</message>
+  </item>
+  <item>
+    <count>13</count>
+    <index>11</index>
+    <message>推荐阅读[11] -内容页, 发布, 完成</message>
+    <previewUrl>/wzj/news/info.aspx</previewUrl>
+  </item>
+  <item>
+    <count>13</count>
+    <index>12</index>
+    <message>关于光盐财经[13] -首页, 发布, 完成</message>
+    <previewUrl>/wzj/about/index.aspx</previewUrl>
+  </item>
+  <item>
+    <count>13</count>
+    <index>12</index>
+    <message>关于光盐财经[13] -列表页, 无需发布, 完成</message>
+  </item>
+  <item>
+    <count>13</count>
+    <index>12</index>
+    <message>关于光盐财经[13] -内容页, 无需发布, 完成</message>
+  </item>
+  <item>
+    <count>13</count>
+    <index>13</index>
+    <message>联系我们[14] -首页, 无需发布, 完成</message>
+  </item>
+  <item>
+    <count>13</count>
+    <index>13</index>
+    <message>联系我们[14] -列表页, 发布, 完成</message>
+    <previewUrl>/wzj/ContactUs/list.aspx</previewUrl>
+  </item>
+  <item>
+    <count>13</count>
+    <index>13</index>
+    <message>联系我们[14] -内容页, 无需发布, 完成</message>
+  </item>
+</items>

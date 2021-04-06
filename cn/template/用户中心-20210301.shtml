@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+<meta charset="utf-8">
+    <wtl:include filename="head.html"></wtl:include>
+</head>
+<body>
+<!--top--> 
+        <wtl:include filename="top.html"></wtl:include>
+<!--top End--> 
+<div class="ban user">
+  <img src="{$sitepath}uploadfiles/image/yh_02.jpg"/>
+  <div class="user_box">
+    <div class="auto auto_1200">
+        <h1>用户中心</h1>
+        <div class="tx">
+          <div class="tx_box">
+            <img src="{$sitepath}images/name.png"/>
+          </div>
+          <p>$whir.GetUserName()</p>
+        </div>
+    </div>
+  </div>
+</div>
+
+<div class="user_cen">
+  <div class="auto auto_1200">
+    <div class="user_top">
+      <div class="user_list">
+        <div class="user_list1">
+          <h2>公告栏</h2>
+          <ul>
+              <wtl:list columnid="9" count="7">
+              <li>
+              <a href="{$pageurl}">
+                <p>{$title}</p>
+                <span>{$createdate,yyyy-MM}</span>
+              </a>
+            </li>
+              </wtl:list>
+            
+         
+          </ul>
+        </div>
+      </div>
+
+      <div class="user_list">
+        <div class="user_list1">
+         <div class="U_top">
+          <div class="U_right">
+            <h3>295865222@qq.com</h3>
+            <span>2021-02-25 00:00:00</span>
+            <p>剩余20天，等级到期将无法使用节点</p>
+          </div>
+          <div class="U_bot">
+            <div class="U_box">
+              <h3>上次使用时间：</h3>
+              <span>2021-02-25 00:00:00</span>
+            </div>
+            <div class="U_btn">
+              <a href="#">立即续费</a>
+            </div>
+          </div>
+         </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="user_bottom">
+      <div class="user_xw">
+      <h2>新闻</h2>
+      <div class="user_bottom1">
+        <div class="user_li">
+          <ul>
+          <wtl:list columnid="11" count="7">
+             <li>
+              <a href="{$pageurl}">
+                <p>{$title}</p>
+                <span>{$createdate,yyyy-MM}</span>
+              </a>
+            </li>
+            </wtl:list>
+            
+          </ul>
+        </div>
+        <div class="user_li">
+          <ul>
+   <wtl:list columnid="11" count="7">
+             <li>
+              <a href="{$pageurl}">
+                <p>{$title}</p>
+                <span>{$createdate,yyyy-MM}</span>
+              </a>
+            </li>
+            </wtl:list>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  </div>
+</div>
+
+
+<!--bottom--> 
+       <wtl:include filename="bottom.html"></wtl:include>
+<!--bottom End--> 
+</body>
+
+</html>

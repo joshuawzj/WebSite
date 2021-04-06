@@ -1,0 +1,392 @@
+2021/3/12 4:16:16 # 支付成功回调参数： payNo ------ 4200000946202103116442539409
+
+2021/3/12 4:16:16 # 支付成功回调参数： code ------ 1
+
+2021/3/12 4:16:16 # 支付成功回调参数： mchId ------ 1607191737
+
+2021/3/12 4:16:16 # 支付成功回调参数： orderNo ------ Y10415451969897
+
+2021/3/12 4:16:16 # 支付成功回调参数： money ------ 0.01
+
+2021/3/12 4:16:16 # 支付成功回调参数： openId ------ o-_-it5VkQc6PbbooQKt_85WmzE4
+
+2021/3/12 4:16:16 # 支付成功回调参数： outTradeNo ------ 2103111041478882
+
+2021/3/12 4:16:16 # 支付成功回调参数： sign ------ 82CABDD6DB137864D86E04964CC3A89C
+
+2021/3/12 4:16:16 # 支付成功回调参数： payChannel ------ wxpay
+
+2021/3/12 4:16:16 # 支付成功回调参数： time ------ 2021-03-11 10:41:59
+
+2021/3/12 4:16:16 # 支付成功回调的新签名为 : 82CABDD6DB137864D86E04964CC3A89C
+
+2021/3/12 4:46:23 # 支付成功回调参数： payNo ------ 4200000946202103116442539409
+
+2021/3/12 4:46:23 # 支付成功回调参数： code ------ 1
+
+2021/3/12 4:46:23 # 支付成功回调参数： mchId ------ 1607191737
+
+2021/3/12 4:46:23 # 支付成功回调参数： orderNo ------ Y10415451969897
+
+2021/3/12 4:46:23 # 支付成功回调参数： money ------ 0.01
+
+2021/3/12 4:46:23 # 支付成功回调参数： openId ------ o-_-it5VkQc6PbbooQKt_85WmzE4
+
+2021/3/12 4:46:23 # 支付成功回调参数： outTradeNo ------ 2103111041478882
+
+2021/3/12 4:46:23 # 支付成功回调参数： sign ------ 82CABDD6DB137864D86E04964CC3A89C
+
+2021/3/12 4:46:23 # 支付成功回调参数： payChannel ------ wxpay
+
+2021/3/12 4:46:23 # 支付成功回调参数： time ------ 2021-03-11 10:41:59
+
+2021/3/12 4:46:23 # 支付成功回调的新签名为 : 82CABDD6DB137864D86E04964CC3A89C
+
+2021/3/12 8:50:13 # 开始下单 : 
+
+2021/3/12 8:50:13 # 下单签名 : 7362246362F88DF29B554E49CBE2DF1F
+
+2021/3/12 8:50:14 # 下单结果 : {"msg":"下单成功，请扫码支付","code":0,"data":"http://images.yungouos.com/merge/native/code/210312085013992715307.png"}
+
+2021/3/12 9:07:02 # 开始下单 : 
+
+2021/3/12 9:07:02 # 下单签名 : A4838763C49A2A94A54F1214FFFC551D
+
+2021/3/12 9:07:03 # 下单结果 : {"msg":"下单成功，请扫码支付","code":0,"data":"http://images.yungouos.com/merge/native/code/210312090702660115307.png"}
+
+2021/3/12 9:08:03 # 开始下单 : 
+
+2021/3/12 9:08:03 # 下单签名 : 6981E5940EBA8610B0EDEE41A9219E58
+
+2021/3/12 9:08:03 # 下单结果 : {"msg":"下单成功，请扫码支付","code":0,"data":"http://images.yungouos.com/merge/native/code/210312090803340915307.png"}
+
+2021/3/12 9:09:14 # 开始下单 : 
+
+2021/3/12 9:09:14 # 下单签名 : D84383D23024E4CF81253F55ACE8790A
+
+2021/3/12 9:09:14 # 下单结果 : {"msg":"下单成功，请扫码支付","code":0,"data":"http://images.yungouos.com/merge/native/code/210312090914933315307.png"}
+
+2021/3/12 9:09:30 # 支付成功回调参数： payNo ------ 2021031222001479561450637902
+
+2021/3/12 9:09:30 # 支付成功回调参数： code ------ 1
+
+2021/3/12 9:09:30 # 支付成功回调参数： mchId ------ 2088110896172724
+
+2021/3/12 9:09:30 # 支付成功回调参数： orderNo ------ Y09092397454060
+
+2021/3/12 9:09:30 # 支付成功回调参数： money ------ 0.01
+
+2021/3/12 9:09:30 # 支付成功回调参数： outTradeNo ------ 2103120909149333
+
+2021/3/12 9:09:30 # 支付成功回调参数： sign ------ F951EEE55B17CE9058CB7654B6BDE2F7
+
+2021/3/12 9:09:30 # 支付成功回调参数： payChannel ------ alipay
+
+2021/3/12 9:09:30 # 支付成功回调参数： time ------ 2021-03-12 09:09:29
+
+2021/3/12 9:09:30 # 支付成功回调的新签名为 : F951EEE55B17CE9058CB7654B6BDE2F7
+
+2021/3/12 9:09:30 # 支付成功回调签名验证通过 。
+
+2021/3/12 9:54:15 # 开始下单 : 
+
+2021/3/12 9:54:15 # 下单签名 : 854263342D83C2EC668D7CC323EE849C
+
+2021/3/12 9:54:16 # 下单结果 : {"msg":"下单成功，请扫码支付","code":0,"data":"http://images.yungouos.com/merge/native/code/210312095415658915307.png"}
+
+2021/3/12 9:59:05 # 开始下单 : 
+
+2021/3/12 9:59:05 # 下单签名 : 51EAA42AEFA1043F436538D08E15B1CC
+
+2021/3/12 9:59:05 # 下单结果 : {"msg":"下单成功，请扫码支付","code":0,"data":"http://images.yungouos.com/merge/native/code/210312095905307815307.png"}
+
+2021/3/12 10:16:18 # 支付成功回调参数： payNo ------ 4200000946202103116442539409
+
+2021/3/12 10:16:18 # 支付成功回调参数： code ------ 1
+
+2021/3/12 10:16:18 # 支付成功回调参数： mchId ------ 1607191737
+
+2021/3/12 10:16:18 # 支付成功回调参数： orderNo ------ Y10415451969897
+
+2021/3/12 10:16:18 # 支付成功回调参数： money ------ 0.01
+
+2021/3/12 10:16:18 # 支付成功回调参数： openId ------ o-_-it5VkQc6PbbooQKt_85WmzE4
+
+2021/3/12 10:16:18 # 支付成功回调参数： outTradeNo ------ 2103111041478882
+
+2021/3/12 10:16:18 # 支付成功回调参数： sign ------ 82CABDD6DB137864D86E04964CC3A89C
+
+2021/3/12 10:16:18 # 支付成功回调参数： payChannel ------ wxpay
+
+2021/3/12 10:16:18 # 支付成功回调参数： time ------ 2021-03-11 10:41:59
+
+2021/3/12 10:16:18 # 支付成功回调的新签名为 : 82CABDD6DB137864D86E04964CC3A89C
+
+2021/3/12 10:20:25 # 开始下单 : 
+
+2021/3/12 10:20:25 # 下单签名 : D7D29180644074368CE3ECEB615DEB53
+
+2021/3/12 10:20:25 # 下单结果 : {"msg":"签名错误，请检查签名","code":1}
+
+2021/3/12 10:20:39 # 开始下单 : 
+
+2021/3/12 10:20:39 # 下单签名 : 7B236110DB592B23AC1B87529F17A6C2
+
+2021/3/12 10:20:40 # 下单结果 : {"msg":"下单成功，请扫码支付","code":0,"data":"http://images.yungouos.com/merge/native/code/210312102039848815307.png"}
+
+2021/3/12 10:20:41 # 开始下单 : 
+
+2021/3/12 10:20:42 # 下单签名 : C6F4FB0780C3235B4CF7886FE8E781DA
+
+2021/3/12 10:20:42 # 下单结果 : {"msg":"下单成功，请扫码支付","code":0,"data":"http://images.yungouos.com/merge/native/code/210312102041994615307.png"}
+
+2021/3/12 10:21:11 # 开始下单 : 
+
+2021/3/12 10:21:11 # 下单签名 : 05C409E23B91A4931CED46AFF4A2BF78
+
+2021/3/12 10:21:11 # 下单结果 : {"msg":"下单成功，请扫码支付","code":0,"data":"http://images.yungouos.com/merge/native/code/210312102111269615307.png"}
+
+2021/3/12 10:23:13 # 开始下单 : 
+
+2021/3/12 10:23:13 # 下单签名 : C3EF6C80DB300B5213A779E3911B174D
+
+2021/3/12 10:23:13 # 下单结果 : {"msg":"下单成功，请扫码支付","code":0,"data":"http://images.yungouos.com/merge/native/code/210312102313320615307.png"}
+
+2021/3/12 10:33:03 # 开始下单 : 
+
+2021/3/12 10:33:03 # 下单签名 : 82CF39B64FFA27E226B55CBAB50DE043
+
+2021/3/12 10:33:03 # 下单结果 : {"msg":"下单成功，请扫码支付","code":0,"data":"http://images.yungouos.com/merge/native/code/210312103303642215307.png"}
+
+2021/3/12 10:33:26 # 开始下单 : 
+
+2021/3/12 10:33:26 # 下单签名 : D66E4B94133BF13F597D513405055E46
+
+2021/3/12 10:33:26 # 下单结果 : {"msg":"下单成功，请扫码支付","code":0,"data":"http://images.yungouos.com/merge/native/code/210312103326871815307.png"}
+
+2021/3/12 10:34:00 # 开始下单 : 
+
+2021/3/12 10:34:00 # 下单签名 : 5395934BF9A0C090A96008EE6B180E56
+
+2021/3/12 10:34:00 # 下单结果 : {"msg":"下单成功，请扫码支付","code":0,"data":"http://images.yungouos.com/merge/native/code/210312103400356215307.png"}
+
+2021/3/12 10:34:12 # 开始下单 : 
+
+2021/3/12 10:34:12 # 下单签名 : E340E17C8939DF175F577D7A92C4A868
+
+2021/3/12 10:34:13 # 下单结果 : {"msg":"下单成功，请扫码支付","code":0,"data":"http://images.yungouos.com/merge/native/code/210312103412209515307.png"}
+
+2021/3/12 10:35:36 # 开始下单 : 
+
+2021/3/12 10:35:36 # 下单签名 : 78F19384C714F762AC7058CAFB28C1EC
+
+2021/3/12 10:35:36 # 下单结果 : {"msg":"下单成功，请扫码支付","code":0,"data":"http://images.yungouos.com/merge/native/code/210312103536273615307.png"}
+
+2021/3/12 10:38:18 # 开始下单 : 
+
+2021/3/12 10:38:18 # 下单签名 : 8B02765CE45676BE5955B18EDD937192
+
+2021/3/12 10:38:18 # 下单结果 : {"msg":"下单成功，请扫码支付","code":0,"data":"http://images.yungouos.com/merge/native/code/210312103818154415307.png"}
+
+2021/3/12 10:38:42 # 开始下单 : 
+
+2021/3/12 10:38:42 # 下单签名 : B6B46A5D8558E574256754338508FAA2
+
+2021/3/12 10:38:42 # 下单结果 : {"msg":"下单成功，请扫码支付","code":0,"data":"http://images.yungouos.com/merge/native/code/210312103842676415307.png"}
+
+2021/3/12 10:38:48 # 开始下单 : 
+
+2021/3/12 10:38:49 # 下单签名 : 59734A688EB6635DBE476BDB05ABB387
+
+2021/3/12 10:38:49 # 下单结果 : {"msg":"下单成功，请扫码支付","code":0,"data":"http://images.yungouos.com/merge/native/code/210312103848615015307.png"}
+
+2021/3/12 10:42:13 # 开始下单 : 
+
+2021/3/12 10:42:13 # 下单签名 : 5F07E8E3DEA964FEFBE79B320CB56676
+
+2021/3/12 10:42:14 # 下单结果 : {"msg":"下单成功，请扫码支付","code":0,"data":"http://images.yungouos.com/merge/native/code/210312104213633615307.png"}
+
+2021/3/12 10:42:16 # 开始下单 : 
+
+2021/3/12 10:42:16 # 下单签名 : 109A198AEC362755BD6EACFB604FC9DA
+
+2021/3/12 10:42:17 # 下单结果 : {"msg":"下单成功，请扫码支付","code":0,"data":"http://images.yungouos.com/merge/native/code/210312104216706915307.png"}
+
+2021/3/12 10:42:19 # 开始下单 : 
+
+2021/3/12 10:42:19 # 下单签名 : E3E7CD46AF00B16EA5E1CBAE3A709DA0
+
+2021/3/12 10:42:19 # 下单结果 : {"msg":"下单成功，请扫码支付","code":0,"data":"http://images.yungouos.com/merge/native/code/210312104219068415307.png"}
+
+2021/3/12 10:42:20 # 开始下单 : 
+
+2021/3/12 10:42:20 # 下单签名 : 34845988D621D697A9F83A1E373BB180
+
+2021/3/12 10:42:21 # 下单结果 : {"msg":"下单成功，请扫码支付","code":0,"data":"http://images.yungouos.com/merge/native/code/210312104220947215307.png"}
+
+2021/3/12 10:44:20 # 开始下单 : 
+
+2021/3/12 10:44:20 # 下单签名 : 84CB70FB64EADB6F362EC16E8021ACC1
+
+2021/3/12 10:44:21 # 下单结果 : {"msg":"下单成功，请扫码支付","code":0,"data":"http://images.yungouos.com/merge/native/code/210312104420914115307.png"}
+
+2021/3/12 11:43:26 # 文件“/BulletinBoard/list.aspx”不存在。
+   在 System.Web.UI.Util.CheckVirtualFileExists(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   在 System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   在 System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+2021/3/12 11:43:33 # 文件“/news/list.aspx”不存在。
+   在 System.Web.UI.Util.CheckVirtualFileExists(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   在 System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   在 System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+2021/3/12 11:43:38 # 文件“/news/list.aspx”不存在。
+   在 System.Web.UI.Util.CheckVirtualFileExists(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   在 System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   在 System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+2021/3/12 11:45:34 # c:\wwwroot\WebSite\yhzx\index.aspx(110): error CS1061: “Whir.Label.Dynamic.IfLabel.DataContainer”不包含“PageUrl”的定义，并且找不到可接受类型为“Whir.Label.Dynamic.IfLabel.DataContainer”的第一个参数的扩展方法“PageUrl”(是否缺少 using 指令或程序集引用?)
+   在 System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   在 System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   在 System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+2021/3/12 11:50:12 # 文件“/BulletinBoard/list.aspx”不存在。
+   在 System.Web.UI.Util.CheckVirtualFileExists(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   在 System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   在 System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+2021/3/12 11:53:35 # 文件“/news/list.aspx”不存在。
+   在 System.Web.UI.Util.CheckVirtualFileExists(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   在 System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   在 System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+2021/3/12 12:23:57 # 开始下单 : 
+
+2021/3/12 12:23:57 # 下单签名 : 5DAD4355C47A3EB94A46F568C4696BB2
+
+2021/3/12 12:23:57 # 下单结果 : {"msg":"下单成功，请扫码支付","code":0,"data":"http://images.yungouos.com/merge/native/code/210312122357890115307.png"}
+
+2021/3/12 12:45:02 # 开始下单 : 
+
+2021/3/12 12:45:02 # 下单签名 : 80C8C08AC5E3865A1C15821A3BFD5B8A
+
+2021/3/12 12:45:02 # 下单结果 : {"msg":"下单成功，请扫码支付","code":0,"data":"http://images.yungouos.com/merge/native/code/210312124502153815307.png"}
+
+2021/3/12 12:45:37 # 支付成功回调参数： payNo ------ 4200000989202103124094103183
+
+2021/3/12 12:45:37 # 支付成功回调参数： code ------ 1
+
+2021/3/12 12:45:37 # 支付成功回调参数： mchId ------ 1607191737
+
+2021/3/12 12:45:37 # 支付成功回调参数： orderNo ------ Y12452120441621
+
+2021/3/12 12:45:37 # 支付成功回调参数： money ------ 1.00
+
+2021/3/12 12:45:37 # 支付成功回调参数： openId ------ o-_-it2Hekd0MPrOI_bxajJUyqpQ
+
+2021/3/12 12:45:37 # 支付成功回调参数： outTradeNo ------ 2103121245021538
+
+2021/3/12 12:45:37 # 支付成功回调参数： sign ------ 9964B74E923629FD4C1FDD0F3F3A7663
+
+2021/3/12 12:45:37 # 支付成功回调参数： payChannel ------ wxpay
+
+2021/3/12 12:45:37 # 支付成功回调参数： time ------ 2021-03-12 12:45:35
+
+2021/3/12 12:45:37 # 支付成功回调的新签名为 : 9964B74E923629FD4C1FDD0F3F3A7663
+
+2021/3/12 12:45:37 # 支付成功回调签名验证通过 。
+
+2021/3/12 12:51:49 # 开始下单 : 
+
+2021/3/12 12:51:49 # 下单签名 : EAA04B90BBF37BBDF3CCD3F7B416A51E
+
+2021/3/12 12:51:50 # 下单结果 : {"msg":"下单成功，请扫码支付","code":0,"data":"http://images.yungouos.com/merge/native/code/210312125149733515307.png"}
+
+2021/3/12 14:43:36 # 开始下单 : 
+
+2021/3/12 14:43:36 # 下单签名 : 3B5327A549AFD174AAB2AAA9F4397C9C
+
+2021/3/12 14:43:37 # 下单结果 : {"msg":"下单成功，请扫码支付","code":0,"data":"http://images.yungouos.com/merge/native/code/210312144336231415307.png"}
+
+2021/3/12 14:43:51 # 支付成功回调参数： payNo ------ 2021031222001483921429137004
+
+2021/3/12 14:43:51 # 支付成功回调参数： code ------ 1
+
+2021/3/12 14:43:51 # 支付成功回调参数： mchId ------ 2088110896172724
+
+2021/3/12 14:43:51 # 支付成功回调参数： orderNo ------ Y14434525673058
+
+2021/3/12 14:43:51 # 支付成功回调参数： money ------ 1.00
+
+2021/3/12 14:43:51 # 支付成功回调参数： outTradeNo ------ 2103121443362314
+
+2021/3/12 14:43:51 # 支付成功回调参数： sign ------ 38BDB95B287553DDE3B5B226B21357C5
+
+2021/3/12 14:43:51 # 支付成功回调参数： payChannel ------ alipay
+
+2021/3/12 14:43:51 # 支付成功回调参数： time ------ 2021-03-12 14:43:49
+
+2021/3/12 14:43:51 # 支付成功回调的新签名为 : 38BDB95B287553DDE3B5B226B21357C5
+
+2021/3/12 14:43:51 # 支付成功回调签名验证通过 。
+
+2021/3/12 15:25:25 # 开始下单 : 
+
+2021/3/12 15:25:25 # 下单签名 : 7382799A60D1F44152CCAA16E277B598
+
+2021/3/12 15:25:26 # 下单结果 : {"msg":"下单成功，请扫码支付","code":0,"data":"http://images.yungouos.com/merge/native/code/210312152525003515307.png"}
+
+2021/3/12 15:25:34 # 开始下单 : 
+
+2021/3/12 15:25:34 # 下单签名 : 40F03341C06786B12B923FEE760B3118
+
+2021/3/12 15:25:34 # 下单结果 : {"msg":"下单成功，请扫码支付","code":0,"data":"http://images.yungouos.com/merge/native/code/210312152534885015307.png"}
+
+2021/3/12 15:26:02 # 开始下单 : 
+
+2021/3/12 15:26:02 # 下单签名 : A7EEFDC1C4FF2A66E79318C1107E4853
+
+2021/3/12 15:26:02 # 下单结果 : {"msg":"下单成功，请扫码支付","code":0,"data":"http://images.yungouos.com/merge/native/code/210312152602742515307.png"}
+
+2021/3/12 16:24:52 # 开始下单 : 
+
+2021/3/12 16:24:52 # 下单签名 : E97D4F0F62E18B14E83711B755B647C8
+
+2021/3/12 16:24:53 # 下单结果 : {"msg":"下单成功，请扫码支付","code":0,"data":"http://images.yungouos.com/merge/native/code/210312162452952015307.png"}
+

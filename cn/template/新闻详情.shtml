@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+<meta charset="utf-8">
+    <wtl:include filename="head.html"></wtl:include>
+	 <link href="{$syspath}res/js/layer/skin/default/layer.css" rel="stylesheet" />
+    <script src="{$syspath}res/js/layer/layer.js"></script>
+</head>
+<body>
+<!--top--> 
+        <wtl:include filename="top.html"></wtl:include>
+<!--top End--> 
+<div class="ban">
+  <img src='<wtl:banner></wtl:banner>'/>
+</div>
+<div class="zf">
+  <div class="auto auto_1200">
+     <wtl:inforarea>
+      
+
+<!--RighInfo002939 star-->
+<div class="RighInfo002939">
+  <div class="auto auto_1280">
+      <div class="name">
+         <h1>{$title}</h1>
+          <div class="time"><time>发布时间：{$CreateDate,yyyy-MM-dd}</time> <div class="share"><em>分享到：</em><div class="bshare-custom"><a title="分享到QQ空间" class="bshare-qzone"></a><a title="分享到新浪微博" class="bshare-sinaminiblog"></a><a title="分享到人人网" class="bshare-renren"></a><a title="分享到腾讯微博" class="bshare-qqmb"></a><a title="分享到网易微博" class="bshare-neteasemb"></a><a title="更多平台" class="bshare-more bshare-more-icon more-style-addthis"></a><span class="BSHARE_COUNT bshare-share-count">0</span></div></div></div>
+      </div>
+      <article class="edit-info">
+	  <wtl:if testtype="$whir.CheckTime()" TestOperate="Equals"   testvalue="0">
+	  <successTemplate>
+	  	<script>
+			layer.confirm('您尚未开通服务，或者身份已过期，请重新续费。', {
+			  btn: ['确定','取消'] //按钮
+			}, function(){
+			  location.href="{$url,4,3}";
+			}, function(){
+			  
+			});
+		</script>
+	  </successTemplate>
+	  <failureTemplate>
+	  	{$content,parent}
+	  </failureTemplate>
+	  </wtl:if>
+      </article>
+      <dl class="info-page clearfix">
+          
+         <dd class="dot"> <wtl:Content Field="title" Type="prepage" lefttext="<b>上一篇：</b>" IsAutoLink="true"></wtl:Content></dd>
+         <dd class="dot"> <wtl:Content Field="title" Type="nextpage" lefttext="<b>下一篇：</b>" IsAutoLink="true"></wtl:Content></dd>
+      </dl>
+   </div>
+</div>
+<!--RighInfo002939 end-->
+  </wtl:inforarea>
+  </div>
+</div>
+
+<!--bottom--> 
+       <wtl:include filename="bottom.html"></wtl:include>
+<!--bottom End--> 
+</body>
+
+</html>

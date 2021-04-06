@@ -1,0 +1,13 @@
+<footer class="bottom">
+  <div class="auto auto_1200">
+    <wtl:inforarea columnid="3">
+        {$content}
+    </wtl:inforarea>
+  </div>
+</footer>
+
+<script type="text/javascript" src="{$sitepath}scripts/common.js"></script> 
+<script type="text/javascript">
+//整站无图处理
+jQuery.each(jQuery("img"), function (i, n) { jQuery(n).error(function () { n.src = 'uploadfiles/nopic.jpg'; }); n.src = n.src; });
+</script> 

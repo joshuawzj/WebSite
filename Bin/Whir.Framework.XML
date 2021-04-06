@@ -1,0 +1,3272 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Whir.Framework</name>
+    </assembly>
+    <members>
+        <member name="T:Whir.Framework.CheckBoxList">
+            <summary>
+            [控件类]自定义复选按钮,支持自动验证
+            </summary>
+        </member>
+        <member name="F:Whir.Framework.CheckBoxList.customValidator">
+            <summary>
+            控件内部的自定义验证控件
+            </summary>
+        </member>
+        <member name="P:Whir.Framework.CheckBoxList.MinCount">
+            <summary>
+            设置复选控件最小的选项数量
+            </summary>
+        </member>
+        <member name="P:Whir.Framework.CheckBoxList.MaxCount">
+            <summary>
+            设置复选控件最大的选项数量
+            </summary>
+        </member>
+        <member name="P:Whir.Framework.CheckBoxList.TipCtl">
+            <summary>
+            设置提示信息显示区域，可以为空
+            </summary>
+        </member>
+        <member name="P:Whir.Framework.CheckBoxList.TipCss">
+            <summary>
+            设置提示的样式
+            </summary>
+        </member>
+        <member name="P:Whir.Framework.CheckBoxList.TipMessage">
+            <summary>
+            设置提示信息
+            </summary>
+        </member>
+        <member name="P:Whir.Framework.CheckBoxList.ErrorCss">
+            <summary>
+            设置错误提示的样式
+            </summary>
+        </member>
+        <member name="P:Whir.Framework.CheckBoxList.ErrorMessage">
+            <summary>
+            设置错误的提示信息
+            </summary>
+        </member>
+        <member name="P:Whir.Framework.CheckBoxList.CorrectCss">
+            <summary>
+            设置通过提示的样式
+            </summary>
+        </member>
+        <member name="P:Whir.Framework.CheckBoxList.CorrectMessage">
+            <summary>
+            设置验证通过提示信息
+            </summary>
+        </member>
+        <member name="P:Whir.Framework.CheckBoxList.ValidationGroup">
+            <summary>
+            设置此验证控件所属的验证组的名称
+            </summary>
+        </member>
+        <member name="P:Whir.Framework.CheckBoxList.CustomValidatorControl">
+            <summary>
+            获取验证控件的客户端ID
+            </summary>
+        </member>
+        <member name="M:Whir.Framework.CheckBoxList.EnsureChildControls">
+            <summary>
+            重写 确定服务器控件是否包含子控件方法，如果不包含，则创建子控件。
+            </summary>
+        </member>
+        <member name="M:Whir.Framework.CheckBoxList.OnPreRender(System.EventArgs)">
+            <summary>
+            重写事件，在客户端上呈现之前注册资源
+            </summary>
+        </member>
+        <member name="M:Whir.Framework.CheckBoxList.Render(System.Web.UI.HtmlTextWriter)">
+            <summary>
+            将此控件呈现给指定的输出参数。
+            </summary>
+            <param name="output"> 要写出到的 HTML 编写器 </param>
+        </member>
+        <member name="M:Whir.Framework.CheckBoxList.RegisterScript">
+            <summary>
+            注册脚本
+            </summary>
+        </member>
+        <member name="T:Whir.Framework.DateBox">
+            <summary>
+            [控件类]日期框服务器控件
+            </summary>
+        </member>
+        <member name="T:Whir.Framework.DateBox.DateValidatorEnum">
+            <summary>
+            日期验证范围枚举
+            </summary>
+        </member>
+        <member name="F:Whir.Framework.DateBox.DateValidatorEnum.Never">
+            <summary>
+            不设置
+            </summary>
+        </member>
+        <member name="F:Whir.Framework.DateBox.DateValidatorEnum.MaxToday">
+            <summary>
+            只能选择今天以前的日期(包括今天)
+            </summary>
+        </member>
+        <member name="F:Whir.Framework.DateBox.DateValidatorEnum.MinToday">
+            <summary>
+            最少不能少于今天，包含今天
+            </summary>
+        </member>
+        <member name="F:Whir.Framework.DateBox.DateValidatorEnum.Custom">
+            <summary>
+            自定义日期的范围
+            </summary>
+        </member>
+        <member name="T:Whir.Framework.DateBox.FormatEnum">
+            <summary>
+            日期格式
+            </summary>
+        </member>
+        <member name="F:Whir.Framework.DateBox.FormatEnum.yyyyMMdd">
+            <summary>
+            默认格式，显示为: 2012-03-14
+            </summary>
+        </member>
+        <member name="F:Whir.Framework.DateBox.FormatEnum.yyyyMMddHHmm">
+            <summary>
+            长日期格式，年月日时分秒
+            </summary>
+        </member>
+        <member name="F:Whir.Framework.DateBox.FormatEnum.yyyyMMddHHmmss">
+            <summary>
+            长日期格式，年月日时分秒
+            </summary>
+        </member>
+        <member name="F:Whir.Framework.DateBox.FormatEnum.yyyyMM">
+            <summary>
+            显示效果如: 2012-03
+            </summary>
+        </member>
+        <member name="F:Whir.Framework.DateBox.FormatEnum.yyyy">
+            <summary>
+            显示为: 2012
+            </summary>
+        </member>
+        <member name="F:Whir.Framework.DateBox.customValidator">
+            <summary>
+            控件内部的自定义验证控件
+            </summary>
+        </member>
+        <member name="P:Whir.Framework.DateBox.Required">
+            <summary>
+            是否允许空值
+            </summary>
+        </member>
+        <member name="P:Whir.Framework.DateBox.RequiredErrorMessage">
+            <summary>
+            设置必填项的错误提示信息
+            </summary>
+        </member>
+        <member name="P:Whir.Framework.DateBox.TipCtl">
+            <summary>
+            设置提示信息显示区域
+            </summary>
+        </member>
+        <member name="P:Whir.Framework.DateBox.TipCss">
+            <summary>
+            设置提示的样式
+            </summary>
+        </member>
+        <member name="P:Whir.Framework.DateBox.TipMessage">
+            <summary>
+            设置提示信息
+            </summary>
+        </member>
+        <member name="P:Whir.Framework.DateBox.ErrorCss">
+            <summary>
+            设置错误提示的样式
+            </summary>
+        </member>
+        <member name="P:Whir.Framework.DateBox.CorrectCss">
+            <summary>
+            设置通过提示的样式
+            </summary>
+        </member>
+        <member name="P:Whir.Framework.DateBox.CorrectMessage">
+            <summary>
+            设置验证通过提示信息
+            </summary>
+        </member>
+        <member name="P:Whir.Framework.DateBox.ValidationGroup">
+            <summary>
+            设置此验证控件所属的验证组的名称
+            </summary>
+        </member>
+        <member name="P:Whir.Framework.DateBox.DataValidationExpression">
+            <summary>
+            当日期验证范围为 Custom 时生效，表示为自定义验证范围
+            </summary>
+        </member>
+        <member name="P:Whir.Framework.DateBox.DateFmt">
+            <summary>
+            日期格式，详细请查看 FormatEnum 说明
+            </summary>
+        </member>
+        <member name="P:Whir.Framework.DateBox.OnFocusCss">
+            <summary>
+            设置文本框获取焦点时的样式
+            </summary>
+        </member>
+        <member name="P:Whir.Framework.DateBox.OnErrorCss">
+            <summary>
+            设置文本框错误时的样式
+            </summary>
+        </member>
+        <member name="P:Whir.Framework.DateBox.MinView">
+            <summary>
+            设置最小视图 默认是月份视图 -2 
+            </summary>
+        </member>
+        <member name="P:Whir.Framework.DateBox.DateValidator">
+            <summary>
+            日期验证范围枚举
+            </summary>
+        </member>
+        <member name="M:Whir.Framework.DateBox.EnsureChildControls">
+            <summary>
+            重写 确定服务器控件是否包含子控件方法，如果不包含，则创建子控件。
+            </summary>
+        </member>
+        <member name="M:Whir.Framework.DateBox.OnPreRender(System.EventArgs)">
+            <summary>
+            重写事件，在客户端上呈现之前注册资源
+            </summary>
+        </member>
+        <member name="M:Whir.Framework.DateBox.Render(System.Web.UI.HtmlTextWriter)">
+            <summary>
+            将此控件呈现给指定的输出参数。
+            </summary>
+            <param name="output"> 要写出到的 HTML 编写器 </param>
+        </member>
+        <member name="M:Whir.Framework.DateBox.RegisterScript(System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+            向脚本注册验证脚本
+            </summary>
+        </member>
+        <member name="T:Whir.Framework.DropDownList">
+            <summary>
+            [控件类]自定义下拉框控件,支持自动验证
+            </summary>
+        </member>
+        <member name="F:Whir.Framework.DropDownList.customValidator">
+            <summary>
+            控件内部的自定义验证控件
+            </summary>
+        </member>
+        <member name="P:Whir.Framework.DropDownList.Required">
+            <summary>
+            是否允许空值
+            </summary>
+        </member>
+        <member name="P:Whir.Framework.DropDownList.InitialValue">
+            <summary>
+            文本框必填项的初始值
+            </summary>
+        </member>
+        <member name="P:Whir.Framework.DropDownList.RequiredErrorMessage">
+            <summary>
+            设置必填项的错误提示信息
+            </summary>
+        </member>
+        <member name="P:Whir.Framework.DropDownList.TipCtl">
+            <summary>
+            设置提示信息显示区域
+            </summary>
+        </member>
+        <member name="P:Whir.Framework.DropDownList.TipCss">
+            <summary>
+            设置提示的样式
+            </summary>
+        </member>
+        <member name="P:Whir.Framework.DropDownList.TipMessage">
+            <summary>
+            设置提示信息
+            </summary>
+        </member>
+        <member name="P:Whir.Framework.DropDownList.ErrorCss">
+            <summary>
+            设置错误提示的样式
+            </summary>
+        </member>
+        <member name="P:Whir.Framework.DropDownList.ErrorMessage">
+            <summary>
+            设置其它验证错误提示信息
+            </summary>
+        </member>
+        <member name="P:Whir.Framework.DropDownList.CorrectCss">
+            <summary>
+            设置通过提示的样式
+            </summary>
+        </member>
+        <member name="P:Whir.Framework.DropDownList.CorrectMessage">
+            <summary>
+            设置验证通过提示信息
+            </summary>
+        </member>
+        <member name="P:Whir.Framework.DropDownList.ValidationGroup">
+            <summary>
+            设置此验证控件所属的验证组的名称
+            </summary>
+        </member>
+        <member name="P:Whir.Framework.DropDownList.OnFocusCss">
+            <summary>
+            设置文本框获取焦点时的样式
+            </summary>
+        </member>
+        <member name="P:Whir.Framework.DropDownList.OnErrorCss">
+            <summary>
+            设置文本框错误时的样式
+            </summary>
+        </member>
+        <member name="M:Whir.Framework.DropDownList.OnPreRender(System.EventArgs)">
+            <summary>
+            重写事件，在客户端上呈现之前注册资源
+            </summary>
+        </member>
+        <member name="M:Whir.Framework.DropDownList.Render(System.Web.UI.HtmlTextWriter)">
+            <summary>
+            将此控件呈现给指定的输出参数。
+            </summary>
+            <param name="output"> 要写出到的 HTML 编写器 </param>
+        </member>
+        <member name="M:Whir.Framework.DropDownList.CreateControlCollection">
+            <summary>
+            重写 CreateControlCollection 方法，允许 DropDownList 包含子控件
+            </summary>
+        </member>
+        <member name="M:Whir.Framework.DropDownList.RegisterScript">
+            <summary>
+            注册脚本
+            </summary>
+        </member>
+        <member name="T:Whir.Framework.IWhirControl">
+            <summary>
+            万户自定义扩展控件接口
+            </summary>
+        </member>
+        <member name="P:Whir.Framework.IWhirControl.Text">
+            <summary>
+            获取或设置控件的值
+            </summary>
+        </member>
+        <member name="T:Whir.Framework.RadioButtonList">
+            <summary>
+            [控件类]自定义单选按钮,支持自动验证功能
+            </summary>
+        </member>
+        <member name="F:Whir.Framework.RadioButtonList.customValidator">
+            <summary>
+            控件内部的自定义验证控件
+            </summary>
+        </member>
+        <member name="P:Whir.Framework.RadioButtonList.Required">
+            <summary>
+            设置控件是否为必选项
+            </summary>
+        </member>
+        <member name="P:Whir.Framework.RadioButtonList.RequiredErrorMessage">
+            <summary>
+            设置必选项的错误提示信息
+            </summary>
+        </member>
+        <member name="P:Whir.Framework.RadioButtonList.TipCtl">
+            <summary>
+            设置提示信息显示区域，可以为空
+            </summary>
+        </member>
+        <member name="P:Whir.Framework.RadioButtonList.TipCss">
+            <summary>
+            设置提示的样式
+            </summary>
+        </member>
+        <member name="P:Whir.Framework.RadioButtonList.TipMessage">
+            <summary>
+            设置提示信息
+            </summary>
+        </member>
+        <member name="P:Whir.Framework.RadioButtonList.ErrorCss">
+            <summary>
+            设置错误提示的样式
+            </summary>
+        </member>
+        <member name="P:Whir.Framework.RadioButtonList.CorrectCss">
+            <summary>
+            设置通过提示的样式
+            </summary>
+        </member>
+        <member name="P:Whir.Framework.RadioButtonList.CorrectMessage">
+            <summary>
+            设置验证通过提示信息
+            </summary>
+        </member>
+        <member name="P:Whir.Framework.RadioButtonList.ValidationGroup">
+            <summary>
+            设置此验证控件所属的验证组的名称
+            </summary>
+        </member>
+        <member name="M:Whir.Framework.RadioButtonList.EnsureChildControls">
+            <summary>
+            重写 确定服务器控件是否包含子控件方法，如果不包含，则创建子控件。
+            </summary>
+        </member>
+        <member name="M:Whir.Framework.RadioButtonList.OnPreRender(System.EventArgs)">
+            <summary>
+            重写事件，在客户端上呈现之前注册资源
+            </summary>
+        </member>
+        <member name="M:Whir.Framework.RadioButtonList.Render(System.Web.UI.HtmlTextWriter)">
+            <summary>
+            将此控件呈现给指定的输出参数。
+            </summary>
+            <param name="output"> 要写出到的 HTML 编写器 </param>
+        </member>
+        <member name="M:Whir.Framework.RadioButtonList.RegisterScript">
+            <summary>
+            注册脚本
+            </summary>
+        </member>
+        <member name="T:Whir.Framework.StyleBox">
+            <summary>
+            [控件类]自定义文本框控件,支持字体颜色选择
+            </summary>
+        </member>
+        <member name="M:Whir.Framework.StyleBox.#ctor">
+            <summary>
+            增强型文本框服务器控件,支持字体颜色选择
+            </summary>
+        </member>
+        <member name="T:Whir.Framework.StyleBox.RegularEnum">
+            <summary>
+            验证模式枚举
+            </summary>
+        </member>
+        <member name="F:Whir.Framework.StyleBox.RegularEnum.Never">
+            <summary>
+            不验证证，默认值
+            </summary>
+        </member>
+        <member name="F:Whir.Framework.StyleBox.RegularEnum.Intege">
+            <summary>
+            整数，包括正、负整数
+            </summary>
+        </member>
+        <member name="F:Whir.Framework.StyleBox.RegularEnum.Number">
+            <summary>
+            数字，包括小数点
+            </summary>
+        </member>
+        <member name="F:Whir.Framework.StyleBox.RegularEnum.Email">
+            <summary>
+            电子邮箱格式
+            </summary>
+        </member>
+        <member name="F:Whir.Framework.StyleBox.RegularEnum.Url">
+            <summary>
+            Url地址，公支持域名，不支持本地路径
+            </summary>
+        </member>
+        <member name="F:Whir.Framework.StyleBox.RegularEnum.Zipcode">
+            <summary>
+            邮政编码(6位整数)
+            </summary>
+        </member>
+        <member name="F:Whir.Framework.StyleBox.RegularEnum.Ipv4">
+            <summary>
+            IP地址
+            </summary>
+        </member>
+        <member name="F:Whir.Framework.StyleBox.RegularEnum.Phone">
+            <summary>
+            电话号码的函数(包括验证国内区号，分机号，每个区间使用“-”分隔)
+            </summary>
+        </member>
+        <member name="F:Whir.Framework.StyleBox.RegularEnum.IdCard">
+            <summary>
+            中国身份证，支持15位与18位
+            </summary>
+        </member>
+        <member name="F:Whir.Framework.StyleBox.RegularEnum.UserName">
+            <summary>
+            用来用户注册。匹配由数字、26个英文字母或者下划线组成的字符串
+            </summary>
+        </member>
+        <member name="F:Whir.Framework.StyleBox.RegularEnum.Custom">
+            <summary>
+            自定证正则表达式
+            </summary>
+        </member>
+        <member name="F:Whir.Framework.StyleBox.bolder">
+            <summary>
+            控件内部的加粗控件
+            </summary>
+        </member>
+        <member name="F:Whir.Framework.StyleBox.colorPicker">
+            <summary>
+            控件内部的取色器
+            </summary>
+        </member>
+        <member name="F:Whir.Framework.StyleBox.customValidator">
+            <summary>
+            控件内部的自定义验证控件
+            </summary>
+        </member>
+        <member name="F:Whir.Framework.StyleBox.hidBolder">
+            <summary>
+            加粗控件的值
+            </summary>
+        </member>
+        <member name="F:Whir.Framework.StyleBox.hidColorPicker">
+            <summary>
+            取色器的值
+            </summary>
+        </member>
+        <member name="F:Whir.Framework.StyleBox.lengthCalc">
+            <summary>
+            自动计算长度
+            </summary>
+        </member>
+        <member name="F:Whir.Framework.StyleBox.regex">
+            <summary>
+            验证的正则表达式
+            </summary>
+        </member>
+        <member name="P:Whir.Framework.StyleBox.UseColorPicker">
+            <summary>
+            是否启用取色器
+            </summary>
+        </member>
+        <member name="P:Whir.Framework.StyleBox.ColorPickerCss">
+            <summary>
+            取色器样式
+            </summary>
+        </member>
+        <member name="P:Whir.Framework.StyleBox.ImagePath">
+            <summary>
+            取色器底图存放路径
+            </summary>
+        </member>
+        <member name="P:Whir.Framework.StyleBox.UseBolder">
+            <summary>
+            是否启用加粗控件
+            </summary>
+        </member>
+        <member name="P:Whir.Framework.StyleBox.BolderCss">
+            <summary>
+            加粗控件的样式
+            </summary>
+        </member>
+        <member name="P:Whir.Framework.StyleBox.UseLengthCalc">
+            <summary>
+            是否启用加粗控件
+            </summary>
+        </member>
+        <member name="P:Whir.Framework.StyleBox.Required">
+            <summary>
+            是否允许空值
+            </summary>
+        </member>
+        <member name="P:Whir.Framework.StyleBox.InitialValue">
+            <summary>
+            文本框必填项的初始值
+            </summary>
+        </member>
+        <member name="P:Whir.Framework.StyleBox.RequiredErrorMessage">
+            <summary>
+            设置必填项的错误提示信息
+            </summary>
+        </member>
+        <member name="P:Whir.Framework.StyleBox.TipCtl">
+            <summary>
+            设置提示信息显示区域
+            </summary>
+        </member>
+        <member name="P:Whir.Framework.StyleBox.TipCss">
+            <summary>
+            设置提示的样式
+            </summary>
+        </member>
+        <member name="P:Whir.Framework.StyleBox.TipMessage">
+            <summary>
+            设置提示信息
+            </summary>
+        </member>
+        <member name="P:Whir.Framework.StyleBox.ErrorCss">
+            <summary>
+            设置错误提示的样式
+            </summary>
+        </member>
+        <member name="P:Whir.Framework.StyleBox.ErrorMessage">
+            <summary>
+            设置其它验证错误提示信息
+            </summary>
+        </member>
+        <member name="P:Whir.Framework.StyleBox.CorrectCss">
+            <summary>
+            设置通过提示的样式
+            </summary>
+        </member>
+        <member name="P:Whir.Framework.StyleBox.CorrectMessage">
+            <summary>
+            设置验证通过提示信息
+            </summary>
+        </member>
+        <member name="P:Whir.Framework.StyleBox.ValidationGroup">
+            <summary>
+            设置此验证控件所属的验证组的名称
+            </summary>
+        </member>
+        <member name="P:Whir.Framework.StyleBox.ValidationExpression">
+            <summary>
+            当验证模式为 Custom 时生效，表示为自定义验证模式的正则表达式
+            </summary>
+        </member>
+        <member name="P:Whir.Framework.StyleBox.Regular">
+            <summary>
+            验证模式，详细请查看 RegularEnum 说明
+            </summary>
+        </member>
+        <member name="P:Whir.Framework.StyleBox.OnFocusCss">
+            <summary>
+            设置文本框获取焦点时的样式
+            </summary>
+        </member>
+        <member name="P:Whir.Framework.StyleBox.OnErrorCss">
+            <summary>
+            设置文本框错误时的样式
+            </summary>
+        </member>
+        <member name="P:Whir.Framework.StyleBox.MinLength">
+            <summary>
+            设置文本框的最少长度，一个中文占2位
+            </summary>
+        </member>
+        <member name="P:Whir.Framework.StyleBox.MinLengthMessage">
+            <summary>
+            设置文本框最少长度错误信息，该设置只有设置了 MinLength 大于“0”时才生效
+            </summary>
+        </member>
+        <member name="P:Whir.Framework.StyleBox.MaxLength">
+            <summary>
+            设置文本框的最大长度，一个中文占2位
+            </summary>
+        </member>
+        <member name="P:Whir.Framework.StyleBox.MaxLengthMessage">
+            <summary>
+            设置文本框最大长度错误信息，该设置只有设置了 MaxLength 大于“0”时才生效
+            </summary>
+        </member>
+        <member name="P:Whir.Framework.StyleBox.CompareTo">
+            <summary>
+            设置需要比较的控件
+            </summary>
+        </member>
+        <member name="P:Whir.Framework.StyleBox.CustomValidatorControl">
+            <summary>
+            获取验证控件的客户端ID
+            </summary>
+        </member>
+        <member name="P:Whir.Framework.StyleBox.ColorValue">
+            <summary>
+            颜色
+            </summary>
+        </member>
+        <member name="P:Whir.Framework.StyleBox.IsBold">
+            <summary>
+            加粗
+            </summary>
+        </member>
+        <member name="P:Whir.Framework.StyleBox.CustomValidatorScript">
+            <summary>
+            自定义验证通过或不通过的脚本，验证不通过的话，要以“ args.IsValid = false; return args.IsValid; ”这一段JS代码结尾
+            </summary>
+        </member>
+        <member name="M:Whir.Framework.StyleBox.EnsureChildControls">
+            <summary>
+            重写 确定服务器控件是否包含子控件方法，如果不包含，则创建子控件。
+            </summary>
+        </member>
+        <member name="M:Whir.Framework.StyleBox.OnPreRender(System.EventArgs)">
+            <summary>
+            重写事件，在客户端上呈现之前注册资源
+            </summary>
+        </member>
+        <member name="M:Whir.Framework.StyleBox.Render(System.Web.UI.HtmlTextWriter)">
+            <summary>
+            将此控件呈现给指定的输出参数。
+            </summary>
+            <param name="output"> 要写出到的 HTML 编写器 </param>
+        </member>
+        <member name="M:Whir.Framework.StyleBox.RegisterScript">
+            <summary>
+            向脚本注册验证脚本
+            </summary>
+        </member>
+        <member name="M:Whir.Framework.StyleBox.GetValidRegex">
+            <summary>
+            通过枚举获取不同的正则表达式
+            </summary>
+        </member>
+        <member name="M:Whir.Framework.StyleBox.GetColorValue">
+            <summary>
+            获取颜色值
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Whir.Framework.StyleBox.GetBold">
+            <summary>
+            获取是否加粗
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Whir.Framework.TextBox">
+            <summary>
+            [控件类]增强型文本框服务器控件,支持自动验证功能
+            </summary>
+        </member>
+        <member name="T:Whir.Framework.TextBox.RegularEnum">
+            <summary>
+            验证模式枚举
+            </summary>
+        </member>
+        <member name="F:Whir.Framework.TextBox.RegularEnum.Never">
+            <summary>
+            不验证证，默认值
+            </summary>
+        </member>
+        <member name="F:Whir.Framework.TextBox.RegularEnum.Intege">
+            <summary>
+            整数，包括正、负整数
+            </summary>
+        </member>
+        <member name="F:Whir.Framework.TextBox.RegularEnum.Number">
+            <summary>
+            数字，包括小数点
+            </summary>
+        </member>
+        <member name="F:Whir.Framework.TextBox.RegularEnum.UnsignedNumber">
+            <summary>
+            无符号数字，包括小数
+            </summary>
+        </member>
+        <member name="F:Whir.Framework.TextBox.RegularEnum.Email">
+            <summary>
+            电子邮箱格式
+            </summary>
+        </member>
+        <member name="F:Whir.Framework.TextBox.RegularEnum.Url">
+            <summary>
+            Url地址，公支持域名，不支持本地路径
+            </summary>
+        </member>
+        <member name="F:Whir.Framework.TextBox.RegularEnum.Zipcode">
+            <summary>
+            邮政编码(6位整数)
+            </summary>
+        </member>
+        <member name="F:Whir.Framework.TextBox.RegularEnum.Ipv4">
+            <summary>
+            IP地址
+            </summary>
+        </member>
+        <member name="F:Whir.Framework.TextBox.RegularEnum.Phone">
+            <summary>
+            电话号码的函数(包括验证国内区号，分机号，每个区间使用“-”分隔)
+            </summary>
+        </member>
+        <member name="F:Whir.Framework.TextBox.RegularEnum.Mobile">
+            <summary>
+            手机号码
+            </summary>
+        </member>
+        <member name="F:Whir.Framework.TextBox.RegularEnum.PhoneOrMobile">
+            <summary>
+            固话或手机号码
+            </summary>
+        </member>
+        <member name="F:Whir.Framework.TextBox.RegularEnum.IdCard">
+            <summary>
+            中国身份证，支持15位与18位
+            </summary>
+        </member>
+        <member name="F:Whir.Framework.TextBox.RegularEnum.UserName">
+            <summary>
+            用来用户注册。匹配由数字、26个英文字母或者下划线组成的字符串
+            </summary>
+        </member>
+        <member name="F:Whir.Framework.TextBox.RegularEnum.Money">
+            <summary>
+            金额/金钱,必须不小于0
+            </summary>
+        </member>
+        <member name="F:Whir.Framework.TextBox.RegularEnum.Custom">
+            <summary>
+            自定证正则表达式
+            </summary>
+        </member>
+        <member name="F:Whir.Framework.TextBox.customValidator">
+            <summary>
+            控件内部的自定义验证控件
+            </summary>
+        </member>
+        <member name="F:Whir.Framework.TextBox.regex">
+            <summary>
+            验证的正则表达式
+            </summary>
+        </member>
+        <member name="P:Whir.Framework.TextBox.Required">
+            <summary>
+            是否允许空值
+            </summary>
+        </member>
+        <member name="P:Whir.Framework.TextBox.InitialValue">
+            <summary>
+            文本框必填项的初始值
+            </summary>
+        </member>
+        <member name="P:Whir.Framework.TextBox.RequiredErrorMessage">
+            <summary>
+            设置必填项的错误提示信息
+            </summary>
+        </member>
+        <member name="P:Whir.Framework.TextBox.TipCtl">
+            <summary>
+            设置提示信息显示区域
+            </summary>
+        </member>
+        <member name="P:Whir.Framework.TextBox.TipCss">
+            <summary>
+            设置提示的样式
+            </summary>
+        </member>
+        <member name="P:Whir.Framework.TextBox.TipMessage">
+            <summary>
+            设置提示信息
+            </summary>
+        </member>
+        <member name="P:Whir.Framework.TextBox.ErrorCss">
+            <summary>
+            设置错误提示的样式
+            </summary>
+        </member>
+        <member name="P:Whir.Framework.TextBox.ErrorMessage">
+            <summary>
+            设置其它验证错误提示信息
+            </summary>
+        </member>
+        <member name="P:Whir.Framework.TextBox.CorrectCss">
+            <summary>
+            设置通过提示的样式
+            </summary>
+        </member>
+        <member name="P:Whir.Framework.TextBox.CorrectMessage">
+            <summary>
+            设置验证通过提示信息
+            </summary>
+        </member>
+        <member name="P:Whir.Framework.TextBox.ValidationGroup">
+            <summary>
+            设置此验证控件所属的验证组的名称
+            </summary>
+        </member>
+        <member name="P:Whir.Framework.TextBox.ValidationExpression">
+            <summary>
+            当验证模式为 Custom 时生效，表示为自定义验证模式的正则表达式
+            </summary>
+        </member>
+        <member name="P:Whir.Framework.TextBox.Regular">
+            <summary>
+            验证模式，详细请查看 RegularEnum 说明
+            </summary>
+        </member>
+        <member name="P:Whir.Framework.TextBox.OnFocusCss">
+            <summary>
+            设置文本框获取焦点时的样式
+            </summary>
+        </member>
+        <member name="P:Whir.Framework.TextBox.OnErrorCss">
+            <summary>
+            设置文本框错误时的样式
+            </summary>
+        </member>
+        <member name="P:Whir.Framework.TextBox.MinLength">
+            <summary>
+            设置文本框的最少长度，一个中文占2位
+            </summary>
+        </member>
+        <member name="P:Whir.Framework.TextBox.MinLengthMessage">
+            <summary>
+            设置文本框最少长度错误信息，该设置只有设置了 MinLength 大于“0”时才生效
+            </summary>
+        </member>
+        <member name="P:Whir.Framework.TextBox.MaxLength">
+            <summary>
+            设置文本框的最大长度，一个中文占2位
+            </summary>
+        </member>
+        <member name="P:Whir.Framework.TextBox.MaxLengthMessage">
+            <summary>
+            设置文本框最大长度错误信息，该设置只有设置了 MaxLength 大于“0”时才生效
+            </summary>
+        </member>
+        <member name="P:Whir.Framework.TextBox.CompareTo">
+            <summary>
+            设置需要比较的控件
+            </summary>
+        </member>
+        <member name="P:Whir.Framework.TextBox.CustomValidatorControl">
+            <summary>
+            获取验证控件的客户端ID
+            </summary>
+        </member>
+        <member name="M:Whir.Framework.TextBox.EnsureChildControls">
+            <summary>
+            重写 确定服务器控件是否包含子控件方法，如果不包含，则创建子控件。
+            </summary>
+        </member>
+        <member name="M:Whir.Framework.TextBox.OnPreRender(System.EventArgs)">
+            <summary>
+            重写事件，在客户端上呈现之前注册资源
+            </summary>
+        </member>
+        <member name="M:Whir.Framework.TextBox.Render(System.Web.UI.HtmlTextWriter)">
+            <summary>
+            将此控件呈现给指定的输出参数。
+            </summary>
+            <param name="output"> 要写出到的 HTML 编写器 </param>
+        </member>
+        <member name="M:Whir.Framework.TextBox.RegisterScript">
+            <summary>
+            向脚本注册验证脚本
+            </summary>
+        </member>
+        <member name="M:Whir.Framework.TextBox.GetValidRegex">
+            <summary>
+            通过枚举获取不同的正则表达式
+            </summary>
+        </member>
+        <member name="T:Whir.Framework.BitmapProvide">
+            <summary>
+            [辅助类]验证码生成辅助类
+            </summary>
+        </member>
+        <member name="M:Whir.Framework.BitmapProvide.GetBitmap(System.String)">
+            <summary>
+            生成验证码
+            </summary>
+            <param name="checkCode">验证码数字</param>
+            <returns>验证码图片</returns>
+        </member>
+        <member name="T:Whir.Framework.ValidataCode">
+            <summary>
+            [控件类]验证码控件
+            </summary>
+        </member>
+        <member name="T:Whir.Framework.ValidataCode.CodeModeEnum">
+            <summary>
+            验证码生成的模式
+            </summary>
+        </member>
+        <member name="F:Whir.Framework.ValidataCode.CodeModeEnum.Number">
+            <summary>
+            数字
+            </summary>
+        </member>
+        <member name="F:Whir.Framework.ValidataCode.CodeModeEnum.Letter">
+            <summary>
+            字母
+            </summary>
+        </member>
+        <member name="F:Whir.Framework.ValidataCode.CodeModeEnum.String">
+            <summary>
+            数字字母混合
+            </summary>
+        </member>
+        <member name="F:Whir.Framework.ValidataCode.textID">
+            <summary>
+            验证码中环境变量
+            </summary>
+        </member>
+        <member name="P:Whir.Framework.ValidataCode.Text">
+            <summary>
+            验证码
+            </summary>
+        </member>
+        <member name="P:Whir.Framework.ValidataCode.Length">
+            <summary>
+            验证码的长度
+            </summary>
+        </member>
+        <member name="P:Whir.Framework.ValidataCode.CodeMode">
+            <summary>
+            验证码的模式，具体参考 CodeModeEnum 枚举详细
+            </summary>
+        </member>
+        <member name="M:Whir.Framework.ValidataCode.OnPreRender(System.EventArgs)">
+            <summary>
+            输出内容前注册客户端脚本
+            </summary>
+            <param name="e"></param>
+        </member>
+        <member name="M:Whir.Framework.ValidataCode.Render(System.Web.UI.HtmlTextWriter)">
+            <summary>
+            输出中间主体
+            </summary>
+        </member>
+        <member name="M:Whir.Framework.ValidataCode.ClearSession">
+            <summary>
+            清除在验证码中用到的Session
+            </summary>
+        </member>
+        <member name="M:Whir.Framework.ValidataCode.Validata(System.String)">
+            <summary>
+            比较输入的验证码是否与生成的验证码一致，忽略字符串大小写
+            </summary>
+            <param name="inputCode">页面输入的验证码</param>
+        </member>
+        <member name="M:Whir.Framework.ValidataCode.GetBitmap(System.String)">
+            <summary>
+            获取验证码图像，如需要改变验证码图重写该方法即可
+            </summary>
+            <param name="codeText">要显示于图像上的文字</param>
+            <returns></returns>
+        </member>
+        <member name="M:Whir.Framework.ValidataCode.GetCodeString">
+            <summary>
+            获取随机验证码字符
+            </summary>
+        </member>
+        <member name="T:Whir.Framework.BoolExt">
+            <summary>
+            [扩展类]布尔类型对象的扩展类
+            </summary>
+        </member>
+        <member name="M:Whir.Framework.BoolExt.ToInt(System.Boolean)">
+            <summary>
+            将此实例的布尔值转换为它的有效数字表现形式，True的转换形式为“1”，False为“0”
+            </summary>
+            <param name="bol">需要转换的布尔值</param>
+            <returns></returns>
+        </member>
+        <member name="M:Whir.Framework.BoolExt.ToString(System.Boolean)">
+            <summary>
+            将此实例的布尔值转换为它的有效字符串表现形式，True的转换形式为“Y”，False为“N”
+            </summary>
+            <param name="bol"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Whir.Framework.DataTableExt">
+            <summary>
+            [扩展类]DataTable扩展类
+            </summary>
+        </member>
+        <member name="M:Whir.Framework.DataTableExt.ToJson(System.Data.DataTable)">
+            <summary>
+            DataTable转Json文本
+            </summary>
+            <param name="dataTable"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Whir.Framework.DataTableExt.ToXml(System.Data.DataTable)">
+            <summary>
+            DataTable转Xml字符串
+            </summary>
+            <param name="dataTable"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Whir.Framework.DataTableExt.ToBootsTrapTableFilterJson(System.Data.DataTable,System.String,System.String)">
+            <summary>
+            DataTable转BootsTrapTableFilter Json字符串
+            </summary>
+            <param name="dataTable"></param>
+            <param name="id">主键列名称</param>
+            <param name="name">键值列名称</param>
+            <returns></returns>
+        </member>
+        <member name="T:Whir.Framework.DateTimeExt">
+            <summary>
+            [扩展类]日期时间扩展类
+            </summary>
+        </member>
+        <member name="P:Whir.Framework.DateTimeExt.MinDateTime">
+            <summary>
+            获取MS SQL数据支持的最少日期
+            </summary>
+        </member>
+        <member name="M:Whir.Framework.DateTimeExt.Format(System.DateTime)">
+            <summary>
+            格式化日期(24小时制)，返回格式如：2012-03-02
+            </summary>
+            <param name="dt">需要格式的日期</param>
+            <returns>格式化后的日期</returns>
+        </member>
+        <member name="M:Whir.Framework.DateTimeExt.FormatL(System.DateTime)">
+            <summary>
+            格式化日期(24小时制)，返回格式如：2012-03-02 09:10:11
+            </summary>
+            <param name="dt">需要格式的日期</param>
+            <returns>格式化后的日期</returns>
+        </member>
+        <member name="M:Whir.Framework.DateTimeExt.FormatD(System.DateTime)">
+            <summary>
+            格式化日期(24小时制)，返回格式如：2012年03月02日
+            </summary>
+            <param name="dt">需要格式的日期</param>
+            <returns>格式化后的日期</returns>
+        </member>
+        <member name="M:Whir.Framework.DateTimeExt.FormatLD(System.DateTime)">
+            <summary>
+            格式化日期(24小时制)，返回格式如：2012年03月02日 09时10分11秒
+            </summary>
+            <param name="dt">需要格式的日期</param>
+            <returns>格式化后的日期</returns>
+        </member>
+        <member name="M:Whir.Framework.DateTimeExt.IsNullValue(System.DateTime)">
+            <summary>
+            判断时间是否是为空时候的默认值
+            </summary>
+            <param name="dt"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Whir.Framework.DateTimeExt.IsNullValue(System.Nullable{System.DateTime})">
+            <summary>
+            判断时间是否是为空时候的默认值
+            </summary>
+            <param name="dt"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Whir.Framework.DateTimeExt.Value(System.Nullable{System.DateTime},System.DateTime)">
+            <summary>
+            获取时间值，为空时则返回默认值
+            </summary>
+            <param name="dt"></param>
+            <param name="defaultValue"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Whir.Framework.DecimalExt">
+            <summary>
+            [扩展类]十进制数字对象扩展类
+            </summary>
+        </member>
+        <member name="M:Whir.Framework.DecimalExt.ToCmycurD(System.Decimal)">
+            <summary>
+            把数字转换为大写形式(只能精确到小数点后两位数，即到分)
+            </summary>
+            <param name="num">数字</param>
+            <returns>返回转换后的大写形式</returns>
+        </member>
+        <member name="M:Whir.Framework.DecimalExt.Format(System.Decimal)">
+            <summary>
+            四舍五入格式化货币，默认保留小数点后两位小数，如为整数保留.00的格式
+            格式前: 163.2545 格式结果: 163.25
+            </summary>
+            <param name="dDecimal">需要转换的货币数字</param>
+        </member>
+        <member name="M:Whir.Framework.DecimalExt.Format(System.Decimal,System.Int32)">
+            <summary>
+            四舍五入格式化货币，如为整数也保留格式
+            格式前: 163.2545 格式结果: 163.25
+            </summary>
+            <example>
+            <para>decimal d = 163.2545m;</para>
+            <para>Console.WriteLine(d.Format(3));</para>
+            <para>显示结果为: 163.255</para>
+            </example>
+            <param name="dDecimal">需要转换的货币数字</param>
+            <param name="decimals">需要保留的小数位，如需保留3位填写: 3</param>
+        </member>
+        <member name="M:Whir.Framework.DecimalExt.FormatN(System.Decimal)">
+            <summary>
+            利用科学记数法格式化货币，返回格式： 100,000.00
+            格式前: 123456.78 格式结果: 1,234,56.78
+            </summary>
+            <param name="dDecimal">需要转换的货币数字</param>
+        </member>
+        <member name="M:Whir.Framework.DecimalExt.FormatN(System.Decimal,System.Int32)">
+            <summary>
+            四舍五入格式化货币,然后自定义保留小数位数，最后利用科学记数法显示
+            格式前: 123456.78 格式结果: 1,234,56.78
+            </summary>
+            <param name="dDecimal">需要转换的货币数字</param>
+            <param name="decimals">需要保留的小数位，如需保留3位填写: 3</param>
+        </member>
+        <member name="M:Whir.Framework.DecimalExt.FormatC(System.Decimal)">
+            <summary>
+            将指定的货币数字格式化，默认为四舍五入保留2位小数
+            格式前: 163.25 格式结果: ￥163.25
+            </summary>
+            <param name="dDecimal">需要转换的货币数字</param>
+            <returns>返回转换后的货币数字字符串</returns>
+        </member>
+        <member name="M:Whir.Framework.DecimalExt.FormatC(System.Decimal,System.Int32)">
+            <summary>
+            将指定的货币数字格式化，默认为四舍五入
+            格式前: 163.25 格式结果: ￥163.25
+            </summary>
+            <param name="dDecimal">需要转换的货币数字</param>
+            /// <param name="decimals">需要保留的小数位，如需保留3位填写: 3</param>
+            <returns>返回转换后的货币数字字符串</returns>
+        </member>
+        <member name="M:Whir.Framework.DecimalExt.FormatP(System.Decimal)">
+            <summary>
+            将指定的货币数字格式化为百分比，默认为四舍五入保留2位小数
+            格式前: 0.16325 格式结果: 16.325%
+            </summary>
+            <param name="dDecimal">需要转换的货币数字</param>
+            <returns>返回转换后的货币数字字符串</returns>
+        </member>
+        <member name="M:Whir.Framework.DecimalExt.FormatP(System.Decimal,System.Int32)">
+            <summary>
+            将指定的货币数字格式化为百分比，默认为四舍五入保留2位小数
+            格式前: 0.16325 格式结果: 16.325%
+            </summary>
+            <param name="dDecimal">需要转换的货币数字</param>
+            <param name="decimals">需要保留的小数位，如需保留3位填写: 3</param>
+            <returns>返回转换后的货币数字字符串</returns>
+        </member>
+        <member name="T:Whir.Framework.IntExt">
+            <summary>
+            [扩展类]数字扩展类
+            </summary>
+        </member>
+        <member name="M:Whir.Framework.IntExt.ToDecimal(System.Int32)">
+            <summary>
+            将此实例的整数转换为它的有效十进制数表现形式
+            </summary>
+            <param name="i">需要转换的整数</param>
+            <returns></returns>
+        </member>
+        <member name="M:Whir.Framework.IntExt.ToDouble(System.Int32)">
+            <summary>
+            将此实例的整数转换为它的有效双精度浮点数表现形式
+            </summary>
+            <param name="i">需要转换的整数</param>
+            <returns></returns>
+        </member>
+        <member name="M:Whir.Framework.IntExt.ToBoolean(System.Int32)">
+            <summary>
+            将此实例的整数转换为它的有效布尔值表现形式， 1为True，否则为False
+            该方法与 bool.ToInt()方法互相转换
+            </summary>
+            <param name="i">需要转换的整数</param>
+            <returns></returns>
+        </member>
+        <member name="T:Whir.Framework.LongExt">
+            <summary>
+            [扩展类]长整形数字扩展类
+            </summary>
+        </member>
+        <member name="M:Whir.Framework.LongExt.ToIP(System.Int64)">
+            <summary>
+            把数字转换为IP地址形式的字符串
+            </summary>
+            <param name="l">数字形式的IP地址</param>
+        </member>
+        <member name="T:Whir.Framework.ObjExt">
+            <summary>
+            [扩展类]对象级别扩展类
+            </summary>
+        </member>
+        <member name="M:Whir.Framework.ObjExt.ToStr(System.Object)">
+            <summary>
+            重写ToString()的方法，该方法首先判断object是否为空，如果对象为空则返回string.Empty，否则返回该对象的字符串表现形式
+            </summary>
+            <param name="obj">需要转换的对象</param>
+            <returns>字符串</returns>
+        </member>
+        <member name="M:Whir.Framework.ObjExt.ToInt(System.Object)">
+            <summary>
+            将此实例的字符串转换为它的有效数字表现形式，转换失败后默认返回0
+            </summary>
+            <param name="obj">需要转换的字符串</param>
+            <returns>整数</returns>
+        </member>
+        <member name="M:Whir.Framework.ObjExt.ToInt(System.Object,System.Int32)">
+            <summary>
+            将此实例的字符串转换为它的有效数字表现形式，转换失败后默认返回“0”
+            </summary>
+            <param name="obj">需要转换的字符串</param>
+            <param name="defaultVal">转换失败后的默认返回值</param>
+            <returns>整数</returns>
+        </member>
+        <member name="M:Whir.Framework.ObjExt.ToInt32(System.Object)">
+            <summary>
+            将此实例的字符串转换为它的有效数字表现形式，转换失败后默认返回“0”
+            </summary>
+            <param name="str">需要转换的字符串</param>
+            <returns>返回转换后的数字表现形式</returns>
+        </member>
+        <member name="M:Whir.Framework.ObjExt.ToInt32(System.Object,System.Int32)">
+            <summary>
+            将此实例的字符串转换为它的有效数字表现形式，转换失败后默认返回“0”
+            </summary>
+            <param name="str">需要转换的字符串</param>
+            <param name="defaultVal">转换失败后的默认返回值</param>
+            <returns>返回转换后的数字表现形式</returns>
+        </member>
+        <member name="M:Whir.Framework.ObjExt.ToInt64(System.Object)">
+            <summary>
+            将此实例的字符串转换为它的有效长整型表现形式，转换失败后默认返回“0”
+            </summary>
+            <param name="str">需要转换的对象</param>
+            <returns>长整型数字表现形式</returns>
+        </member>
+        <member name="M:Whir.Framework.ObjExt.ToDecimal(System.Object)">
+            <summary>
+            将此实例的字符串转换为它的有效十进制数表现形式
+            </summary>
+            <param name="str">需要转换的字符串</param>
+            <returns>返回转换后的数字表现形式</returns>
+        </member>
+        <member name="M:Whir.Framework.ObjExt.ToDecimal(System.Object,System.Decimal)">
+            <summary>
+            将此实例的字符串转换为它的有效十进制数表现形式
+            </summary>
+            <param name="str">需要转换的字符串</param>
+            <param name="defaultVal">转换失败后的默认返回值</param>
+            <returns>返回转换后的数字表现形式</returns>
+        </member>
+        <member name="M:Whir.Framework.ObjExt.ToDecimalFormat(System.Object)">
+            <summary>
+            四舍五入格式化货币，默认保留两位小数，格式不对将返回0.00
+            格式前: 163.2545 格式结果: 163.25
+            </summary>
+            <param name="dDecimal">需要转换的货币数字</param> 
+            <returns>返回转换后的数字表现形式</returns>
+        </member>
+        <member name="M:Whir.Framework.ObjExt.ToDecimalFormat(System.String,System.Int32)">
+            <summary>
+            四舍五入格式化货币，指定小数位数，格式不对将返回0.小数点位数
+            格式前: 163.2545 格式结果: 163.25
+            </summary>
+            <param name="dDecimal">需要转换的货币数字</param>
+            <param name="decimals">小数位置</param>
+            <returns>返回转换后的数字表现形式</returns>
+        </member>
+        <member name="M:Whir.Framework.ObjExt.ToLong(System.Object)">
+            <summary>
+            将此实例的字符串转换为它的有效数字表现形式
+            </summary>
+            <param name="str">需要转换的字符串</param>
+            <returns>返回转换后的数字表现形式</returns>
+        </member>
+        <member name="M:Whir.Framework.ObjExt.ToLong(System.Object,System.Int64)">
+            <summary>
+            将此实例的字符串转换为它的有效数字表现形式
+            </summary>
+            <param name="str">需要转换的字符串</param>
+            <param name="defaultVal">转换失败后的默认返回值</param>
+            <returns>返回转换后的数字表现形式</returns>
+        </member>
+        <member name="M:Whir.Framework.ObjExt.ToDateTime(System.Object)">
+            <summary>
+            将此实例的字符串转换为它的有效日期时间表现形式
+            </summary>
+            <param name="str">需要转换的字符串</param>
+            <returns>返回转换后的数字表现形式</returns>
+        </member>
+        <member name="M:Whir.Framework.ObjExt.ToDateTime(System.Object,System.DateTime)">
+            <summary>
+            将此实例的字符串转换为它的有效日期时间表现形式
+            </summary>
+            <param name="str">需要转换的字符串</param>
+            <param name="defaultVal">转换失败后的默认返回值</param>
+            <returns>返回转换后的数字表现形式</returns>
+        </member>
+        <member name="M:Whir.Framework.ObjExt.ToDateTimeFormat(System.String)">
+            <summary>
+             将此实例的字符串转换为它的有效日期时间格式 尤其是 hh:ii:ss
+            </summary>
+            <param name="dateFormat">时间格式字符串</param>
+            <returns></returns>
+        </member>
+        <member name="M:Whir.Framework.ObjExt.ToDateTimeShow(System.String)">
+            <summary>
+             将此实例的字符串转换为前台框架显示的时间格式 yyyy-mm-dd hh:ii:ss
+            </summary>
+            <param name="dateFormat">时间格式字符串</param>
+            <returns></returns>
+        </member>
+        <member name="M:Whir.Framework.ObjExt.ToBoolean(System.Object)">
+            <summary>
+            将此实例的字符串转换为它的有效布尔值表现形式，默认中(不区分大小写) True，1，Y 都为True类型
+            </summary>
+            <param name="str">需要转换的字符串</param>
+            <returns>返回转换后的数字表现形式</returns>
+        </member>
+        <member name="M:Whir.Framework.ObjExt.ToBoolean(System.Object,System.Boolean)">
+            <summary>
+            将此实例的字符串转换为它的有效布尔值表现形式，默认中(不区分大小写) True，1，Y 都为True类型
+            </summary>
+            <param name="str">需要转换的字符串</param>
+            <param name="defaultVal">转换失败后的默认返回值</param>
+            <returns>返回转换后的数字表现形式</returns>
+        </member>
+        <member name="M:Whir.Framework.ObjExt.ToJson(System.Object)">
+            <summary>
+            将对象序列化为JSON字符串
+            </summary>
+            <param name="obj"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Whir.Framework.StrExt">
+            <summary>
+            [扩展类]字符串扩展类
+            </summary>
+        </member>
+        <member name="M:Whir.Framework.StrExt.ToSBC(System.String)">
+            <summary>
+            把任意字符的半角转换为全角的函数(SBC case)
+            <para>注: 该函数为扩展方法。</para>
+            </summary>
+            <param name="str">任意字符串</param>
+            <returns>全角字符串</returns>
+            <remarks>
+            全角空格为12288，半角空格为32
+            <para>其他字符半角(33-126)与全角(65281-65374)的对应关系是：均相差65248</para>
+            </remarks>
+            <example>
+            string s = "TDＴＤ";
+            Console.WriteLine(s.ToSBC());
+            输出内容:ＴＤＴＤ
+            </example>
+        </member>
+        <member name="M:Whir.Framework.StrExt.ToDBC(System.String)">
+             <summary>
+             把任意字符的全角转换为半角的函数(DBC case)
+             </summary>
+             <param name="str">任意字符串</param>
+             <returns>半角字符串</returns>
+            <remarks>
+            全角空格为12288，半角空格为32
+            其他字符半角(33-126)与全角(65281-65374)的对应关系是：均相差65248
+            </remarks>
+             <example>
+             string s = "TDＴＤ";
+             Console.WriteLine(s.ToSBC());
+             输出内容:TDTD
+             </example>
+        </member>
+        <member name="M:Whir.Framework.StrExt.ToColor(System.String)">
+            <summary>
+            把颜色值转为颜色对象
+            </summary>
+            <param name="color">颜色值</param>
+            <returns></returns>
+        </member>
+        <member name="M:Whir.Framework.StrExt.ToIP4(System.String)">
+            <summary>
+            把IP地址形式的字符串转换为长整形的数字，如字符串不符合则返回 0 值
+            </summary>
+            <param name="ip">IP地址形式的字符串</param>
+            <returns></returns>
+        </member>
+        <member name="M:Whir.Framework.StrExt.ToPinyin(System.String)">
+            <summary>
+            把中文字符串转换成拼音首字母字符串
+            </summary>
+            <param name="str"></param>
+            <returns></returns>
+        </member>
+        <!-- 对于成员“M:Whir.Framework.StrExt.GetPYChar(System.String)”忽略有格式错误的 XML 注释 -->
+        <member name="M:Whir.Framework.StrExt.ToGB(System.String)">
+            <summary>  
+            把Unicode解码为普通文字  
+            </summary>  
+            <param name="unicodeString">要解码的Unicode字符集</param>  
+            <returns>解码后的字符串</returns>  
+        </member>
+        <member name="M:Whir.Framework.StrExt.ToUnicode(System.String)">
+            <summary>  
+            把汉字字符转码为Unicode字符集  
+            </summary>  
+            <param name="strGB">要转码的字符</param>  
+            <returns>转码后的字符</returns>  
+        </member>
+        <member name="M:Whir.Framework.StrExt.ToInts(System.String,System.Char)">
+            <summary>
+            把用split把字符串拆分成整数数组
+            </summary>
+            <param name="ip">IP地址形式的字符串</param>
+            <returns></returns>
+        </member>
+        <member name="M:Whir.Framework.StrExt.ToEscapeJson(System.String)">
+            <summary>
+            把Json字符串转码，前台js使用unescape解码
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Whir.Framework.StrExt.ToMD5(System.String)">
+            <summary>
+            指定使用 MD5 哈希算法加密字符(默认32位)
+            </summary>
+            <param name="str">需要加密的字符串</param>
+            <returns>加密后的字符串(32位)</returns>
+        </member>
+        <member name="M:Whir.Framework.StrExt.ToSHA1(System.String)">
+            <summary>
+            指定使用 SHA1 哈希算法加密密码
+            </summary>
+            <param name="str">需要加密的字符串</param>
+            <returns>加密后的字符串</returns>
+        </member>
+        <member name="M:Whir.Framework.StrExt.GetSHA1Str(System.String)">
+              <summary>   
+              使用SHA1算法加密一个字符串    
+              </summary>   
+              <param name="str">要加密的字符串</param>
+              <returns>加密后的字符串</returns>
+        </member>
+        <member name="M:Whir.Framework.StrExt.EncodeBase64(System.String)">
+             <summary>
+            Base64加密
+             </summary>
+             <returns>返回string</returns>
+        </member>
+        <member name="M:Whir.Framework.StrExt.DecodeBase64(System.String)">
+             <summary>
+            Base64解密
+             </summary>
+             <returns>返回string</returns>
+        </member>
+        <member name="M:Whir.Framework.StrExt.EncodeBase64Reverse(System.String)">
+             <summary>
+            Base64反序加密
+             </summary>
+             <returns>返回string</returns>
+        </member>
+        <member name="M:Whir.Framework.StrExt.DecodeBase64Reverse(System.String)">
+             <summary>
+            Base64反序解密
+             </summary>
+             <returns>返回string</returns>
+        </member>
+        <member name="M:Whir.Framework.StrExt.Cut(System.String,System.Int32)">
+            <summary>
+            字符串截取函数，截取从左边开始指定的字节数，默认超出部分不显示
+            </summary>
+            <param name="text">需要截取的字符串</param>
+            <param name="cutLength">需要截取的长度，一个中文为2个字符，大小英文为1个字符</param>
+            <returns>处理后的字符串</returns>
+        </member>
+        <member name="M:Whir.Framework.StrExt.Cut(System.String,System.Int32,System.String)">
+            <summary>
+            字符串截取函数，截取从左边开始指定的字节数，默认超出部分不显示
+            </summary>
+            <param name="text">需要截取的字符串</param>
+            <param name="cutLength">需要截取的长度，一个中文为2个字符，大小英文为1个字符</param>
+            <param name="tailStr">超出部分显示的字符</param>
+            <returns>处理后的字符串</returns>
+        </member>
+        <member name="M:Whir.Framework.StrExt.Cut(System.String,System.Int32,System.Int32,System.String,System.Boolean)">
+            <summary>
+            字符串截取函数，截取从左边开始指定的字节数，默认超出部分不显示
+            </summary>
+            <param name="text">需要截取的字符串</param>
+            <param name="startIndex">截取的起始位置，从0开始</param>
+            <param name="cutLength">需要截取的长度，一个中文为2个字符，大小英文为1个字符</param>
+            <param name="tailStr">超出部分显示的字符</param>
+            <param name="isRemoveHtml">是否去掉html标签再截取</param>
+            <returns>处理后的字符串</returns>
+        </member>
+        <member name="M:Whir.Framework.StrExt.Length(System.String)">
+            <summary>
+            获取指定字符串的长度，一个中文字符为占2个位，特殊字符占1位
+            </summary>
+            <param name="str">需要操作的字符串</param>
+            <returns>返回指定定符串的长度位数</returns>
+        </member>
+        <member name="M:Whir.Framework.StrExt.Filter(System.String,System.String)">
+            <summary>
+            过滤字符串中的指定字符
+            </summary>
+            <param name="str">指定字符串</param>
+            <param name="filter">需要过滤的字符</param>
+            <returns>返回过滤后的字符串</returns>
+        </member>
+        <member name="M:Whir.Framework.StrExt.Filter(System.String,System.Int32,System.Int32,System.Char)">
+            <summary>
+            替换字符串中的指定字符，若替换字符的长度超过字符串，则返回原字符串
+            </summary>
+            <param name="str">指定字符串</param>
+            <param name="index">需要替换的字符开始位置，从0开始</param>
+            <param name="length">需要替换的字符的长度</param>
+            <param name="charVal">替换的字符</param>
+            <returns>返回替换后的字符串</returns>
+        </member>
+        <member name="M:Whir.Framework.StrExt.RemoveHtml(System.String)">
+            <summary>
+            过滤所有HTML代码
+            </summary>
+            <param name="text">需要过滤的字符文本</param>
+            <returns>返回过滤后的字符文本</returns>
+        </member>
+        <member name="M:Whir.Framework.StrExt.GetCharCount(System.String,System.String)">
+            <summary>
+            获取指定字符在指定字符串中出现的次数
+            </summary>
+            <param name="str">指定字符串(字符串区分大小写)</param>
+            <param name="c">指定字符</param>
+        </member>
+        <member name="M:Whir.Framework.StrExt.SplitStr(System.String,System.String)">
+            <summary>
+            根据字符串分割字符串
+            </summary>
+            <param name="strContent">需要分割的字符串</param>
+            <param name="strSplit">分割符</param>
+        </member>
+        <member name="M:Whir.Framework.StrExt.IsEmpty(System.String)">
+            <summary>
+            判断指定的 System.String 对象是否为 null 或 System.String.Empty
+            </summary>
+            <param name="value">指定字符串</param>
+        </member>
+        <member name="M:Whir.Framework.StrExt.IsNotEmpty(System.String)">
+            <summary>
+            判断制定的 System.String 对象是否为 null 或 System.String.Empty
+            </summary>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Whir.Framework.StrExt.GetChineseSpell(System.String)">
+            <summary>
+            返回字符串中每个汉字的拼音首字母
+            </summary>
+            <param name="strText">汉字字符串</param>
+        </member>
+        <member name="M:Whir.Framework.StrExt.GetSpell(System.String)">
+            <summary>
+            返回首个汉字的拼音首字母
+            </summary>
+            <param name="value">汉字字符串</param>
+        </member>
+        <member name="M:Whir.Framework.StrExt.FormatWith(System.String,System.Object[])">
+            <summary>
+            将指定 System.String 中的格式项替换为指定数组中相应 System.Object 实例的值的文本等效项，与 String.Format 功能效果相同
+            </summary>
+            <param name="str">指定的字符串</param>
+            <param name="args">替换项的数组</param>
+        </member>
+        <member name="M:Whir.Framework.StrExt.IsInt(System.String)">
+            <summary>
+            判断字符串是否为数字类型
+            </summary>
+            <param name="value">需要判断的字符串</param>
+        </member>
+        <member name="M:Whir.Framework.StrExt.IsEmail(System.String)">
+            <summary>
+            判断字符串是否为电子信箱格式，是返回 true，否返回 false
+            </summary>
+            <param name="value">需要判断的字符串</param>
+        </member>
+        <member name="M:Whir.Framework.StrExt.IsIP4(System.String)">
+            <summary>
+            判断字符串是否为 IP4 地址格式，是返回 true，否返回 false
+            </summary>
+            <param name="value">需要判断的字符串</param>
+        </member>
+        <member name="M:Whir.Framework.StrExt.IsUrl(System.String)">
+            <summary>
+            判断字符串是否为 Url 格式，是返回 true，否返回 false
+            </summary>
+            <param name="value">需要判断的字符串</param>
+        </member>
+        <member name="M:Whir.Framework.StrExt.IsPhone(System.String)">
+            <summary>
+            匹配3位或4位区号的电话号码，其中区号可以用小括号括起来，也可以不用，
+            区号与本地号间可以用连字号“-”或空格间隔，也可以没有间隔
+            正则为：\(0\d{2}\)[- ]?\d{8}|0\d{2}[- ]?\d{8}|\(0\d{3}\)[- ]?\d{7}|0\d{3}[- ]?\d{7}
+            </summary>
+            <param name="value">需要判断的字符串</param>
+        </member>
+        <member name="M:Whir.Framework.StrExt.IsIDCard(System.String)">
+            <summary>
+            判断字符串是否为 中国身份证号码(支持18位与15位) 格式，是返回 true，否返回 false
+            </summary>
+            <param name="value">需要判断的字符串</param>
+        </member>
+        <member name="M:Whir.Framework.StrExt.IsDataTime(System.String)">
+            <summary>
+            判断字符串是否为日期格式，如果该字符串为空则返回False
+            </summary>
+            <param name="value">需要判断的字符串</param>
+        </member>
+        <member name="M:Whir.Framework.StrExt.IsSafeSqlaParms(System.String)">
+            <summary>
+            判断sql参数是否存在危险字符
+            </summary>
+            <param name="value">需要验证的字符</param>
+        </member>
+        <member name="M:Whir.Framework.StrExt.IsSafeSql(System.String)">
+            <summary>
+            判断是否存在Sql危险字符
+            </summary>
+            <param name="value">需要验证的字符</param>
+        </member>
+        <member name="M:Whir.Framework.StrExt.IsGoodPwd(System.String)">
+            <summary>
+            判断是否强度足够的密码
+            </summary>
+            <param name="value">需要验证的字符</param>
+        </member>
+        <member name="M:Whir.Framework.StrExt.IsSafeLink(System.String)">
+            <summary>
+            判断是否存在危险的可能用于链接的字符串
+            </summary>
+            <param name="value">需要验证的字符</param>
+            <returns>
+            <c>true</c> 表示存在危险链接字符串; 否则, <c>false</c>.
+            </returns>
+        </member>
+        <member name="T:Whir.Framework.ControlExt">
+            <summary>
+            [扩展类]对象级别扩展类
+            </summary>
+        </member>
+        <member name="M:Whir.Framework.ControlExt.FindAllControls(System.Web.UI.Control)">
+            <summary>
+            查所页面同一类别控件
+            </summary>
+            <param name="ctrl"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Whir.Framework.AppSettingUtil">
+            <summary>
+            [辅助类]应用程序配置辅助类
+            </summary>
+        </member>
+        <member name="F:Whir.Framework.AppSettingUtil.AppSettings">
+            <summary>
+            获取 Web.Config 中的 Setting 集合
+            </summary>
+        </member>
+        <member name="F:Whir.Framework.AppSettingUtil.config">
+            <summary>
+            Configuration Object
+            </summary>
+        </member>
+        <member name="M:Whir.Framework.AppSettingUtil.GetString(System.String)">
+            <summary>
+            取得字符串类型的值
+            </summary>
+            <param name="key">键</param>
+            <returns>值</returns>
+        </member>
+        <member name="M:Whir.Framework.AppSettingUtil.GetString(System.String,System.String)">
+            <summary>
+            取得字符串类型的值
+            </summary>
+            <param name="key">键</param>
+            <param name="defaultValue">默认值</param>
+            <returns>值</returns>
+        </member>
+        <member name="M:Whir.Framework.AppSettingUtil.GetInt32(System.String)">
+            <summary>
+            获得整型类型的值
+            </summary>
+            <param name="key">键</param>
+            <returns>值</returns>
+        </member>
+        <member name="M:Whir.Framework.AppSettingUtil.GetInt32(System.String,System.Int32)">
+            <summary>
+            获得整型类型的值
+            </summary>
+            <param name="key">键</param>
+            <param name="defaultValue">默认值</param>
+            <returns>值</returns>
+        </member>
+        <member name="M:Whir.Framework.AppSettingUtil.SetAppSettings(System.String,System.String)">
+            <summary>
+            设置配置文件的值
+            </summary>
+            <param name="key">键</param>
+            <param name="value">值</param>
+        </member>
+        <member name="M:Whir.Framework.AppSettingUtil.GetCacheValue(System.String)">
+            <summary>
+            基于web.config文件的缓存 
+            </summary>
+            <param name="key">键</param>
+            <returns>值</returns>
+        </member>
+        <member name="T:Whir.Framework.AttributableAreaUtil">
+            <summary>
+            [辅助类]查询所属区域辅助类
+            </summary>
+        </member>
+        <member name="M:Whir.Framework.AttributableAreaUtil.#ctor">
+            <summary>
+            私有构造函数
+            </summary>
+        </member>
+        <member name="P:Whir.Framework.AttributableAreaUtil.Instance">
+            <summary>
+            提供类的实例属性
+            </summary>
+        </member>
+        <member name="M:Whir.Framework.AttributableAreaUtil.GetAreaNameByIP(System.String)">
+            <summary>
+            获取IP归属地区名
+            </summary>
+            <param name="IP">IP地址</param>
+            <returns>国家-区域-省-市-区/县</returns>
+        </member>
+        <member name="T:Whir.Framework.CacheUtil">
+            <summary>
+            [辅助类]Cache操作辅助类
+            </summary>
+        </member>
+        <member name="M:Whir.Framework.CacheUtil.#ctor">
+            <summary>
+            Cache操作辅助类
+            </summary>
+        </member>
+        <member name="P:Whir.Framework.CacheUtil.Instance">
+            <summary>
+            构建类的实例对象
+            </summary>
+        </member>
+        <member name="T:Whir.Framework.CacheUtil.LazyClass">
+            <summary>
+            内部加载类
+            </summary>
+        </member>
+        <member name="M:Whir.Framework.CacheUtil.GetCache(System.String)">
+            <summary>
+            获取指定名称的 Cache 内容
+            </summary>
+            <param name="key">Cache 键名</param>
+            <returns></returns>
+        </member>
+        <member name="M:Whir.Framework.CacheUtil.SetCache(System.String,System.Object)">
+            <summary>
+            设置指定名称的Cache的内容,有效时间一天
+            </summary>
+            <param name="key">Cache中的Key名称</param>
+            <param name="value">需要保存的内容</param>
+        </member>
+        <member name="M:Whir.Framework.CacheUtil.SetCache(System.String,System.Object,System.Int32)">
+            <summary>
+            设置指定名称的Cache的内容
+            </summary>
+            <param name="key"></param>
+            <param name="value"></param>
+            <param name="saveTime"></param>
+        </member>
+        <member name="M:Whir.Framework.CacheUtil.SetCache(System.String,System.Object,System.Web.Caching.CacheDependency)">
+            <summary>
+            插入缓存项
+            </summary>
+            <param name="key">缓存键</param>
+            <param name="value">缓存对象</param>
+            <param name="dep">缓存依赖</param>
+        </member>
+        <member name="M:Whir.Framework.CacheUtil.Remove(System.String)">
+            <summary>
+            移除缓存
+            </summary>
+            <param name="key">Cache中的Key名称</param>
+        </member>
+        <member name="M:Whir.Framework.CacheUtil.RemoveContainStr(System.String)">
+            <summary>
+            移除缓存
+            </summary>
+            <param name="key">Cache中的Key名称包含的字符</param>
+        </member>
+        <member name="T:Whir.Framework.CollectionUtils">
+            <summary>
+            [辅助类]采集操作辅助类
+            </summary>
+        </member>
+        <member name="M:Whir.Framework.CollectionUtils.IListToDataSet``1(System.Collections.Generic.IList{``0})">
+            <summary>
+            IList泛型集合转换成 DataSet
+            </summary>
+            <param name="list">泛型集合</param>
+            <returns>DataSet</returns>
+        </member>
+        <member name="M:Whir.Framework.CollectionUtils.IListToDataTable``1(System.Collections.Generic.IList{``0})">
+            <summary>
+             IList泛型集合转换成 DataTable
+            </summary>
+            <typeparam name="T">泛型类</typeparam>
+            <param name="list">泛型集合</param>
+            <returns>DataTable</returns>
+        </member>
+        <member name="M:Whir.Framework.CollectionUtils.GetHttpPageCode(System.String,System.Text.Encoding)">
+            <summary>
+            获取远程文件源代码
+            </summary> 
+            <param name="url"> 远程url地址</param>
+            <param name="enCodeType">编码方式</param>
+            <returns>网页源代码</returns>
+        </member>
+        <member name="M:Whir.Framework.CollectionUtils.GetBody(System.String,System.String,System.String,System.Boolean,System.Boolean)">
+            <summary>
+            根据表达式来截取字段
+            </summary>
+            <param name="pageStr">原字符串</param>
+            <param name="strStart">截取字符开始</param>
+            <param name="strEnd">截取字符结束</param>
+            <param name="inStart">是否包含strStart,false是不包含</param>
+            <param name="inEnd">是否包含strEnd,false是不包含</param>
+            <returns>截取后的字符串</returns>
+        </member>
+        <member name="M:Whir.Framework.CollectionUtils.GetLinkArray(System.String,System.String,System.String)">
+            <summary>
+            根据正则获取链接地址
+            </summary>
+            <param name="pageStr">原字符串</param>
+            <param name="strStart">链接开始</param>
+            <param name="strEnd">连接结束</param>
+            <returns>链接地址集合</returns>
+        </member>
+        <member name="M:Whir.Framework.CollectionUtils.ReplaceSaveRemoteFile(System.String,System.String,System.String,System.String)">
+            <summary>
+            获取字符串图片并保存
+            </summary>
+            <param name="pageStr">字符串</param>
+            <param name="savePath">保存路径</param>
+            <param name="webUrl">指定网站url</param>
+            <param name="isSave">是否保存图片</param>
+            <returns>图片集合</returns>
+        </member>
+        <member name="M:Whir.Framework.CollectionUtils.DefiniteUrl(System.String,System.String)">
+            <summary>
+            相对路径转换绝对路径
+            </summary>
+            <param name="primitiveUrl">要转换地址</param>
+            <param name="consultUrl">指定网站地址</param>
+            <returns>绝对路径</returns>
+        </member>
+        <member name="M:Whir.Framework.CollectionUtils.SavePhoto(System.String,System.String)">
+            <summary>
+            保存图片
+            </summary>
+            <param name="fileName">文件名</param>
+            <param name="remoteFileUrl">远程图片url地址</param>
+            <returns>true成功，false失败</returns>
+        </member>
+        <member name="M:Whir.Framework.CollectionUtils.GetDateDir">
+            <summary>
+            根据时间得到目录名
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Whir.Framework.CollectionUtils.GetDateFile">
+            <summary>
+            根据时间得到文件名
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Whir.Framework.CollectionUtils.ScriptHtml(System.String,System.String,System.Int32)">
+            <summary>
+            过滤代码中的标签
+            </summary>
+            <param name="html">代码</param>
+            <param name="tagName">标签</param>
+            <param name="fType">过滤类型</param>
+            <returns></returns>
+        </member>
+        <member name="M:Whir.Framework.CollectionUtils.HtmlScript(System.String)">
+            <summary>
+            过滤html标签
+            </summary>
+            <param name="html">原始Html文本</param>
+            <returns>去掉Html标记后的文本</returns>
+        </member>
+        <member name="M:Whir.Framework.CollectionUtils.GetRegValue(System.String,System.String)">
+            <summary>
+            执行正则提取出值
+            </summary>
+            <param name="regex">正则表达式</param>
+            <param name="html">Html源代码</param>
+            <returns>匹配文本</returns>
+        </member>
+        <member name="M:Whir.Framework.CollectionUtils.GetRegValue(System.String,System.String,System.Int32)">
+            <summary>
+            执行正则提取出值
+            </summary>
+            <param name="regex">正则表达式</param>
+            <param name="html">Html源代码</param>
+            <param name="num"> </param>
+            <returns>匹配文本</returns>
+        </member>
+        <member name="T:Whir.Framework.CookieUtil">
+            <summary>
+            [辅助类]Cookie操作辅助类
+            </summary>
+        </member>
+        <member name="M:Whir.Framework.CookieUtil.#ctor">
+            <summary>
+            Cookie操作辅助类
+            </summary>
+        </member>
+        <member name="P:Whir.Framework.CookieUtil.Instance">
+            <summary>
+            构建类的实例对象
+            </summary>
+        </member>
+        <member name="T:Whir.Framework.CookieUtil.LazyClass">
+            <summary>
+            内部加载类
+            </summary>
+        </member>
+        <member name="M:Whir.Framework.CookieUtil.AddCookie(System.Web.HttpCookie)">
+            <summary>
+            添加Cookie，默认不能跨域访问
+            </summary>
+            <param name="cookie">Http Cookie对象</param>
+        </member>
+        <member name="M:Whir.Framework.CookieUtil.AddCookie(System.Web.HttpCookie,System.String)">
+            <summary>
+            添加Cookie
+            </summary>
+            <param name="cookie">Http Cookie对象</param>
+            <param name="domain">Cookie的作用域，如需要跨域访问则填写，如：****.一级域名.com</param>
+        </member>
+        <member name="M:Whir.Framework.CookieUtil.AddCookie(System.String,System.String)">
+            <summary>
+            添加Cookie
+            </summary>
+            <param name="key">Cookie对象的存在的Key</param>
+            <param name="value">Cookie子键的值</param>
+        </member>
+        <member name="M:Whir.Framework.CookieUtil.AddCookie(System.String,System.String,System.DateTime)">
+            <summary>
+            添加Cookie
+            </summary>
+            <param name="key">Cookie对象的存在的Key</param>
+            <param name="value">Cookie子键的值</param>
+            <param name="expires">过期时间</param>
+        </member>
+        <member name="M:Whir.Framework.CookieUtil.AddCookie(System.String,System.String,System.String)">
+            <summary>
+            添加为Cookie.Values集合
+            </summary>
+            <param name="cookieName">Cookie名称</param>
+            <param name="key">Cookie对象的存在的Key</param>
+            <param name="value">Cookie子键的值</param>
+        </member>
+        <member name="M:Whir.Framework.CookieUtil.AddCookie(System.String,System.String,System.String,System.DateTime)">
+            <summary>
+            添加为Cookie.Values集合
+            </summary>
+            <param name="cookieName">Cookie名称</param>
+            <param name="key">Cookie对象的存在的Key</param>
+            <param name="value">Cookie子键的值</param>
+            <param name="expires">过期时间</param>
+        </member>
+        <member name="M:Whir.Framework.CookieUtil.GetCookie(System.String)">
+            <summary>
+            获得Http Cookie
+            </summary>
+            <param name="cookieName">cookie名称</param>
+            <returns>Cookie</returns>
+        </member>
+        <member name="M:Whir.Framework.CookieUtil.GetCookieValue(System.String,System.String)">
+            <summary>
+            获得Cookie的值
+            </summary>
+            <param name="cookieName">cookie名称</param>
+            <param name="key">cookie名称中的Key</param>
+            <returns>Cookie值</returns>
+        </member>
+        <member name="M:Whir.Framework.CookieUtil.GetCookieValue(System.Web.HttpCookie,System.String)">
+            <summary>
+            获得Cookie的子键值
+            </summary>
+            <param name="cookie">Http Cookie对象</param>
+            <param name="key">Cookie对象的存在的Key</param>
+            <returns>Cookie的子键值</returns>
+        </member>
+        <member name="M:Whir.Framework.CookieUtil.SetCookie(System.String,System.String,System.String)">
+            <summary>
+            设置Cookie中指定键的值
+            </summary>
+            <param name="cookieName">cookie名称</param>
+            <param name="key">Cookie对象的存在的Key</param>
+            <param name="value">Cookie子键的值</param>
+        </member>
+        <member name="M:Whir.Framework.CookieUtil.SetCookie(System.String,System.DateTime)">
+            <summary>
+            设置整个Cookie过期时间
+            </summary>
+            <param name="cookieName">cookie名称</param>
+            <param name="expires">过期时间</param>
+        </member>
+        <member name="M:Whir.Framework.CookieUtil.SetCookie(System.String,System.String,System.String,System.Nullable{System.DateTime})">
+            <summary>
+            设置Cookie
+            </summary>
+            <param name="cookieName">cookie名称</param>
+            <param name="key">Cookie对象的存在的Key</param>
+            <param name="value">Cookie子键的值</param>
+            <param name="expires">过期时间</param>
+        </member>
+        <member name="M:Whir.Framework.CookieUtil.RemoveCookie(System.String)">
+            <summary>
+            删除指定的Cookie
+            </summary>
+            <param name="cookieName">cookie名称</param>
+        </member>
+        <member name="M:Whir.Framework.CookieUtil.RemoveCookie(System.String,System.String)">
+            <summary>
+            删除Cookie中指定的键
+            </summary>
+            <param name="cookieName">cookie名称</param>
+            <param name="key">Cookie对象的存在的Key</param>
+        </member>
+        <member name="T:Whir.Framework.EditorUtil">
+             <summary>
+            EditorHelp 的摘要说明
+             </summary>
+        </member>
+        <member name="P:Whir.Framework.EditorUtil.Instance">
+            <summary>
+            构建类的实例对象
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Whir.Framework.EditorUtil.GetContentPagePattern(System.Int32)">
+            <summary>
+            返回分页切割线正则
+            </summary>
+            <param name="type">编辑器类型。0:所有已有编辑器； 1：ewebeditor；2：kindEditor；3：ueditor,百度编辑器</param>
+            <returns></returns>
+        </member>
+        <member name="M:Whir.Framework.EditorUtil.changeContent(System.String,System.Int32)">
+            <summary>
+            根据编辑器转换分页符
+            </summary>
+            <param name="content">内容</param>
+            <param name="type">编辑器类型。 1：ewebeditor；2：kindEditor；3：ueditor,百度编辑器</param>
+            <returns></returns>
+        </member>
+        <member name="M:Whir.Framework.EditorUtil.ClearEwebeditorContentPage(System.String)">
+            <summary>
+            清除Ewebeditor编辑器分页符痕迹
+            </summary>
+            <param name="content"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Whir.Framework.ExcelUtil">
+            <summary>
+            [辅助类]Excel操作辅助类
+            </summary>
+        </member>
+        <member name="M:Whir.Framework.ExcelUtil.CreateExcel(System.Data.DataTable,System.String)">
+            <summary>   
+            用于Web导出   
+            </summary> 
+            <param name="dtSource">表头文本 </param>
+            <param name="strFileName">文件名</param>
+        </member>
+        <member name="M:Whir.Framework.ExcelUtil.Export(System.Data.DataTable)">
+            <summary>   
+            DataTable导出到Excel的MemoryStream内存流
+            </summary>   
+            <param name="dtSource">源DataTable</param>    
+            <returns>内存流</returns>
+        </member>
+        <member name="M:Whir.Framework.ExcelUtil.Import(System.String)">
+            <summary>
+            读取excel，默认第一行为标头
+            </summary>
+            <param name="strFileName">excel文档绝对路径</param>
+            <returns>数据表</returns>
+        </member>
+        <member name="M:Whir.Framework.ExcelUtil.GetExcelHead(System.String)">
+            <summary>
+            获取excel第一列
+            </summary>
+            <param name="fileName">excel的绝对路径</param>
+            <returns>excel列名</returns>
+        </member>
+        <member name="T:Whir.Framework.FileUtil">
+            <summary>
+            [辅助类]文件操作辅助类
+            </summary>
+        </member>
+        <member name="M:Whir.Framework.FileUtil.#ctor">
+            <summary>
+            文件操作辅助类
+            </summary>
+        </member>
+        <member name="P:Whir.Framework.FileUtil.Instance">
+            <summary>
+            构建类的实例对象
+            </summary>
+        </member>
+        <member name="T:Whir.Framework.FileUtil.LazyClass">
+            <summary>
+            内部加载类
+            </summary>
+        </member>
+        <member name="M:Whir.Framework.FileUtil.CreateDirectory(System.String)">
+            <summary>
+            创建目录
+            </summary>
+            <param name="fileOrPath">文件或目录</param>
+        </member>
+        <member name="M:Whir.Framework.FileUtil.GetSafeFileName(System.String)">
+             <summary>
+            取得文件命名的安全路径（Windows文件命名规则：不能以空格为开头和结束,不能用//:*?""|作为文件名称,文件名称为1-255位）
+             </summary>
+             <param name="name">路径名称</param>
+             <returns>安全路径名称</returns>
+        </member>
+        <member name="M:Whir.Framework.FileUtil.GetExtension(System.String)">
+            <summary>
+            获取文件的扩展名
+            </summary>
+            <param name="fileName">文件</param>
+        </member>
+        <member name="M:Whir.Framework.FileUtil.BackupFile(System.String)">
+            <summary>
+            备份文件，备份后的文件名为原文件名+.bak，如目标文件存在时覆盖
+            </summary>
+            <param name="sourceFileName">源文件名</param> 
+            <returns>true操作成功，false操作失败</returns>
+        </member>
+        <member name="M:Whir.Framework.FileUtil.BackupFile(System.String,System.String)">
+            <summary>
+            备份文件,当目标文件存在时覆盖
+            </summary>
+            <param name="sourceFileName">源文件名</param>
+            <param name="destFileName">目标文件名</param>
+            <returns>true操作成功，false操作失败</returns>
+        </member>
+        <member name="M:Whir.Framework.FileUtil.BackupFile(System.String,System.String,System.Boolean)">
+            <summary>
+            备份文件
+            </summary>
+            <param name="sourceFileName">源文件名</param>
+            <param name="destFileName">目标文件名</param>
+            <param name="overwrite">当目标文件存在时是否覆盖</param>
+            <returns>true操作成功，false操作失败</returns>
+        </member>
+        <member name="M:Whir.Framework.FileUtil.DownFile(System.String,System.String)">
+            <summary>
+            下载文件，分流标准，默认：1024000
+            </summary>
+            <param name="fileName">目的文件名称，包含后辍名</param>
+            <param name="fullPath">源文件路径</param>
+            <returns>true操作成功，false操作失败</returns>
+        </member>
+        <member name="M:Whir.Framework.FileUtil.DownFile(System.String,System.String,System.Int64)">
+            <summary>
+            下载文件
+            </summary>
+            <param name="fileName">目的文件名称，包含后辍名</param>
+            <param name="fullPath">源文件路径</param>
+            <param name="speed">分流标准，默认：1024000</param>
+            <returns>true操作成功，false操作失败</returns>
+        </member>
+        <member name="M:Whir.Framework.FileUtil.ReadFile(System.String)">
+            <summary>
+            读取文件，默认读取编码为UTF-8的编码，开启缓存
+            </summary>
+            <param name="fileName">文件文称，要求绝对路径</param>
+            <returns>文件内容</returns>
+        </member>
+        <member name="M:Whir.Framework.FileUtil.ReadFile(System.String,System.Boolean)">
+            <summary>
+            读取文件，默认读取编码为UTF-8的编码
+            </summary>
+            <param name="fileName">文件文称，要求绝对路径</param>
+            <param name="isCache">是否启用缓存</param>
+            <returns>文件内容</returns>
+        </member>
+        <member name="M:Whir.Framework.FileUtil.ReadFile(System.String,System.Text.Encoding,System.Boolean)">
+            <summary>
+            读取文件
+            </summary>
+            <param name="fileName">文件文称，要求绝对路径</param>
+            <param name="encoding">字符编码</param>
+            <param name="isCache">是否启用缓存</param>    
+            <returns>文件内容</returns>
+        </member>
+        <member name="M:Whir.Framework.FileUtil.GetAllFolderAndFile(System.String,System.String,System.Collections.Generic.List{System.String},System.Collections.Generic.List{System.String})">
+            <summary>
+            获取指定目录下所有的文件夹及文件
+            </summary>
+            <param name="dir">要检索的文件夹绝对路径</param>
+            <param name="folderName">指定的目录绝对路径,若为空则表示获取dir下所有文件</param>
+            <param name="folderPaths">保存文件夹绝对路径的集合</param>
+            <param name="filePaths">保存文件绝对路径的集合</param>
+        </member>
+        <member name="M:Whir.Framework.FileUtil.GetAllFolderAndFile(System.String,System.String,System.Collections.Generic.List{System.String})">
+            <summary>
+            获取指定目录下的所有文件,包含子目录
+            </summary>
+            <param name="dir">绝对路径</param>
+            <param name="folderName">文件夹名称</param>
+            <param name="fileList">文件列表</param>
+            <returns>文件列表</returns>
+        </member>
+        <member name="M:Whir.Framework.FileUtil.WriteFile(System.String,System.String)">
+            <summary>
+            写入文件，默认字符编码为 UTF-8
+            </summary>
+            <param name="fileName">文件文称，要求绝对路径</param>
+            <param name="context">需要写入的内容</param>
+        </member>
+        <member name="M:Whir.Framework.FileUtil.WriteFile(System.String,System.String,System.Text.Encoding)">
+            <summary>
+            写入文件
+            </summary>
+            <param name="fileName">文件文称，要求绝对路径</param>
+            <param name="context">需要写入的内容</param>
+            <param name="encoding">字符编码</param>
+        </member>
+        <member name="M:Whir.Framework.FileUtil.CopyDir(System.String,System.String,System.Boolean)">
+            <summary>
+            将指定文件夹下面的所有内容copy到目标文件夹下面
+            如果目标文件夹为只读属性就会报错。
+            </summary>
+            <param name="srcPath">源文件夹</param>
+            <param name="aimPath">目标文件夹</param>
+            <param name="overWFile">是否覆盖同名文件</param>
+        </member>
+        <member name="T:Whir.Framework.HttpOperater">
+            <summary>
+                模拟HTTP操作
+            </summary>
+        </member>
+        <member name="M:Whir.Framework.HttpOperater.DoRequest(Whir.Framework.HttpRequestType,System.String,System.String,System.String@,System.String,System.Text.Encoding)">
+            <summary>
+                发起Http请求
+            </summary>
+            <param name="httpRequestType">请求方式</param>
+            <param name="url">请求地址</param>
+            <param name="cookieInput">请求时传入的cookie</param>
+            <param name="cookieOutput">服务器返回的cookie</param>
+            <param name="postData">发送数据</param>
+            <returns></returns>
+        </member>
+        <member name="M:Whir.Framework.HttpOperater.GetCookie(System.String,System.String)">
+            <summary>
+            设置cookie域
+            </summary>
+            <param name="url">请求地址</param>
+            <param name="cookieInput">cookie</param>
+            <returns></returns>
+        </member>
+        <member name="M:Whir.Framework.HttpOperater.GetDomain(System.String)">
+            <summary>
+            通过Url取得域
+            </summary>
+            <param name="url"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Whir.Framework.HttpOperater.CookieTostr(System.Net.CookieCollection)">
+            <summary>
+            将cookie转为字符串
+            </summary>
+            <param name="cookies"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Whir.Framework.HttpOperater.GetLinkList(System.String,System.String,System.String,System.String)">
+            <summary>
+            根据正则获取链接地址
+            </summary>
+            <param name="pageStr">原字符串</param>
+            <param name="strStart">链接开始</param>
+            <param name="strEnd">连接结束</param>
+            <returns>链接地址集合</returns>
+        </member>
+        <member name="M:Whir.Framework.HttpOperater.GetReallyUrl(System.String,System.String)">
+            <summary>
+            url由相对地址转绝对地址
+            </summary>
+            <param name="url">url</param>
+            <param name="domain">域名</param>
+            <returns></returns>
+        </member>
+        <member name="M:Whir.Framework.HttpOperater.DownloadImage(System.String,System.String)">
+            <summary>
+            下载远程图片保存到本地
+            </summary>
+            <param name="url">图片地址（绝对地址）</param>
+            <param name="saveDirec">图片保存目录（本地绝对目录地址）</param>
+            <returns>图片名称</returns>
+        </member>
+        <member name="T:Whir.Framework.HttpRequestType">
+            <summary>
+                HTTP请求方式
+            </summary>
+        </member>
+        <member name="F:Whir.Framework.HttpRequestType.GET">
+            <summary>
+                GET
+            </summary>
+        </member>
+        <member name="F:Whir.Framework.HttpRequestType.POST">
+            <summary>
+                POST
+            </summary>
+        </member>
+        <member name="T:Whir.Framework.ImageUtil">
+            <summary>
+             [辅助类]图片操作辅助类
+            </summary>
+        </member>
+        <member name="M:Whir.Framework.ImageUtil.#ctor">
+            <summary>
+             [辅助类]图片操作辅助类
+            </summary>
+        </member>
+        <member name="P:Whir.Framework.ImageUtil.Instance">
+            <summary>
+            构建类的实例对象
+            </summary>
+        </member>
+        <member name="T:Whir.Framework.ImageUtil.LazyClass">
+            <summary>
+            内部加载类
+            </summary>
+        </member>
+        <member name="T:Whir.Framework.ImageUtil.ThumbnailMode">
+            <summary>
+            缩略图的模式
+            </summary>
+        </member>
+        <member name="F:Whir.Framework.ImageUtil.ThumbnailMode.WH">
+            <summary>
+            指定高宽缩放(可能变形)
+            </summary>
+        </member>
+        <member name="F:Whir.Framework.ImageUtil.ThumbnailMode.W">
+            <summary>
+            指定宽，高按比例
+            </summary>
+        </member>
+        <member name="F:Whir.Framework.ImageUtil.ThumbnailMode.H">
+            <summary>
+            指定高，宽按比例
+            </summary>
+        </member>
+        <member name="F:Whir.Framework.ImageUtil.ThumbnailMode.Cut">
+            <summary>
+            指定高宽裁减(不变形)
+            </summary>
+        </member>
+        <member name="F:Whir.Framework.ImageUtil.ThumbnailMode.DB">
+            <summary>
+            等比缩放(不变形，如果高大按高，宽大按宽缩放)
+            </summary>
+        </member>
+        <member name="T:Whir.Framework.ImageUtil.ThumbnailType">
+            <summary>
+            缩略图保存格式
+            </summary>
+        </member>
+        <member name="F:Whir.Framework.ImageUtil.ThumbnailType.JPG">
+            <summary>
+            JPG格式
+            </summary>
+        </member>
+        <member name="F:Whir.Framework.ImageUtil.ThumbnailType.BMP">
+            <summary>
+            BMP格式
+            </summary>
+        </member>
+        <member name="F:Whir.Framework.ImageUtil.ThumbnailType.GIF">
+            <summary>
+            GIF格式
+            </summary>
+        </member>
+        <member name="F:Whir.Framework.ImageUtil.ThumbnailType.PNG">
+            <summary>
+            PNG格式
+            </summary>
+        </member>
+        <member name="T:Whir.Framework.ImageUtil.WatermarkPosition">
+            <summary>
+            水印位置
+            </summary>
+        </member>
+        <member name="F:Whir.Framework.ImageUtil.WatermarkPosition.LeftTop">
+            <summary>
+            水印放置左上角
+            </summary>
+        </member>
+        <member name="F:Whir.Framework.ImageUtil.WatermarkPosition.CenterTop">
+            <summary>
+            水平居中垂直顶部
+            </summary>
+        </member>
+        <member name="F:Whir.Framework.ImageUtil.WatermarkPosition.RightTop">
+            <summary>
+            右上角
+            </summary>
+        </member>
+        <member name="F:Whir.Framework.ImageUtil.WatermarkPosition.LeftMiddle">
+            <summary>
+            垂直居中水平靠左
+            </summary>
+        </member>
+        <member name="F:Whir.Framework.ImageUtil.WatermarkPosition.CenterMiddle">
+            <summary>
+            居中
+            </summary>
+        </member>
+        <member name="F:Whir.Framework.ImageUtil.WatermarkPosition.RightMiddle">
+            <summary>
+            垂直居中水平靠右
+            </summary>
+        </member>
+        <member name="F:Whir.Framework.ImageUtil.WatermarkPosition.LeftBottom">
+            <summary>
+            左下角
+            </summary>
+        </member>
+        <member name="F:Whir.Framework.ImageUtil.WatermarkPosition.CenterBottom">
+            <summary>
+            水平居中垂直底部
+            </summary>
+        </member>
+        <member name="F:Whir.Framework.ImageUtil.WatermarkPosition.RightBottom">
+            <summary>
+            右下角
+            </summary>
+        </member>
+        <member name="F:Whir.Framework.ImageUtil.sizes">
+            <summary>
+            字体号数数组
+            </summary>
+        </member>
+        <member name="M:Whir.Framework.ImageUtil.SetMarkPosition(System.Drawing.Image,System.Int32,System.Int32,Whir.Framework.ImageUtil.WatermarkPosition,System.Int32@,System.Int32@)">
+            <summary>
+            计算水印坐标位置.
+            </summary>
+            <param name="image"></param>
+            <param name="watermarkWidth"></param>
+            <param name="watermarkHeight"></param>
+            <param name="position"></param>
+            <param name="markx"></param>
+            <param name="marky"></param>
+        </member>
+        <member name="F:Whir.Framework.ImageUtil.indexedPixelFormats">
+            <summary>
+            会产生graphics异常的PixelFormat
+            </summary>
+        </member>
+        <member name="M:Whir.Framework.ImageUtil.IsPixelFormatIndexed(System.Drawing.Imaging.PixelFormat)">
+            <summary>
+            判断图片的PixelFormat 是否在 引发异常的 PixelFormat 之中
+            无法从带有索引像素格式的图像创建graphics对象
+            </summary>
+            <param name="imgPixelFormat">原图片的PixelFormat</param>
+            <returns></returns>
+        </member>
+        <member name="M:Whir.Framework.ImageUtil.MakeThumbnail(System.String,System.String,System.Int32,System.Int32,Whir.Framework.ImageUtil.ThumbnailMode,Whir.Framework.ImageUtil.ThumbnailType)">
+            <summary>
+            生成缩略图
+            </summary>
+            <param name="originalImagePath">源图路径(物理路径)</param>
+            <param name="thumbnailPath">缩略图保存路径(物理路径)</param>
+            <param name="width">缩略图宽度</param>
+            <param name="height">缩略图高度</param>
+            <param name="mode">生成缩略图的模式</param>
+            <param name="type">保存缩略图的格式</param>
+        </member>
+        <member name="M:Whir.Framework.ImageUtil.MakeImageWatermark(System.String,System.String,System.String,System.String,Whir.Framework.ImageUtil.WatermarkPosition,System.Int32,System.Nullable{System.Single})">
+            <summary>
+            根据比例、透明度 生成图片水印.
+            </summary>
+            <param name="originalImagePath">源图路径（物理路径）</param>
+            <param name="savePath">保存的图片路径(物理路径)</param>
+            <param name="waterImagePath">水印源图路径（物理路径）</param>
+            <param name="tempMarkImagePath">比例水印图临时路径（物理路径）</param>
+            <param name="position">水印位置枚举</param>
+            <param name="waterMarkTransparent">透明度</param>
+            <param name="proportion">比例</param>
+        </member>
+        <member name="M:Whir.Framework.ImageUtil.MakeTextMark(System.String,System.String,System.String,System.Drawing.FontFamily,System.Drawing.Color,Whir.Framework.ImageUtil.WatermarkPosition,System.Nullable{System.Single},System.Int32)">
+            <summary>
+            按比例生成文字水印图
+            </summary>
+            <param name="originalImagePath">图片路径</param>
+            <param name="tempFileName">临时保存路径</param>
+            <param name="text">水印文字</param>
+            <param name="fontFamily">水印字体</param>
+            <param name="fontColor">文字颜色</param>
+            <param name="position">水印位置</param>
+            <param name="proportion">比例大小, 小于整数1</param>
+            <param name="transparency">水印透明度（0-255）</param>
+        </member>
+        <member name="M:Whir.Framework.ImageUtil.GetThumbImgPath(System.Object)">
+            <summary>
+            转换图片原路径为缩略图路径
+            </summary>
+            <param name="imagePath"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Whir.Framework.ImageUtil.GetCutImgPath(System.Object)">
+            <summary>
+            去掉图片文字描述，返回图片地址
+            </summary>
+            <param name="imagePath"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Whir.Framework.ImageUtil.GetAltImgPath(System.Object)">
+            <summary>
+            根据图片地址，返回图片描述
+            </summary>
+            <param name="imagePath"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Whir.Framework.ImageUtil.GetOriginalImgPath(System.Object)">
+            <summary>
+            转换缩略图路径/水印图片为原图路径
+            </summary>
+            <param name="imagePath"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Whir.Framework.ParticipleUtil">
+            <summary>
+            [辅助类]分词组件辅助类
+            </summary>
+        </member>
+        <member name="M:Whir.Framework.ParticipleUtil.#ctor">
+            <summary>
+            分词组件辅助类
+            </summary>
+        </member>
+        <member name="M:Whir.Framework.ParticipleUtil.GetParticipleDictionary(System.String,System.Int32)">
+            <summary>
+            获取分词字典
+            </summary>
+            <param name="keyword">需要分词的内容</param>
+            <param name="maxLength">执行单词（空格为单词的分隔符）分词的最大长度,内容超过此长度将不进行拆分</param>
+            <returns>分词字典</returns>
+        </member>
+        <member name="T:Whir.Framework.Rand">
+            <summary>
+            [辅助类]随机数辅助类
+            </summary>
+        </member>
+        <member name="M:Whir.Framework.Rand.#ctor">
+            <summary>
+            随机数辅助类
+            </summary>
+        </member>
+        <member name="P:Whir.Framework.Rand.Instance">
+            <summary>
+            构建类的实例对象
+            </summary>
+        </member>
+        <member name="T:Whir.Framework.Rand.LazyClass">
+            <summary>
+            内部加载类
+            </summary>
+        </member>
+        <member name="M:Whir.Framework.Rand.Number(System.Int32)">
+            <summary>
+            生成随机数字
+            </summary>
+            <param name="length">生成长度</param>
+            <returns>返回生成的随机数</returns>
+        </member>
+        <member name="M:Whir.Framework.Rand.Number(System.Int32,System.Boolean)">
+            <summary>
+            生成随机数字
+            </summary>
+            <param name="length">生成长度</param>
+            <param name="sleep">是否要在生成前将当前线程阻止以避免重复</param>
+            <returns>返回生成的随机数</returns>
+        </member>
+        <member name="M:Whir.Framework.Rand.Str(System.Int32)">
+            <summary>
+            生成随机字母与数字
+            </summary>
+            <param name="length">生成长度</param>
+            <returns>返回生成的随机数</returns>
+        </member>
+        <member name="M:Whir.Framework.Rand.Str(System.Int32,System.Boolean)">
+            <summary>
+            生成随机字母与数字
+            </summary>
+            <param name="length">生成长度</param>
+            <param name="sleep">是否要在生成前将当前线程阻止以避免重复</param>
+            <returns>返回生成的随机数</returns>
+        </member>
+        <member name="M:Whir.Framework.Rand.Char(System.Int32)">
+            <summary>
+            生成随机纯字母随机数
+            </summary>
+            <param name="length">生成长度</param>
+            <returns>返回生成的随机数</returns>
+        </member>
+        <member name="M:Whir.Framework.Rand.Char(System.Int32,System.Boolean)">
+            <summary>
+            生成随机纯字母随机数
+            </summary>
+            <param name="length">生成长度</param>
+            <param name="sleep">是否要在生成前将当前线程阻止以避免重复</param>
+            <returns>返回生成的随机数</returns>
+        </member>
+        <member name="T:Whir.Framework.RequestUtil">
+            <summary>
+            [辅助类]用户请求辅助类
+            </summary>
+        </member>
+        <member name="P:Whir.Framework.RequestUtil.Instance">
+            <summary>
+            提供类的实例属性
+            </summary>
+        </member>
+        <member name="M:Whir.Framework.RequestUtil.IsPost">
+            <summary>
+            判断当前页面是否接收到了Post请求
+            </summary>
+            <returns>是否接收到了Post请求</returns>
+        </member>
+        <member name="M:Whir.Framework.RequestUtil.IsGet">
+            <summary>
+            判断当前页面是否接收到了Get请求
+            </summary>
+            <returns>是否接收到了Get请求</returns>
+        </member>
+        <member name="M:Whir.Framework.RequestUtil.GetAppName">
+            <summary>
+            创建默认的应用程序名称，如“/”或“/website/”
+            </summary>
+        </member>
+        <member name="M:Whir.Framework.RequestUtil.GetString(System.String)">
+            <summary>
+            获得Url或表单参数的值, 先判断Url参数是否为空字符串, 如为True则返回表单参数的值
+            </summary>
+            <param name="strName">参数</param>
+            <returns>Url或表单参数的值</returns>
+        </member>
+        <member name="M:Whir.Framework.RequestUtil.GetQueryString(System.String)">
+            <summary>
+            获得指定Url参数的值
+            </summary>
+            <param name="strName">Url参数</param>
+            <returns>Url参数的值</returns>
+        </member>
+        <member name="M:Whir.Framework.RequestUtil.GetQueryInt(System.String,System.Int32)">
+            <summary>
+            获得指定Url参数的int类型值
+            </summary>
+            <param name="strName">Url参数</param>
+            <param name="defValue">缺省值</param>
+            <returns>Url参数的int类型值</returns>
+        </member>
+        <member name="M:Whir.Framework.RequestUtil.StrToInt(System.Object,System.Int32)">
+            <summary>
+            将对象转换为Int32类型
+            </summary>
+            <param name="expression">要转换的字符串</param>
+            <param name="defValue">缺省值</param>
+            <returns>转换后的int类型结果</returns>
+        </member>
+        <member name="M:Whir.Framework.RequestUtil.GetFormString(System.String)">
+            <summary>
+            获得指定表单参数的值
+            </summary>
+            <param name="strName">表单参数</param>
+            <returns>表单参数的值</returns>
+        </member>
+        <member name="M:Whir.Framework.RequestUtil.GetUrlReferrer">
+            <summary>
+            返回上一个页面的地址
+            </summary>
+            <returns>上一个页面的地址</returns>
+        </member>
+        <member name="M:Whir.Framework.RequestUtil.IsBrowserGet">
+            <summary>
+            判断当前访问是否来自浏览器软件
+            </summary>
+            <returns>当前访问是否来自浏览器软件</returns>
+        </member>
+        <member name="M:Whir.Framework.RequestUtil.GetHttpUrl">
+            <summary>
+            取当前主机头地址,有站点名的会带上站点名（即虚拟目录名），不以"/"结尾
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Whir.Framework.RequestUtil.AddParm(System.String,System.String)">
+            <summary>
+            在当前页面路径上添加参数, 若已有此参数则修改
+            </summary>
+            <param name="parmName"></param>
+            <param name="parmValue"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Whir.Framework.RequestUtil.AddParm(System.Collections.Generic.Dictionary{System.String,System.String})">
+            <summary>
+            在当前页面路径上添加参数, 若已有此参数则修改
+            </summary>
+            <param name="dict">更改的参数集合</param>
+            <returns></returns>
+        </member>
+        <member name="M:Whir.Framework.RequestUtil.AddParm(System.String,System.Collections.Generic.Dictionary{System.String,System.String})">
+            <summary>
+            在已有URL访问地址上添加参数，若已有此参数则修改
+            </summary>
+            <param name="url">已有的URL访问地址</param>
+            <param name="dict">更改或添加的参数集合</param>
+            <returns></returns>
+        </member>
+        <member name="T:Whir.Framework.SafetyUtil">
+            <summary>
+            浏览器辅助类
+            </summary>
+        </member>
+        <member name="P:Whir.Framework.SafetyUtil.Instance">
+            <summary>
+            提供类的实例属性
+            </summary>
+        </member>
+        <member name="M:Whir.Framework.SafetyUtil.FilterUrl">
+            <summary>
+            过滤Url中的危险字符
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Whir.Framework.SafetyUtil.PostData">
+            <summary>
+            验证Post数据
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Whir.Framework.SafetyUtil.GetData">
+            <summary>
+            验证Get数据
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Whir.Framework.SafetyUtil.CookieData">
+            <summary>
+            Cookie数据
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Whir.Framework.SafetyUtil.Referer">
+            <summary>
+            验证Referrer数据
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Whir.Framework.SafetyUtil.CheckData(System.String)">
+            <summary>
+            验证输入的数据安全性
+            </summary>
+            <param name="inputData"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Whir.Framework.ScriptUtil">
+            <summary>
+            [辅助类]站点脚本操作辅助类
+            </summary>
+        </member>
+        <member name="M:Whir.Framework.ScriptUtil.#ctor">
+            <summary>
+            站点脚本操作辅助类
+            </summary>
+        </member>
+        <member name="P:Whir.Framework.ScriptUtil.Instance">
+            <summary>
+            构建类的实例对象
+            </summary>
+        </member>
+        <member name="T:Whir.Framework.ScriptUtil.LazyClass">
+            <summary>
+            内部加载类
+            </summary>
+        </member>
+        <member name="M:Whir.Framework.ScriptUtil.Alert(System.String)">
+            <summary>
+            服务器服务窗口
+            </summary>
+            <param name="message">需要弹出的信息</param>
+        </member>
+        <member name="M:Whir.Framework.ScriptUtil.Alert(System.String,System.String)">
+            <summary>
+            服务器弹出窗口
+            </summary>
+            <param name="message">需要弹出的信息</param>
+            <param name="url">弹出信息后跳转的URL地址</param>
+        </member>
+        <member name="T:Whir.Framework.SplitWordUtil">
+            <summary>
+            [辅助类]汉字操作辅助类
+            </summary>
+        </member>
+        <member name="M:Whir.Framework.SplitWordUtil.#ctor">
+            <summary>
+            构造实例： 用C#实现汉字转化为拼音，实现的原理就是先将汉字转化成为内码，然后通过内码和拼音的对照来查找。　
+            </summary>
+        </member>
+        <member name="P:Whir.Framework.SplitWordUtil.Instance">
+            <summary>
+            构建类的实例对象
+            </summary>
+        </member>
+        <member name="T:Whir.Framework.SplitWordUtil.LazyClass">
+            <summary>
+            内部加载类
+            </summary>
+        </member>
+        <member name="F:Whir.Framework.SplitWordUtil.MyRegex">
+            　<summary>　
+            将所有的汉字转换成为拼音（小写），实现的原理就是先将汉字转化成为内码，然后通过内码和拼音的对照来查找。　　　　　　　　
+            　</summary>　
+        </member>
+        <member name="M:Whir.Framework.SplitWordUtil.ConvertAllSpell(System.String)">
+            <summary>
+            转化汉字的全部拼音
+            </summary>
+            <param name="chrstr"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Whir.Framework.SplitWordUtil.GetChineseSpell(System.String)">
+            <summary>
+            只转换每个汉字首字母（大写）
+            </summary>
+            <param name="strText"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Whir.Framework.SplitWordUtil.GetSpell(System.String)">
+            <summary>
+            获得第一个汉字的首字母（大写）
+            </summary>
+            <param name="cnChar"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Whir.Framework.Translater">
+            <summary>
+                [辅助类]语言翻译辅助类
+            </summary>
+        </member>
+        <member name="M:Whir.Framework.Translater.Translate(System.String,Whir.Framework.TranslateLanguage,Whir.Framework.TranslateLanguage,Whir.Framework.TranslateType)">
+            <summary>
+                翻译方法，目前支持中文，繁体中文，英文三种语言的相互翻译
+            </summary>
+            <param name="source">翻译原文</param>
+            <param name="from">原始语言（枚举：Chinese：中文，English：英文，ChineseTraditional：繁体中文）</param>
+            <param name="to">目标语言（枚举：Chinese：中文，English：英文，ChineseTraditional：繁体中文）</param>
+            <param name="type">翻译API类型（枚举：MircsoftBing：微软翻译，Google：google翻译）</param>
+            <returns>译文</returns>
+        </member>
+        <member name="M:Whir.Framework.Translater.GoogleTranslaterPostMethod(System.String,System.String,System.String)">
+            <summary>
+                Google 翻译： Post方式获取翻译（无文本长度限制）
+            </summary>
+            <param name="sourceText"></param>
+            <param name="fromType"></param>
+            <param name="toType"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Whir.Framework.Translater.ConvertHtmlToText(System.String)">
+            <summary>
+                将HTML转换为纯文本
+            </summary>
+            <param name="source"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Whir.Framework.Translater.MircsoftTanslater(System.String,System.String,System.String)">
+            <summary>
+                微软翻译API :  语言类型："zh-cn", "en"
+            </summary>
+            <param name="orgStr">翻译原文</param>
+            <param name="fromType">原文语言类型（枚举：Chinese：中文，English：英文，ChineseTraditional：繁体中文）</param>
+            <param name="toType">目标语言类型（枚举：Chinese：中文，English：英文，ChineseTraditional：繁体中文）</param>
+            <returns>译文</returns>
+        </member>
+        <member name="T:Whir.Framework.ResponseResult">
+            <summary>
+                翻译返回类
+            </summary>
+        </member>
+        <member name="T:Whir.Framework.ResponseData">
+            <summary>
+            </summary>
+        </member>
+        <member name="T:Whir.Framework.TranslateLanguage">
+            <summary>
+                语言类型
+            </summary>
+        </member>
+        <member name="F:Whir.Framework.TranslateLanguage.Chinese">
+            <summary>
+            中文
+            </summary>
+        </member>
+        <member name="F:Whir.Framework.TranslateLanguage.English">
+            <summary>
+            英文
+            </summary>
+        </member>
+        <member name="F:Whir.Framework.TranslateLanguage.ChineseTraditional">
+            <summary>
+            中文繁体
+            </summary>
+        </member>
+        <member name="T:Whir.Framework.TranslateType">
+            <summary>
+                翻译方式类型
+            </summary>
+        </member>
+        <member name="F:Whir.Framework.TranslateType.Google">
+            <summary>
+                GoogleTanslater
+            </summary>
+        </member>
+        <member name="F:Whir.Framework.TranslateType.MircsoftBing">
+            <summary>
+                MircsoftTanslater
+            </summary>
+        </member>
+        <member name="T:Whir.Framework.TripleDESService">
+            <summary>
+            [辅助类]三重DES加密服务类
+            </summary>
+        </member>
+        <member name="M:Whir.Framework.TripleDESService.#ctor(System.String)">
+            <summary>
+            对称加密类的构造函数
+            </summary>
+            <param name="key"></param>
+        </member>
+        <member name="M:Whir.Framework.TripleDESService.#ctor(System.String,System.String)">
+            <summary>
+            对称加密类的构造函数
+            </summary>
+            <param name="key"></param>
+            <param name="iv"></param>
+        </member>
+        <member name="M:Whir.Framework.TripleDESService.GetLegalKey">
+            <summary>
+            获得密钥
+            </summary>
+            <returns>密钥</returns>
+        </member>
+        <member name="M:Whir.Framework.TripleDESService.GetLegalIV">
+            <summary>
+            获得初始向量IV
+            </summary>
+            <returns>初试向量IV</returns>
+        </member>
+        <member name="M:Whir.Framework.TripleDESService.Encrypt(System.String)">
+            <summary>
+            加密方法
+            </summary>
+            <param name="input">待加密的串</param>
+            <returns>经过加密的串</returns>
+        </member>
+        <member name="M:Whir.Framework.TripleDESService.Decrypt(System.String)">
+            <summary>
+            解密方法
+            </summary>
+            <param name="input">待解密的串</param>
+            <returns>经过解密的串</returns>
+        </member>
+        <member name="M:Whir.Framework.TripleDESService.Encrypt(System.Byte[])">
+            <summary>
+            加密方法byte[] to byte[]
+            </summary>
+            <param name="input">待加密的byte数组</param>
+            <returns>经过加密的byte数组</returns>
+        </member>
+        <member name="M:Whir.Framework.TripleDESService.Decrypt(System.Byte[])">
+            <summary>
+            解密方法byte[] to byte[]
+            </summary>
+            <param name="input">待解密的byte数组</param>
+            <returns>经过解密的byte数组</returns>
+        </member>
+        <member name="M:Whir.Framework.TripleDESService.Encrypt(System.String,System.String)">
+            <summary>
+            加密方法File to File
+            </summary>
+            <param name="inFileName">待加密文件的路径</param>
+            <param name="outFileName">待加密后文件的输出路径</param>
+        </member>
+        <member name="M:Whir.Framework.TripleDESService.Decrypt(System.String,System.String)">
+            <summary>
+            解密方法File to File
+            </summary>
+            <param name="inFileName">待解密文件的路径</param>
+            <param name="outFileName">待解密后文件的输出路径</param>
+        </member>
+        <member name="T:Whir.Framework.TripleDESUtil">
+             <summary>
+            [辅助类]三重DES
+             </summary>
+        </member>
+        <member name="F:Whir.Framework.TripleDESUtil.DEFAULT_KEY">
+            <summary>
+            密钥
+            </summary>
+        </member>
+        <member name="M:Whir.Framework.TripleDESUtil.Encrypt(System.String)">
+            <summary>
+            加密
+            </summary>
+            <param name="source"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Whir.Framework.TripleDESUtil.Decrypt(System.String)">
+            <summary>
+            解密
+            </summary>
+            <param name="source"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Whir.Framework.TripleDESUtil.Encrypt(System.String,System.String)">
+            <summary>
+            加密
+            </summary>
+            <param name="key"></param>
+            <param name="source"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Whir.Framework.TripleDESUtil.Decrypt(System.String,System.String)">
+            <summary>
+            解密
+            </summary>
+            <param name="key"></param>
+            <param name="source"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Whir.Framework.WebUtil">
+            <summary>
+            [辅助类]站点公共操作辅助类 
+            </summary>
+        </member>
+        <member name="M:Whir.Framework.WebUtil.#ctor">
+            <summary>
+            私有默认构造函数，禁止用户使用new()创建对象
+            </summary>
+        </member>
+        <member name="P:Whir.Framework.WebUtil.Instance">
+            <summary>
+            构建类的实例对象
+            </summary>
+        </member>
+        <member name="T:Whir.Framework.WebUtil.LazyClass">
+            <summary>
+            内部加载类
+            </summary>
+        </member>
+        <member name="M:Whir.Framework.WebUtil.AppPath">
+            <summary>
+            获取的应用程序名称，如“/”或“/website/”
+            </summary>
+        </member>
+        <member name="M:Whir.Framework.WebUtil.AppUrl">
+            <summary>
+            获取的应用程序URL址址与端口，如“http://www.google.com”或“http://www.google.com:8082”
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Whir.Framework.WebUtil.AppAbsoluteRootPath">
+            <summary>
+            站点根目录，绝对路径
+            </summary>
+        </member>
+        <member name="M:Whir.Framework.WebUtil.AppScheme">
+            <summary>
+            站点路径 如http:localhost:81
+            </summary>
+        </member>
+        <member name="M:Whir.Framework.WebUtil.GetQueryString(System.String)">
+            <summary>
+            获得指定Url参数的值
+            </summary>
+            <param name="strName">Url参数</param>
+            <returns>Url参数的值</returns>
+        </member>
+        <member name="M:Whir.Framework.WebUtil.GetQueryInt(System.String,System.Int32)">
+            <summary>
+            获得指定Url参数的int类型值
+            </summary>
+            <param name="strName">Url参数</param>
+            <param name="defValue">缺省值</param>
+            <returns>Url参数的int类型值</returns>
+        </member>
+        <member name="M:Whir.Framework.WebUtil.GetIP">
+            <summary>
+            获得当前页面客户端的IP
+            </summary>
+            <returns>当前页面客户端的IP</returns>
+        </member>
+        <member name="M:Whir.Framework.WebUtil.GetBrowser">
+            <summary>
+            获取当前访问来自的浏览器
+            </summary>
+        </member>
+        <member name="M:Whir.Framework.WebUtil.SetChecked(System.Web.UI.WebControls.CheckBoxList,System.String,System.String)">
+            <summary>
+            初始化CheckBoxList中哪些是选中了的 
+            </summary>
+            <param name="checkList">CheckBoxList</param>
+            <param name="selval">选中了的值串例如："0,1,1,2,1"</param>
+            <param name="separator">值串中使用的分割符例如"0,1,1,2,1"中的逗号</param>
+            <returns></returns>
+        </member>
+        <member name="M:Whir.Framework.WebUtil.GetChecked(System.Web.UI.WebControls.CheckBoxList,System.String)">
+            <summary>
+            得到CheckBoxList中选中了的值
+            </summary>
+            <param name="checkList">CheckBoxList</param>
+            <param name="separator">分割符号</param>
+            <returns></returns>
+        </member>
+        <member name="M:Whir.Framework.WebUtil.HtmlEncode(System.String)">
+            <summary>
+            将字符串中的单引号字符编码
+            </summary>
+            <param name="word">字符串</param>
+            <returns>返回编码后的字符串</returns>
+        </member>
+        <member name="M:Whir.Framework.WebUtil.HtmlDecode(System.String)">
+            <summary>
+            将字符串中的单引号字符解码
+            </summary>
+            <param name="word">字符串</param>
+            <returns>返回解码后的字符串</returns>
+        </member>
+        <member name="T:Whir.Framework.XmlUtil">
+            <summary>
+            [辅助类]XML操作辅助类
+            </summary>
+        </member>
+        <member name="M:Whir.Framework.XmlUtil.SerializerObject(System.String,System.Type,System.Object)">
+            <summary>
+            序列化
+            </summary>
+            <param name="xmlPath">Xml文件路径</param>
+            <param name="type">对象的类型</param>
+            <param name="model">对象</param>
+        </member>
+        <member name="M:Whir.Framework.XmlUtil.DeserializeObject(System.String,System.Type)">
+            <summary>
+            反序列化
+            </summary>
+            <param name="xmlPath">Xml文件路径</param>
+            <param name="type">对象的类型</param>
+            <returns></returns>
+        </member>
+        <member name="M:Whir.Framework.XmlUtil.GetMapPath(System.String)">
+            <summary>
+            获取物理路径
+            </summary>
+            <param name="path">虚拟路径或物理路径</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

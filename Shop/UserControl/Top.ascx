@@ -1,0 +1,2 @@
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeFile="Top.ascx.cs" Inherits="Shop_UserControl_Top"  EnableViewState="false"  %>
+   <center><img src="<%=AppName %>Shop/images/header.jpg" /></center>

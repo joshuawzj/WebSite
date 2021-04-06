@@ -1,0 +1,489 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="SystemMasterPage.master.cs"
+    Inherits="Whir_System_Master_SystemMasterPage" %>
+
+<%@ Import Namespace="System.Linq" %>
+<%@ Import Namespace="Whir.Framework" %>
+<%@ Import Namespace="Whir.Framework" %>
+<%@ Import Namespace="Whir.Language" %>
+<%@ Import Namespace="Whir.Domain" %>
+<%@ Import Namespace="Whir.Service" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title><%= AppSettingUtil.GetString("ProductName") %></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <meta name="author" content="万户网络" />
+    <link rel="stylesheet" href="<%=SysPath%>Res/assets/css/style.css" />
+    <link rel="stylesheet" href="<%=SysPath%>Res/assets/css/loader-style.css" />
+    <link rel="stylesheet" href="<%=SysPath%>Res/assets/css/bootstrap.css" />
+    <%--提示toastr--%>
+    <link rel="stylesheet" href="<%=SysPath%>Res/assets/js/toastr-master/toastr.css" />
+    <%--表格--%>
+    <link rel="stylesheet" href="<%=SysPath%>Res/assets/js/dataTable/lib/jquery.dataTables/css/DT_bootstrap.css" />
+    <link rel="stylesheet" href="<%=SysPath%>Res/assets/js/dataTable/css/datatables.responsive.css" />
+    <%--单选、多选按钮--%>
+    <link rel="stylesheet" href="<%=SysPath%>Res/assets/js/iCheck/flat/all.css" />
+    <link rel="stylesheet" href="<%=SysPath%>Res/css/css_whir_v450.css" />
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+    <!-- Fav and touch icons -->
+    <script type="text/javascript" src="<%=SysPath%>Res/assets/js/jquery.js"></script>
+
+    <%--提示toastr--%>
+    <script type="text/javascript" src="<%=SysPath%>Res/assets/js/toastr-master/toastr.js"></script>
+    <%--单选、多选按钮--%>
+    <script type="text/javascript" src="<%=SysPath%>Res/assets/js/iCheck/jquery.icheck.js"></script>
+    <%--表单验证--%>
+    <link rel="stylesheet" href="<%=SysPath%>Res/assets/js/bootstrapvalidator/bootstrapValidator.css" />
+    <script type="text/javascript" src="<%=SysPath%>Res/assets/js/bootstrapvalidator/bootstrapValidator.js"></script>
+    <%--日期控件--%>
+    <link rel="stylesheet" href="<%=SysPath%>Res/assets/js/bootstrap-datetimepicker/css/bootstrap-datetimepicker.min.css" />
+    <script type="text/javascript" src="<%=SysPath%>Res/assets/js/bootstrap-datetimepicker/js/bootstrap-datetimepicker.js"></script>
+    <script type="text/javascript" src="<%=SysPath%>Res/assets/js/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.zh-CN.js"></script>
+
+    <script src="<%=SysPath%>res/js/base64.js" type="text/javascript"></script>
+    <script src="<%=SysPath%>res/js/commons.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        var _appName = "<%=AppName%>";
+        var _sysPath = "<%=SysPath%>";
+        var _uploadFilesPath = "<%= UploadFilePath %>";
+        var _sysPageList = <%=GetPageList()%>;
+        var _sysCurrentPage = 1;
+        var _editorCssUrl = "";
+        var _sysPageSizeCookieName = "ezEIPListPageSize";
+    </script>
+    <script src="<%=SysPath%>res/js/Whir/whir.cookie.js" type="text/javascript"></script>
+    <script type="text/javascript" src="<%=SysPath%>Res/assets/js/preloader.js"></script>
+    <script type="text/javascript" src="<%=SysPath%>Res/assets/js/bootstrap.js"></script>
+    <script type="text/javascript" src="<%=SysPath%>Res/assets/js/app.js"></script>
+    <script type="text/javascript" src="<%=SysPath%>Res/assets/js/load.js"></script>
+    <script type="text/javascript" src="<%=SysPath%>Res/assets/js/main.js"></script>
+    <script type="text/javascript" src="<%=SysPath%>res/js/whir/whir.ajax.js"></script>
+    <script type="text/javascript" src="<%=SysPath%>res/js/whir/whir.form.js"></script>
+    <script type="text/javascript" src="<%=SysPath%>res/js/whir/whir.ui.js" lang="<%=Whir.ezEIP.Web.SysManagePageBase.GetLoginUserLanguageType() %>"></script>
+
+    <!--列表-->
+    <link rel="stylesheet" href="<%=SysPath%>Res/assets/js/bootstrap-table/src/bootstrap-table.css" />
+    <script src="<%=SysPath%>Res/assets/js/bootstrap-table/src/bootstrap-table.js"></script>
+
+    <script src="<%=SysPath%>Res/assets/js/bootstrap-table/src/extensions/export/bootstrap-table-export.js"></script>
+    <script src="<%=SysPath%>Res/assets/js/bootstrap-table/src/extensions/column/bootstrap-table-column.js"></script>
+    <script src="<%=SysPath%>Res/assets/js/bootstrap-table/src/extensions/print/bootstrap-table-print.js"></script>
+
+    <!--弹出-->
+    <link href="<%=SysPath%>Res/assets/js/bootstrap-dialog/src/css/bootstrap-dialog.css" rel="stylesheet" type="text/css" />
+    <script src="<%=SysPath%>Res/assets/js/bootstrap-dialog/src/js/bootstrap-dialog.js" type="text/javascript"></script>
+    <script type="text/javascript" src="<%=SysPath%>res/js/whir/whir.TipMessage.js"></script>
+    <link rel="stylesheet" href="<%=SysPath%>Res/assets/js/tree/jquery.treeview.css" />
+    <script src="<%=SysPath%>Res/assets/js/tree/lib/jquery.cookie.js" type="text/javascript"></script>
+    <script src="<%=SysPath%>Res/assets/js/tree/jquery.treeview.js" type="text/javascript"></script>
+
+    <%if ("kindeditor".Equals(Whir.Config.ConfigHelper.GetSystemConfig().Editor))
+        {%>
+    <link rel="stylesheet" href="<%=AppName%>Editor/KindEditor/themes/default/default.css" />
+    <link rel="stylesheet" href="<%=AppName%>Editor/KindEditor/plugins/code/prettify.css" />
+    <script type="text/javascript" charset="utf-8" src="<%=AppName%>Editor/KindEditor/kindeditor.js"></script>
+    <script type="text/javascript" charset="utf-8" src="<%=AppName%>Editor/KindEditor/lang/zh_CN.js"></script>
+    <script type="text/javascript" charset="utf-8" src="<%=AppName%>Editor/KindEditor/plugins/code/prettify.js"></script>
+    <%}%>
+    <%if ("wueditor".Equals(Whir.Config.ConfigHelper.GetSystemConfig().Editor))
+        {%>
+    <script type="text/javascript" src="<%=AppName%>Editor/wueditor/ueditor.config.js"></script>
+    <script type="text/javascript" src="<%=AppName%>Editor/wueditor/ueditor.all.js"></script>
+    <%}%>
+    <%if ("ueditor".Equals(Whir.Config.ConfigHelper.GetSystemConfig().Editor))
+        {%>
+    <script type="text/javascript" src="<%=AppName%>Editor/ueditor/ueditor.config.js"></script>
+    <script type="text/javascript" src="<%=AppName%>Editor/ueditor/ueditor.all.js"></script>
+    <%}%>
+    <!--上传控件-->
+    <link href="<%=SysPath%>res/assets/js/fileinput/css/fileinput.min.css" rel="stylesheet" type="text/css" />
+    <script src="<%=SysPath%>res/assets/js/fileinput/js/fileinput.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="<%=SysPath%>res/assets/js/fileinput/js/sortable.min.js"></script>
+    <!--语言版本控制-->
+    <%if (CurrentUser.SystemLanguage == 2)
+        {%>
+    <script type="text/javascript" src="<%=SysPath%>Res/assets/js/bootstrap-table/src/locale/bootstrap-table-zh-TW.js"></script>
+    <script type="text/javascript" src="<%=SysPath%>Res/assets/js/bootstrapvalidator/language/zh_TW.js"></script>
+    <script type="text/javascript" src="<%=SysPath%>Res/assets/js/fileinput/locales/zh-TW.js"></script>
+    <%}
+        else if (CurrentUser.SystemLanguage == 3)
+        { %>
+    <script type="text/javascript" src="<%=SysPath%>Res/assets/js/bootstrap-table/src/locale/bootstrap-table-en-US.js"></script>
+    <script type="text/javascript" src="<%=SysPath%>Res/assets/js/bootstrapvalidator/language/en_US.js"></script>
+    <script type="text/javascript" src="<%=SysPath%>Res/assets/js/fileinput/locales/lang.js"></script>
+    <%}
+        else
+        {  %>
+    <script type="text/javascript" src="<%=SysPath%>Res/assets/js/bootstrap-table/src/locale/bootstrap-table-zh-CN.js"></script>
+    <script type="text/javascript" src="<%=SysPath%>Res/assets/js/bootstrapvalidator/language/zh_CN.js"></script>
+    <script type="text/javascript" src="<%=SysPath%>Res/assets/js/fileinput/locales/zh.js"></script>
+    <%} %>
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body style="background: url('<%= SysPath + (CurrentUser.SystemSkin ?? "bg1.jpg") %>') repeat center; background-size: cover; background-attachment: fixed;">
+    <div id="notReg" style="display: none; position: fixed; top: 0px; left: 0px; width: 100%; height: 100%; min-height: 450px; background: rgba(100,0,0,0.1); color: #FF6C60; font-weight: bold; font-size: 48px; text-shadow: 0px 2px 2px #3d3d3d; text-align: center; line-height: 550px; z-index: 9999;">未授权</div>
+    <!-- Preloader -->
+    <div id="preloader">
+        <div id="status">
+            &nbsp;
+        </div>
+    </div>
+    <!-- 顶部导航 -->
+    <nav role="navigation" class="navbar navbar-static-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button data-target="#bs-example-navbar-collapse-1" data-toggle="collapse" class="navbar-toggle" type="button">
+                    <span class="entypo-menu"></span>
+                </button>
+                <button class="navbar-toggle toggle-menu-mobile toggle-left" type="button">
+                    <span class="entypo-list-add"></span>
+                </button>
+
+                <div id="logo-mobile" class="visible-xs">
+                   <h1 onclick="location.href='<%=SysPath%>Main.aspx';">ezEIP<span><%=AppSettingUtil.GetString("Version")%></span></h1>
+                </div>
+            </div>
+            <div id="bs-example-navbar-collapse-1" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    
+                    <% if (HasSite)
+                        {%>
+                    <li class="dropdown">
+                        <a data-toggle="dropdown" title="<%= "站点内容".ToLang() %>" class="dropdown-toggle" onclick="openColumnMenu(0);" style="cursor:pointer" >
+                            <span class="fontawesome-list-ul"></span>
+                            &nbsp;<%= "内容".ToLang() %>
+                        </a>
+                    </li> 
+                    <% }%>
+                     <% if (HasSubSite)
+                         {%>
+                    <li class="dropdown">
+                        <a data-toggle="dropdown" title="<%="子站内容".ToLang() %>" class="dropdown-toggle"  onclick="openColumnMenu(1);" style="cursor:pointer" >
+                            <span class="fontawesome-th" ></span>
+                             &nbsp;<%="子站".ToLang() %>
+                        </a>
+                    </li> 
+                     <% }%>
+                     <% if (HasSubject)
+                         {%>
+                     <li class="dropdown">
+                        <a data-toggle="dropdown" title="<%="专题内容".ToLang() %>" class="dropdown-toggle" onclick="openColumnMenu(2);" style="cursor:pointer" >
+                            <span class="entypo-newspaper" ></span>
+                              &nbsp;<%="专题".ToLang() %>
+                        </a>
+                    </li> 
+                     <% }%>
+                   <li class="dropdown">
+                        <a  class="dropdown-toggle" title="<%= "功能模块".ToLang() %>" onclick="openMenu(0);" style="cursor:pointer" >
+                            <span class="icon-view-thumb"></span>
+                            &nbsp;<%= "模块".ToLang() %>
+                        </a>
+                    </li> 
+                     <li class="dropdown">
+                        <a  class="dropdown-toggle" title="<%= "系统设置".ToLang() %>" onclick="openMenu(1);" style="cursor:pointer" >
+                            <span class="fontawesome-cog"></span>
+                            &nbsp;<%= "设置".ToLang() %>
+                        </a>
+                    </li> 
+                    <% foreach (var item in MenuList)
+                        {
+                            if (item.IsShow && SysManagePageBase.IsCurrentRoleMenuRes(item.MenuId.ToStr()))
+                            {
+                    %>
+                    <% if (item.Url != "#")
+                        { %>
+                     <li class="dropdown">
+                        <a class="dropdown-toggle"  href="<%= SysPath + item.Url %>"  title="<%= item.MenuName.ToLang() %>">
+                            <span class="<%= item.MenuIcon %>"></span>&nbsp;<%= item.MenuName.ToLang() %></a>
+                      </li>  
+                    <% }
+                        else
+                        { %>
+                     <li class="dropdown">
+                        <a class="dropdown-toggle" onclick="openMenu(<%= item.MenuId %>);"  title="<%= item.MenuName.ToLang() %>"  style="cursor:pointer">
+                            <span class="<%= item.MenuIcon %>"></span>&nbsp;<%= item.MenuName.ToLang() %>
+                        </a>
+                    </li>
+                        <% }
+                                }
+                            } %>
+                    
+                </ul>
+
+                <ul style="margin-right:0;" class="nav navbar-nav navbar-right">
+                    <li>
+                        <a data-toggle="dropdown" class="dropdown dropdown-toggle" href="javascript:;">
+                            <span class="fontawesome-flag"></span>&nbsp;<asp:Literal ID="libSiteName" runat="server"></asp:Literal>&nbsp;<b class="caret"></b>
+                        </a>
+                        <ul style="margin-top:14px;" role="menu" class="dropdown-setting dropdown-menu">
+
+                            <asp:Repeater ID="rptSiteList" runat="server">
+                                <ItemTemplate>
+                                     <li>
+                                        <a href="javascript:void(0);" onclick="siteshowtree(<%#Eval("SiteID") %>);return false;">
+                                           <%#Eval("SiteName")%>
+                                        </a>
+                                     </li>
+                                </ItemTemplate>
+                            </asp:Repeater>
+                            
+                           
+                        </ul>
+
+                    </li>
+
+                    <li>
+                        <a data-toggle="dropdown" class="dropdown dropdown-toggle" href="javascript:;">
+                            <span class="fontawesome-user"></span>&nbsp;<%="欢迎您,".ToLang()+ CurrentUserName%>&nbsp;<b class="caret"></b>
+                        </a>
+                        <ul style="margin-top:14px;" role="menu" class="dropdown-setting dropdown-menu">
+                            <li><a href="<%=SysPath%>Main.aspx"><span class="fontawesome-home"></span>&nbsp;<%="系统首页".ToLang()%></a></li>
+                            <li><a href="<%=SysPath%>Module/Security/AdminInfo.aspx"><span class="entypo-user"></span>&nbsp;<%="个人资料".ToLang()%></a></li>
+                            <li><a href="<%=SysPath%>Module/Security/AdminChangePwd.aspx"><span class="entypo-vcard"></span>&nbsp;<%="密码设置".ToLang()%></a></li>
+                            <li><a href="http://www.wanhu.com.cn/" target="_blank"><span class="entypo-lifebuoy"></span>&nbsp;<%="帮助中心".ToLang()%></a></li>
+                            <li><a href="javascript:logout();" ><span class="entypo-logout"></span>&nbsp;<%="退出系统".ToLang()%></a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a data-toggle="dropdown" class="dropdown dropdown-toggle" href="javascript:;">
+                            <span class="fontawesome-adjust"></span>
+                            &nbsp;<%="界面设置".ToLang()%>
+                        </a>
+                        <ul role="menu" class="dropdown-setting dropdown-menu">
+                            <li class="theme-bg">
+                                <div id="button-bg1" onclick="whir.skin.load('bg1.jpg');"></div>
+                                <div id="button-bg2" onclick="whir.skin.load('bg2.jpg');"></div>
+                                <div id="button-bg3" onclick="whir.skin.load('bg3.jpg');"></div>
+                                <div id="button-bg4" onclick="whir.skin.load('bg4.jpg');"></div>
+                                <div id="button-bg5" onclick="whir.skin.load('bg5.jpg');"></div>
+                                <div id="button-bg6" onclick="whir.skin.load('bg6.jpg');"></div>
+                                <div id="button-bg7" onclick="whir.skin.load('bg7.jpg');"></div>
+                                <div id="button-bg8" onclick="whir.skin.load('bg8.jpg');"></div>
+                                <div id="button-bg9" onclick="whir.skin.load('bg9.jpg');"></div>
+                                <div id="button-bg10" onclick="whir.skin.load('bg10.jpg');"></div>
+                                <div id="button-bg11" onclick="whir.skin.load('bg11.jpg');"></div>
+                                <div id="button-bg12" onclick="whir.skin.load('bg12.jpg');"></div>
+                            </li>
+                        </ul>
+                    </li>
+                    
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    <!-- 顶部导航 -->
+    <!-- 左侧功能菜单 -->
+    <div id="skin-select">
+        <div id="logo-web">
+            <h1 onclick="location.href='<%=SysPath%>Main.aspx';">光盐财经<span><%=AppSettingUtil.GetString("Version")%></span></h1>
+        </div>
+        <a id="toggle"><span class="entypo-menu"></span></a>
+        <div class="dark">
+            <span>
+                <input type="text" name="search" value="" class="leftbar-search rounded id_search" placeholder="<%="请输入菜单名或栏目名...".ToLang()%>" autofocus="" />
+            </span>
+        </div>
+
+        <div class="skin-part">
+            <div id="tree-wrap">
+                <div class="side-bar">
+                    <div id="searchColumn" style="display: none;">
+                        <ul class="topnav menu-left-nest"></ul>
+                    </div>
+                    <whir:LeftMenu ID="leftMenu1" runat="server"></whir:LeftMenu>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 左侧功能菜单 -->
+    <!-- 主体内容 -->
+    <div class="wrap-fluid">
+        <div class="container-fluid bevel tlbr">
+            <ul id="breadcrumb">
+                <li><a href="<%=SysPath%>Main.aspx"><i class="fa entypo-home"></i>&nbsp;<%="系统首页".ToLang()%></a></li>
+                <%=Location%>
+                <li class="pull-right">
+                    <div class="btn-group input-widget">
+                        <%if (SysManagePageBase.IsCurrentRoleMenuRes("363"))
+                            { %>
+                        <button type="button" class="btn btn-white" onclick="openPublishDialog();"><%="发布页面".ToLang()%></button>
+                        <%} %>
+                        <button class="btn btn-white" onclick="window.open('<%=SysPath%>ajax/FontIndexRedirect.aspx')"><%="网站前台".ToLang()%></button>
+                    </div>
+                </li>
+            </ul>
+
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
+            <div class="footer-space"></div>
+        </div>
+    </div>
+    <!-- 主体内容 -->
+
+
+    <script type="text/javascript">
+
+        //整站无图处理
+        jQuery.each(jQuery("img"), function (i, n) { jQuery(n).on('error', function () { n.src = '<%=UploadFilePath%>nopic/1.gif'; }); n.src = n.src; });
+
+        function siteshowtree(data) {
+            whir.cookie.set("column_refresh_flag", "1", 1);
+            whir.cookie.set("subsite_refresh_flag", "1", 1);
+            whir.cookie.set("subject_refresh_flag", "1", 1);
+
+            whir.ajax.post("<%=SysPath %>Handler/Developer/Menu.aspx", {
+                data: {
+                    _action: "ClearMenuCookies"
+                },
+                success: function (response) {
+                }
+            });
+
+            location.href = "<%=SysPath%>Main.aspx?siteid=" + data + "&time=<%=DateTime.Now.Millisecond %>";
+        }
+
+
+        var leftMenuHeight = $("#skin-select").height();
+        var mainHeight = $(".bevel").height();
+        if (mainHeight < leftMenuHeight - 65) {
+            $(".bevel").css("min-height", leftMenuHeight - 65);
+        }
+
+        //美化单选、多选按钮
+        whir.skin.radio();
+        whir.skin.checkbox();
+
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip();
+        });
+
+        function TipMessage(text, callback) {
+            whir.toastr.info(text);
+            if (typeof (callback) == "function") {
+                callback();
+            }
+        }
+
+        function TipError(text, callback) {
+            whir.toastr.error(text);
+            if (typeof (callback) == "function") {
+                callback();
+            }
+        }
+
+        //顶部站点内容防止冒泡事件
+        $(document).ready(function () {
+            $("#topSiteMenu").click(function (event) {
+                event.stopPropagation();
+            });
+            $("#topSubSiteMenu").click(function (event) {
+                event.stopPropagation();
+            });
+            $("#topSubMenu").click(function (event) {
+                event.stopPropagation();
+            });
+
+            $("input[name=search]").keyup(function (event) {
+                searchMenu();
+            });
+
+        });
+
+        //预览图片
+        function view(imgUrl) {
+            var opts = {
+                title: '<%="预览".ToLang()%>',
+                content: '<img id="pViewPic" src="' + imgUrl + '" style="max-width:800px;max-height:' + ($(window).height() - 90) + 'px">',
+                ok: function (dialog) {
+                },
+                cancel: function (dialog) { dialog.close(); },
+                okText: '<%="确定".ToLang()%>',
+                cancelText: '<%="关闭".ToLang()%>',
+                showOk: false,
+                showCancel: true,
+                iframe: {
+                    url: '',
+                    width: 500,
+                    height: 500,
+                    scroll: false
+                },
+                zIndex: 1003
+            };
+            whir.dialog.show(opts);
+
+            var _test = $('#pViewPic');
+            _test.load(function () {
+                imgSize.call();
+            });
+        }
+
+        //打开发布页面
+        function openPublishDialog() {
+            var opts = {
+                title: '<%="发布".ToLang()%>',
+                content: '',
+                ok: function (dialog) {
+                },
+                cancel: function (dialog) { dialog.close(); },
+                okText: '<%="确定".ToLang()%>',
+                cancelText: '<%="关闭".ToLang()%>',
+                showOk: false,
+                showCancel: true,
+                iframe: {
+                    url: '<%=SysPath%>module/release/generationwebsites.aspx',
+                    width: 1150,
+                    height: 600,
+                    scroll: true
+                },
+                zIndex: 1003
+            };
+            whir.dialog.show(opts);
+        }
+
+        //打开图片库、文件库 选择
+        function openPicker(url, title, o) {
+            var formid = $(o).parents("form").attr("Id");
+            url += "&formid=" + formid;
+            var opts = {
+                title: title,
+                content: '',
+                ok: function (dialog) {
+                },
+                cancel: function (dialog) { dialog.close(); },
+                okText: '<%="确定".ToLang()%>',
+                cancelText: '<%="取消".ToLang()%>',
+                showOk: true,
+                showCancel: true,
+                iframe: {
+                    url: url,
+                    width: 1200,
+                    height: 600,
+                    scroll: true
+                },
+                zIndex: 1003
+            };
+            whir.dialog.show(opts);
+        }
+
+        //退出
+        function logout() {
+            whir.dialog.confirm("<%="确认要退出吗？".ToLang() %>", function () {
+                location.href = '<%=SysPath%>Module/Security/Loginout.aspx';
+            });
+        }
+        <%if (!Whir.ezEIP.Web.SysManagePageBase.IsRegForAllDomain() && AppSettingUtil.GetString("IsOnline").ToBoolean(false))
+        {%>
+        $("#notReg").show();
+
+        <%}%>
+</script>
+</body>
+</html>

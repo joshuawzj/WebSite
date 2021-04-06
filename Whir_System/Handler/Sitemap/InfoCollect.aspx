@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="InfoCollect.aspx.cs" Inherits="Whir_System_Handler_Sitemap_InfoCollect" %>

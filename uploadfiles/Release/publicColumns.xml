@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<items>
+  <item>
+    <count>999</count>
+    <index>1</index>
+    <message>公共文件 -发布, 完成</message>
+  </item>
+  <item>
+    <count>1</count>
+    <index>1</index>
+    <message>产品中心[4] -首页, 无需发布, 完成</message>
+  </item>
+  <item>
+    <count>1</count>
+    <index>1</index>
+    <message>产品中心[4] -列表页, 无需发布, 完成</message>
+  </item>
+  <item>
+    <count>1</count>
+    <index>1</index>
+    <message>产品中心[4] -内容页, 发布, 完成</message>
+    <previewUrl>/cpzx/info.aspx</previewUrl>
+  </item>
+  <item>
+    <count>1</count>
+    <index>1</index>
+    <message>产品中心[4] -附带发布, 无需发布, 完成</message>
+  </item>
+</items>

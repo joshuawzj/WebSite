@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="VisitStatistic.aspx.cs" Inherits="Whir_System_Handler_Pligin_VisitStatistic" %>

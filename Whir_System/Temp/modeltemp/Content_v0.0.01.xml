@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Model>
+    <ModelMark>Content_v0.0.01</ModelMark>
+    <ModelName>简单信息模块</ModelName>
+    <ModelDesc />
+    <Fields>
+        <Field FieldName="Hits" FieldAlias="点击率" FieldType="1" TypeName="nvarchar" TypeLength="16" IsSystemField="False" IsDefaultForm="Flase" Sort="8" IsDefaultListShow="False" DefaultValue="0" ValidateType="非负整数" ValidateExpression="[\+]?\d*" />
+        <Field FieldName="Title" FieldAlias="标题" FieldType="1" TypeName="nvarchar" TypeLength="2048" IsSystemField="False" IsDefaultForm="True" Sort="2" IsDefaultListShow="True" IsWorkFlowTitle="True" />
+        <Field FieldName="CategoryID" FieldAlias="信息类别" FieldType="4" TypeName="nvarchar" TypeLength="2048" IsSystemField="False" Sort="2" />
+        <Field FieldName="IsDefault" FieldAlias="首页推荐" FieldType="9" TypeName="bit" TypeLength="1" IsDefaultForm="False" IsSystemField="False" Sort="3" />
+        <Field FieldName="IsTop" FieldAlias="置顶" FieldType="9" TypeName="bit" TypeLength="1" IsSystemField="False" Sort="3" />
+        <Field FieldName="ImageUrl" FieldAlias="上传图片" IsSystemField="False" Sort="4" FieldType="10" TypeName="nvarchar" TypeLength="2048" />
+        <Field FieldName="Content" FieldAlias="内容" FieldType="3" TypeName="ntext" TypeLength="16" IsSystemField="False" IsDefaultForm="True" Sort="2"  />
+
+        <Field FieldName="MetaTitle" FieldAlias="SEO标题" FieldType="1" TypeName="nvarchar" TypeLength="512" IsSystemField="False" IsDefaultForm="False" Sort="8"  />
+        <Field FieldName="MetaKeyword" FieldAlias="SEO关键字" FieldType="1" TypeName="nvarchar" TypeLength="512" IsSystemField="False" IsDefaultForm="False" Sort="8"  />
+        <Field FieldName="MetaDesc" FieldAlias="SEO描述" FieldType="2" TypeName="nvarchar" TypeLength="1024" IsSystemField="False" IsDefaultForm="False" Sort="8"  />
+
+        <Field FieldName="RedirectUrl" FieldAlias="转向链接" FieldType="1" TypeName="nvarchar" TypeLength="2048" IsSystemField="True" IsDefaultForm="True" Sort="8"  />
+        <Field FieldName="EnableRedirectUrl" FieldAlias="是否启用转向链接" FieldType="9" TypeName="bit" TypeLength="1" IsSystemField="True" IsDefaultForm="True" Sort="8"  />
+
+        <Field FieldName="TypeID" FieldAlias="栏目编号" FieldType="1" TypeName="nvarchar" TypeLength="64" IsSystemField="True" IsDefaultForm="True" IsHidden="true" Sort="0" IsEnableListShow="-1" />
+        <Field FieldName="SubjectId" FieldAlias="所属子站ID" FieldType="1" TypeName="nvarchar" TypeLength="64" IsSystemField="True" IsDefaultForm="True" IsHidden="true" Sort="0" IsEnableListShow="-1" />
+        <Field FieldName="State" FieldAlias="状态" FieldType="5" TypeName="bigint" TypeLength="16" IsSystemField="True" IsDefaultForm="True" IsHidden="true" Sort="0" IsEnableListShow="-1" DefaultValue="0"/>
+        <Field FieldName="Sort" FieldAlias="排序" FieldType="5" TypeName="bigint" TypeLength="16" IsSystemField="True" IsDefaultForm="True" IsHidden="true" Sort="0" IsEnableListShow="-1" />
+        <Field FieldName="IsDel" FieldAlias="是否删除" FieldType="9" TypeName="bit" TypeLength="1" IsSystemField="True" IsDefaultForm="True" IsHidden="true" Sort="0" IsEnableListShow="-1" />
+
+        <Field FieldName="CreateDate" FieldAlias="创建时间" FieldType="7" TypeName="datetime" TypeLength="8" Sort="6" IsSystemField="True" IsDefaultForm="True" IsHidden="false" IsDefaultListShow="True" IsEnableListShow="1" DefaultValue="2" />
+        <Field FieldName="CreateUser" FieldAlias="创建人" FieldType="1" TypeName="nvarchar" TypeLength="128" Sort="7" IsSystemField="True" IsDefaultForm="True" IsHidden="true" IsEnableListShow="-1" />
+        <Field FieldName="UpdateUser" FieldAlias="修改人" FieldType="1" TypeName="nvarchar" TypeLength="128" Sort="3" IsSystemField="True" IsDefaultForm="True" IsHidden="true" IsEnableListShow="-1" />
+        <Field FieldName="UpdateDate" FieldAlias="修改时间" FieldType="7" TypeName="datetime" TypeLength="8" Sort="4" IsSystemField="True" IsDefaultForm="True" IsHidden="true" IsEnableListShow="-1" DefaultValue="2" />
+
+
+    </Fields>
+</Model>

@@ -1,0 +1,661 @@
+2021/3/10 14:44:56 # c:\wwwroot\WebSite\Ajax\AddOrder.aspx.cs(34): error CS0841: 局部变量“key”在声明之前无法使用
+   在 System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   在 System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   在 System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+2021/3/10 14:45:04 # c:\wwwroot\WebSite\Ajax\AddOrder.aspx.cs(34): error CS0841: 局部变量“key”在声明之前无法使用
+   在 System.Web.Compilation.BuildManager.PostProcessFoundBuildResult(BuildResult result, Boolean keyFromVPP, VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetBuildResultFromCacheInternal(String cacheKey, Boolean keyFromVPP, VirtualPath virtualPath, Int64 hashCode, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultFromCacheInternal(VirtualPath virtualPath, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   在 System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   在 System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+2021/3/10 14:45:10 # c:\wwwroot\WebSite\Ajax\AddOrder.aspx.cs(34): error CS0841: 局部变量“key”在声明之前无法使用
+   在 System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   在 System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   在 System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+2021/3/10 18:25:19 # 文件“/ajax/notify_url.aspx”不存在。
+   在 System.Web.UI.Util.CheckVirtualFileExists(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   在 System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   在 System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+2021/3/10 18:38:09 # 文件“/ajax/notify_url.aspx”不存在。
+   在 System.Web.UI.Util.CheckVirtualFileExists(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   在 System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   在 System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+2021/3/10 18:38:18 # 文件“/ajax/notify_url.aspx”不存在。
+   在 System.Web.UI.Util.CheckVirtualFileExists(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   在 System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   在 System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+2021/3/10 18:38:34 # 文件“/ajax/notify_url.aspx”不存在。
+   在 System.Web.UI.Util.CheckVirtualFileExists(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   在 System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   在 System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+2021/3/10 18:38:51 # 文件“/ajax/notify_url.aspx”不存在。
+   在 System.Web.UI.Util.CheckVirtualFileExists(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   在 System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   在 System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+2021/3/10 18:39:11 # 文件“/ajax/notify_url.aspx”不存在。
+   在 System.Web.UI.Util.CheckVirtualFileExists(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   在 System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   在 System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+2021/3/10 18:39:23 # 文件“/ajax/notify_url.aspx”不存在。
+   在 System.Web.UI.Util.CheckVirtualFileExists(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   在 System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   在 System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+2021/3/10 18:42:12 # 文件“/ajax/notify_url.aspx”不存在。
+   在 System.Web.UI.Util.CheckVirtualFileExists(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   在 System.Web.Compilation.BuildManager.CreateInstanceFromVirtualPath(VirtualPath virtualPath, Type requiredBaseType, HttpContext context, Boolean allowCrossApp)
+   在 System.Web.UI.PageHandlerFactory.GetHandlerHelper(HttpContext context, String requestType, VirtualPath virtualPath, String physicalPath)
+   在 System.Web.HttpApplication.MaterializeHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+2021/3/10 18:44:38 # 引发类型为“System.Web.HttpUnhandledException”的异常。 -- 'whir_U_Order_pid' 附近有语法错误。
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.ajax_notify_url_aspx.ProcessRequest(HttpContext context) 位置 c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\3feaf4f5\23222d20\App_Web_eatuowxu.0.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+2021/3/10 18:44:56 # 引发类型为“System.Web.HttpUnhandledException”的异常。 -- 'whir_U_Order_pid' 附近有语法错误。
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.ajax_notify_url_aspx.ProcessRequest(HttpContext context) 位置 c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\3feaf4f5\23222d20\App_Web_eatuowxu.0.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+2021/3/10 18:44:59 # 引发类型为“System.Web.HttpUnhandledException”的异常。 -- 'whir_U_Order_pid' 附近有语法错误。
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.ajax_notify_url_aspx.ProcessRequest(HttpContext context) 位置 c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\3feaf4f5\23222d20\App_Web_eatuowxu.0.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+2021/3/10 18:46:21 # 引发类型为“System.Web.HttpUnhandledException”的异常。 -- 'whir_U_Order_pid' 附近有语法错误。
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.ajax_notify_url_aspx.ProcessRequest(HttpContext context) 位置 c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\3feaf4f5\23222d20\App_Web_kg1r5mow.0.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+2021/3/10 18:46:28 # 引发类型为“System.Web.HttpUnhandledException”的异常。 -- 'whir_U_Order_pid' 附近有语法错误。
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.ajax_notify_url_aspx.ProcessRequest(HttpContext context) 位置 c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\3feaf4f5\23222d20\App_Web_kg1r5mow.0.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+2021/3/10 18:58:22 # 引发类型为“System.Web.HttpUnhandledException”的异常。 -- 'whir_U_Order_pid' 附近有语法错误。
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.ajax_notify_url_aspx.ProcessRequest(HttpContext context) 位置 c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\3feaf4f5\23222d20\App_Web_1ny4wsl1.0.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+2021/3/10 18:58:37 # 引发类型为“System.Web.HttpUnhandledException”的异常。 -- 无法将类型为“Newtonsoft.Json.Linq.JArray”的对象强制转换为类型“Newtonsoft.Json.Linq.JObject”。
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.ajax_notify_url_aspx.ProcessRequest(HttpContext context) 位置 c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\3feaf4f5\23222d20\App_Web_3wbyrdws.0.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+2021/3/10 18:59:03 # 引发类型为“System.Web.HttpUnhandledException”的异常。 -- 无法将类型为“Newtonsoft.Json.Linq.JArray”的对象强制转换为类型“Newtonsoft.Json.Linq.JObject”。
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.ajax_notify_url_aspx.ProcessRequest(HttpContext context) 位置 c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\3feaf4f5\23222d20\App_Web_3wbyrdws.0.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+2021/3/10 19:00:47 # 引发类型为“System.Web.HttpUnhandledException”的异常。 -- 无法将类型为“Newtonsoft.Json.Linq.JArray”的对象强制转换为类型“Newtonsoft.Json.Linq.JObject”。
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.ajax_notify_url_aspx.ProcessRequest(HttpContext context) 位置 c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\3feaf4f5\23222d20\App_Web_3wbyrdws.0.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+2021/3/10 19:02:48 # 引发类型为“System.Web.HttpUnhandledException”的异常。 -- 无法将类型为“Newtonsoft.Json.Linq.JArray”的对象强制转换为类型“Newtonsoft.Json.Linq.JObject”。
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.ajax_notify_url_aspx.ProcessRequest(HttpContext context) 位置 c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\3feaf4f5\23222d20\App_Web_3wbyrdws.0.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+2021/3/10 19:03:03 # 引发类型为“System.Web.HttpUnhandledException”的异常。 -- 无法将类型为“Newtonsoft.Json.Linq.JArray”的对象强制转换为类型“Newtonsoft.Json.Linq.JObject”。
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.ajax_notify_url_aspx.ProcessRequest(HttpContext context) 位置 c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\3feaf4f5\23222d20\App_Web_jgscerv1.0.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+2021/3/10 19:07:57 # 引发类型为“System.Web.HttpUnhandledException”的异常。 -- 无法将类型为“Newtonsoft.Json.Linq.JArray”的对象强制转换为类型“Newtonsoft.Json.Linq.JObject”。
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.ajax_notify_url_aspx.ProcessRequest(HttpContext context) 位置 c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\3feaf4f5\23222d20\App_Web_k1zu54px.0.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+2021/3/10 19:07:59 # 引发类型为“System.Web.HttpUnhandledException”的异常。 -- 无法将类型为“Newtonsoft.Json.Linq.JArray”的对象强制转换为类型“Newtonsoft.Json.Linq.JObject”。
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.ajax_notify_url_aspx.ProcessRequest(HttpContext context) 位置 c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\3feaf4f5\23222d20\App_Web_k1zu54px.0.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+2021/3/10 19:18:05 # 引发类型为“System.Web.HttpUnhandledException”的异常。 -- Cannot access child value on Newtonsoft.Json.Linq.JValue.
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.ajax_notify_url_aspx.ProcessRequest(HttpContext context) 位置 c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\3feaf4f5\23222d20\App_Web_bh4iqbj0.0.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+2021/3/10 19:18:14 # 引发类型为“System.Web.HttpUnhandledException”的异常。 -- Cannot access child value on Newtonsoft.Json.Linq.JValue.
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.ajax_notify_url_aspx.ProcessRequest(HttpContext context) 位置 c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\3feaf4f5\23222d20\App_Web_bh4iqbj0.0.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+2021/3/10 19:18:35 # 引发类型为“System.Web.HttpUnhandledException”的异常。 -- Cannot access child value on Newtonsoft.Json.Linq.JValue.
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.ajax_notify_url_aspx.ProcessRequest(HttpContext context) 位置 c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\3feaf4f5\23222d20\App_Web_bh4iqbj0.0.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+2021/3/10 19:18:46 # 引发类型为“System.Web.HttpUnhandledException”的异常。 -- Cannot access child value on Newtonsoft.Json.Linq.JValue.
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.ajax_notify_url_aspx.ProcessRequest(HttpContext context) 位置 c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\3feaf4f5\23222d20\App_Web_bh4iqbj0.0.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+2021/3/10 19:19:08 # 引发类型为“System.Web.HttpUnhandledException”的异常。 -- Cannot access child value on Newtonsoft.Json.Linq.JValue.
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.ajax_notify_url_aspx.ProcessRequest(HttpContext context) 位置 c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\3feaf4f5\23222d20\App_Web_bh4iqbj0.0.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+2021/3/10 19:19:17 # 引发类型为“System.Web.HttpUnhandledException”的异常。 -- Cannot access child value on Newtonsoft.Json.Linq.JValue.
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.ajax_notify_url_aspx.ProcessRequest(HttpContext context) 位置 c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\3feaf4f5\23222d20\App_Web_bh4iqbj0.0.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+2021/3/10 19:21:37 # 开始下单 : 
+
+2021/3/10 19:21:38 # 下单结果 : {"msg":"下单成功，请扫码支付","code":0,"data":"http://images.yungouos.com/merge/native/code/210310192137071215307.png"}
+
+2021/3/10 19:22:09 # 支付成功回调 : 26
+
+2021/3/10 19:22:09 # 查询订单请求url : https://api.pay.yungouos.com/api/system/order/getPayOrderInfo?out_trade_no=2103101917342293&mch_id=100153075261&sign=A3B2AD818DA4A6E5D40AFE567D4F63AF
+
+2021/3/10 19:22:09 # 查询订单结果 : {"msg":"支付商户不存在","code":1}
+
+2021/3/10 19:22:09 # 引发类型为“System.Web.HttpUnhandledException”的异常。 -- Cannot access child value on Newtonsoft.Json.Linq.JValue.
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.ajax_notify_url_aspx.ProcessRequest(HttpContext context) 位置 c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\3feaf4f5\23222d20\App_Web_itgypu52.6.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+2021/3/10 19:22:18 # 支付成功回调 : 26
+
+2021/3/10 19:22:18 # 查询订单请求url : https://api.pay.yungouos.com/api/system/order/getPayOrderInfo?out_trade_no=2103101917342293&mch_id=100153075261&sign=A3B2AD818DA4A6E5D40AFE567D4F63AF
+
+2021/3/10 19:22:18 # 查询订单结果 : {"msg":"请求频繁，请稍候再试！","code":777}
+
+2021/3/10 19:22:18 # 引发类型为“System.Web.HttpUnhandledException”的异常。 -- Cannot access child value on Newtonsoft.Json.Linq.JValue.
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.ajax_notify_url_aspx.ProcessRequest(HttpContext context) 位置 c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\3feaf4f5\23222d20\App_Web_itgypu52.6.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+2021/3/10 19:22:36 # 支付成功回调 : 27
+
+2021/3/10 19:22:36 # 查询订单stringSignTemp : mch_id=100153075261&out_trade_no=2103101921370712&key=6802F0E8E0BE412BB37D8A0AD35CCAD6
+
+2021/3/10 19:22:36 # 查询订单请求url : https://api.pay.yungouos.com/api/system/order/getPayOrderInfo?out_trade_no=2103101921370712&mch_id=100153075261&sign=6B3572F73023AD2B9E4D7FDEB7879D90
+
+2021/3/10 19:22:37 # 查询订单结果 : {"msg":"支付商户不存在","code":1}
+
+2021/3/10 19:22:37 # 引发类型为“System.Web.HttpUnhandledException”的异常。 -- Cannot access child value on Newtonsoft.Json.Linq.JValue.
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.ajax_notify_url_aspx.ProcessRequest(HttpContext context) 位置 c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\3feaf4f5\23222d20\App_Web_4ih3a0qa.4.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+2021/3/10 19:22:49 # 支付成功回调 : 24
+
+2021/3/10 19:22:49 # 查询订单stringSignTemp : mch_id=100153075261&out_trade_no=2103101848296758&key=6802F0E8E0BE412BB37D8A0AD35CCAD6
+
+2021/3/10 19:22:49 # 查询订单请求url : https://api.pay.yungouos.com/api/system/order/getPayOrderInfo?out_trade_no=2103101848296758&mch_id=100153075261&sign=5EC6053783065A96E7EB65CCA6FD4EA1
+
+2021/3/10 19:22:49 # 查询订单结果 : {"msg":"支付商户不存在","code":1}
+
+2021/3/10 19:22:49 # 引发类型为“System.Web.HttpUnhandledException”的异常。 -- Cannot access child value on Newtonsoft.Json.Linq.JValue.
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.ajax_notify_url_aspx.ProcessRequest(HttpContext context) 位置 c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\3feaf4f5\23222d20\App_Web_4ih3a0qa.4.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+2021/3/10 19:22:52 # 支付成功回调 : 27
+
+2021/3/10 19:22:52 # 查询订单stringSignTemp : mch_id=100153075261&out_trade_no=2103101921370712&key=6802F0E8E0BE412BB37D8A0AD35CCAD6
+
+2021/3/10 19:22:52 # 查询订单请求url : https://api.pay.yungouos.com/api/system/order/getPayOrderInfo?out_trade_no=2103101921370712&mch_id=100153075261&sign=6B3572F73023AD2B9E4D7FDEB7879D90
+
+2021/3/10 19:22:52 # 查询订单结果 : {"msg":"支付商户不存在","code":1}
+
+2021/3/10 19:22:52 # 引发类型为“System.Web.HttpUnhandledException”的异常。 -- Cannot access child value on Newtonsoft.Json.Linq.JValue.
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.ajax_notify_url_aspx.ProcessRequest(HttpContext context) 位置 c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\3feaf4f5\23222d20\App_Web_4ih3a0qa.4.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+2021/3/10 19:23:07 # 支付成功回调 : 27
+
+2021/3/10 19:23:07 # 查询订单stringSignTemp : mch_id=100153075261&out_trade_no=2103101921370712&key=6802F0E8E0BE412BB37D8A0AD35CCAD6
+
+2021/3/10 19:23:07 # 查询订单请求url : https://api.pay.yungouos.com/api/system/order/getPayOrderInfo?out_trade_no=2103101921370712&mch_id=100153075261&sign=6B3572F73023AD2B9E4D7FDEB7879D90
+
+2021/3/10 19:23:07 # 查询订单结果 : {"msg":"支付商户不存在","code":1}
+
+2021/3/10 19:23:07 # 引发类型为“System.Web.HttpUnhandledException”的异常。 -- Cannot access child value on Newtonsoft.Json.Linq.JValue.
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.ajax_notify_url_aspx.ProcessRequest(HttpContext context) 位置 c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\3feaf4f5\23222d20\App_Web_4ih3a0qa.4.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+2021/3/10 19:23:18 # 支付成功回调 : 27
+
+2021/3/10 19:23:18 # 查询订单stringSignTemp : mch_id=100153075261&out_trade_no=2103101921370712&key=6802F0E8E0BE412BB37D8A0AD35CCAD6
+
+2021/3/10 19:23:18 # 查询订单请求url : https://api.pay.yungouos.com/api/system/order/getPayOrderInfo?out_trade_no=2103101921370712&mch_id=100153075261&sign=6B3572F73023AD2B9E4D7FDEB7879D90
+
+2021/3/10 19:23:18 # 查询订单结果 : {"msg":"支付商户不存在","code":1}
+
+2021/3/10 19:23:18 # 引发类型为“System.Web.HttpUnhandledException”的异常。 -- Cannot access child value on Newtonsoft.Json.Linq.JValue.
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.ajax_notify_url_aspx.ProcessRequest(HttpContext context) 位置 c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\3feaf4f5\23222d20\App_Web_4ih3a0qa.4.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+2021/3/10 19:23:40 # 支付成功回调 : 27
+
+2021/3/10 19:23:40 # 查询订单stringSignTemp : mch_id=100153075261&out_trade_no=2103101921370712&key=6802F0E8E0BE412BB37D8A0AD35CCAD6
+
+2021/3/10 19:23:40 # 查询订单请求url : https://api.pay.yungouos.com/api/system/order/getPayOrderInfo?out_trade_no=2103101921370712&mch_id=100153075261&sign=6B3572F73023AD2B9E4D7FDEB7879D90
+
+2021/3/10 19:23:40 # 查询订单结果 : {"msg":"支付商户不存在","code":1}
+
+2021/3/10 19:23:40 # 引发类型为“System.Web.HttpUnhandledException”的异常。 -- Cannot access child value on Newtonsoft.Json.Linq.JValue.
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.ajax_notify_url_aspx.ProcessRequest(HttpContext context) 位置 c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\3feaf4f5\23222d20\App_Web_4ih3a0qa.4.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+2021/3/10 19:26:41 # 支付成功回调 : 27
+
+2021/3/10 19:26:41 # 查询订单stringSignTemp : mch_id=100153075261&out_trade_no=2103101921370712&key=6802F0E8E0BE412BB37D8A0AD35CCAD6
+
+2021/3/10 19:26:41 # 查询订单请求url : https://api.pay.yungouos.com/api/system/order/getPayOrderInfo?out_trade_no=2103101921370712&mch_id=100153075261&sign=6B3572F73023AD2B9E4D7FDEB7879D90
+
+2021/3/10 19:26:41 # 查询订单结果 : {"msg":"支付商户不存在","code":1}
+
+2021/3/10 19:26:41 # 引发类型为“System.Web.HttpUnhandledException”的异常。 -- Cannot access child value on Newtonsoft.Json.Linq.JValue.
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.ajax_notify_url_aspx.ProcessRequest(HttpContext context) 位置 c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\3feaf4f5\23222d20\App_Web_jlvfmvc2.4.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+2021/3/10 19:29:47 # 开始下单 : 
+
+2021/3/10 19:29:47 # 下单结果 : {"msg":"下单成功，请扫码支付","code":0,"data":"http://images.yungouos.com/merge/native/code/210310192947590015307.png"}
+
+2021/3/10 19:32:10 # 支付成功回调 : 26
+
+2021/3/10 19:32:10 # 查询订单stringSignTemp : mch_id=100153075261&out_trade_no=2103101917342293&key=6802F0E8E0BE412BB37D8A0AD35CCAD6
+
+2021/3/10 19:32:10 # 查询订单请求url : https://api.pay.yungouos.com/api/system/order/getPayOrderInfo?out_trade_no=2103101917342293&mch_id=100153075261&sign=A3B2AD818DA4A6E5D40AFE567D4F63AF
+
+2021/3/10 19:32:10 # 查询订单结果 : {"msg":"支付商户不存在","code":1}
+
+2021/3/10 19:32:10 # 引发类型为“System.Web.HttpUnhandledException”的异常。 -- Cannot access child value on Newtonsoft.Json.Linq.JValue.
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.ajax_notify_url_aspx.ProcessRequest(HttpContext context) 位置 c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\3feaf4f5\23222d20\App_Web_jlvfmvc2.4.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+2021/3/10 19:36:23 # 开始下单 : 
+
+2021/3/10 19:36:24 # 下单结果 : {"msg":"下单成功，请扫码支付","code":0,"data":"http://images.yungouos.com/merge/native/code/210310193623964615307.png"}
+
+2021/3/10 19:36:33 # 开始下单 : 
+
+2021/3/10 19:36:33 # 下单结果 : {"msg":"下单成功，请扫码支付","code":0,"data":"http://images.yungouos.com/merge/native/code/210310193633077715307.png"}
+
+2021/3/10 19:36:42 # 支付成功回调 : 27
+
+2021/3/10 19:36:42 # 查询订单stringSignTemp : mch_id=100153075261&out_trade_no=2103101921370712&key=6802F0E8E0BE412BB37D8A0AD35CCAD6
+
+2021/3/10 19:36:42 # 查询订单请求url : https://api.pay.yungouos.com/api/system/order/getPayOrderInfo?out_trade_no=2103101921370712&mch_id=100153075261&sign=6B3572F73023AD2B9E4D7FDEB7879D90
+
+2021/3/10 19:36:42 # 查询订单结果 : {"msg":"支付商户不存在","code":1}
+
+2021/3/10 19:36:42 # 引发类型为“System.Web.HttpUnhandledException”的异常。 -- Cannot access child value on Newtonsoft.Json.Linq.JValue.
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.ajax_notify_url_aspx.ProcessRequest(HttpContext context) 位置 c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\3feaf4f5\23222d20\App_Web_0kdwvk0g.0.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+2021/3/10 19:38:54 # 开始下单 : 
+
+2021/3/10 19:38:55 # 下单结果 : {"msg":"下单成功，请扫码支付","code":0,"data":"http://images.yungouos.com/merge/native/code/210310193854252315307.png"}
+
+2021/3/10 19:38:58 # 开始下单 : 
+
+2021/3/10 19:38:58 # 下单结果 : {"msg":"下单成功，请扫码支付","code":0,"data":"http://images.yungouos.com/merge/native/code/210310193858954015307.png"}
+
+2021/3/10 19:39:59 # 开始下单 : 
+
+2021/3/10 19:40:00 # 下单结果 : {"msg":"下单成功，请扫码支付","code":0,"data":"http://images.yungouos.com/merge/native/code/210310193959816815307.png"}
+
+2021/3/10 19:40:43 # 开始下单 : 
+
+2021/3/10 19:40:47 # 下单结果 : {"msg":"下单成功，请扫码支付","code":0,"data":"http://images.yungouos.com/merge/native/code/210310194043454815307.png"}
+
+2021/3/10 19:40:47 # 开始下单 : 
+
+2021/3/10 19:40:47 # 下单结果 : {"msg":"下单成功，请扫码支付","code":0,"data":"http://images.yungouos.com/merge/native/code/210310194047791615307.png"}
+
+2021/3/10 19:41:25 # 开始下单 : 
+
+2021/3/10 19:41:25 # 下单结果 : {"msg":"下单成功，请扫码支付","code":0,"data":"http://images.yungouos.com/merge/native/code/210310194125407315307.png"}
+
+2021/3/10 19:41:46 # 开始下单 : 
+
+2021/3/10 19:41:46 # 下单结果 : {"msg":"下单成功，请扫码支付","code":0,"data":"http://images.yungouos.com/merge/native/code/210310194146922015307.png"}
+
+2021/3/10 19:42:16 # 支付成功回调 : 18
+
+2021/3/10 19:43:02 # 开始下单 : 
+
+2021/3/10 19:43:02 # 下单结果 : {"msg":"下单成功，请扫码支付","code":0,"data":"http://images.yungouos.com/merge/native/code/210310194302491615307.png"}
+
+2021/3/10 19:44:19 # 开始下单 : 
+
+2021/3/10 19:44:19 # 下单结果 : {"msg":"下单成功，请扫码支付","code":0,"data":"http://images.yungouos.com/merge/native/code/210310194419496415307.png"}
+
+2021/3/10 19:48:42 # 开始下单 : 
+
+2021/3/10 19:48:43 # 下单结果 : {"msg":"下单成功，请扫码支付","code":0,"data":"http://images.yungouos.com/merge/native/code/210310194842725615307.png"}
+
+2021/3/10 19:48:52 # 开始下单 : 
+
+2021/3/10 19:48:53 # 下单结果 : {"msg":"下单成功，请扫码支付","code":0,"data":"http://images.yungouos.com/merge/native/code/210310194852217515307.png"}
+
+2021/3/10 19:52:11 # 支付成功回调 : 26
+
+2021/3/10 19:52:50 # 支付成功回调 : 24
+
+2021/3/10 19:56:43 # 支付成功回调 : 27
+
+2021/3/10 20:12:17 # 支付成功回调 : 18
+
+2021/3/10 20:22:12 # 支付成功回调 : 26
+
+2021/3/10 20:22:51 # 支付成功回调 : 24
+
+2021/3/10 20:26:44 # 支付成功回调 : 27
+
+2021/3/10 20:31:15 # 开始下单 : 
+
+2021/3/10 20:31:16 # 下单结果 : {"msg":"下单成功，请扫码支付","code":0,"data":"http://images.yungouos.com/merge/native/code/210310203115712615307.png"}
+
+2021/3/10 20:31:17 # 开始下单 : 
+
+2021/3/10 20:31:17 # 下单结果 : {"msg":"下单成功，请扫码支付","code":0,"data":"http://images.yungouos.com/merge/native/code/210310203117488315307.png"}
+
+2021/3/10 20:31:17 # 开始下单 : 
+
+2021/3/10 20:31:18 # 下单结果 : {"msg":"下单成功，请扫码支付","code":0,"data":"http://images.yungouos.com/merge/native/code/210310203117653115307.png"}
+
+2021/3/10 20:31:19 # 开始下单 : 
+
+2021/3/10 20:31:19 # 下单结果 : {"msg":"下单成功，请扫码支付","code":0,"data":"http://images.yungouos.com/merge/native/code/210310203119847515307.png"}
+
+2021/3/10 20:31:19 # 开始下单 : 
+
+2021/3/10 20:31:20 # 下单结果 : {"msg":"下单成功，请扫码支付","code":0,"data":"http://images.yungouos.com/merge/native/code/210310203119376915307.png"}
+
+2021/3/10 20:42:26 # 支付成功回调 : 18
+
+2021/3/10 20:52:13 # 支付成功回调 : 26
+
+2021/3/10 20:53:00 # 支付成功回调 : 24
+
+2021/3/10 20:56:46 # 支付成功回调 : 27
+
+2021/3/10 21:12:18 # 支付成功回调 : 18
+
+2021/3/10 21:22:23 # 支付成功回调 : 26
+
+2021/3/10 21:22:52 # 支付成功回调 : 24
+
+2021/3/10 21:26:54 # 支付成功回调 : 27
+
+2021/3/10 21:42:27 # 支付成功回调 : 18
+
+2021/3/10 21:52:15 # 支付成功回调 : 26
+
+2021/3/10 21:53:01 # 支付成功回调 : 24
+
+2021/3/10 21:56:50 # 支付成功回调 : 27
+
+2021/3/10 22:22:24 # 支付成功回调 : 26
+
+2021/3/10 22:26:59 # 支付成功回调 : 27
+

@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+
+***********************************************************************************************
+website.publishproj
+
+警告: 请勿修改此文件，它将用于 Web 发布过程。
+
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+***********************************************************************************************
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.30319</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{894eabd4-7109-43c3-a490-245765c990d8}</ProjectGuid>
+    <SourceWebPhysicalPath>$(MSBuildThisFileDirectory)</SourceWebPhysicalPath>
+    <SourceWebVirtualPath>/WebSite</SourceWebVirtualPath>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <SourceWebProject>
+    </SourceWebProject>
+    <SourceWebMetabasePath>
+    </SourceWebMetabasePath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <!-- for VS2010 we need to use 10.5 but for VS2012+ we should use VisualStudioVersion -->
+    <WebPublishTargetsVersion Condition=" '$(WebPublishTargetsVersion)' =='' and '$(VisualStudioVersion)' == 10.0 ">10.5</WebPublishTargetsVersion>
+    <WebPublishTargetsVersion Condition=" '$(WebPublishTargetsVersion)'=='' ">$(VisualStudioVersion)</WebPublishTargetsVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(WebPublishTargetsVersion)</VSToolsPath>
+    <_WebPublishTargetsPath Condition=" '$(_WebPublishTargetsPath)'=='' ">$(VSToolsPath)</_WebPublishTargetsPath>
+    <AssemblyFileVersion Condition="'$(AssemblyFileVersion)' == ''">1.0.0.0</AssemblyFileVersion>
+    <AssemblyVersion Condition="'$(AssemblyVersion)' == ''">1.0.0.0</AssemblyVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AssemblyAttributes Include="AssemblyFileVersion">
+      <Value>$(AssemblyFileVersion)</Value>
+    </AssemblyAttributes>
+    <AssemblyAttributes Include="AssemblyVersion">
+      <Value>$(AssemblyVersion)</Value>
+    </AssemblyAttributes>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\eip授权\V530\Whir.Repository\Whir.Repository.csproj">
+      <Project>{94F9FC67-7460-4F65-8431-9C9731C5E25D}</Project>
+      <Name>Whir.Repository</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Whir.Cache\Whir.Cache.csproj">
+      <Project>{EE346278-E41F-42AE-9D14-BB1F3442C0F5}</Project>
+      <Name>Whir.Cache</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Whir.Component\Whir.Component.csproj">
+      <Project>{65D87FF4-4A6A-457E-A42E-9F8D105F6AAB}</Project>
+      <Name>Whir.Component</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Whir.Config\Whir.Config.csproj">
+      <Project>{D7C716A9-2FBC-4B00-9793-D801FAE3711F}</Project>
+      <Name>Whir.Config</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Whir.Controls\Whir.Controls.csproj">
+      <Project>{8689168D-AB24-4DAC-9B16-6C73B5E5B00E}</Project>
+      <Name>Whir.Controls</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Whir.Domain\Whir.Domain.csproj">
+      <Project>{DC038F8B-DA7D-4912-9D4E-ECF54204BFAD}</Project>
+      <Name>Whir.Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Whir.ezEIP\Whir.ezEIP.csproj">
+      <Project>{F4CB400A-5BD4-4251-B1E3-F08930493CA8}</Project>
+      <Name>Whir.ezEIP</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Whir.Framework\Whir.Framework.csproj">
+      <Project>{8A57DEDB-5EC7-4BE9-838C-DC6EAF912A0E}</Project>
+      <Name>Whir.Framework</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Whir.Label\Whir.Label.csproj">
+      <Project>{87DD2B2C-9E9B-4D6B-BA66-1E5FF1F0E7CB}</Project>
+      <Name>Whir.Label</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Whir.Language\Whir.Language.csproj">
+      <Project>{A329B53C-36A5-48DC-BE65-A0F96020DF6B}</Project>
+      <Name>Whir.Language</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Whir.Security\Whir.Security.csproj">
+      <Project>{05AFCA26-AFCE-48C4-8E9E-703D0FECC3D6}</Project>
+      <Name>Whir.Security</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Whir.Service\Whir.Service.csproj">
+      <Project>{523F4A1E-3BF3-48CA-A926-4B94B0E672E5}</Project>
+      <Name>Whir.Service</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(_WebPublishTargetsPath)\Web\Microsoft.WebSite.Publishing.targets" />
+</Project>

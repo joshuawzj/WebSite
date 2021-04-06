@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="SecurityConfig.aspx.cs" Inherits="Whir_System_Handler_Config_SecurityConfig" %>

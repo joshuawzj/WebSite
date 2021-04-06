@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+<meta charset="utf-8">
+           <wtl:include filename="head.html"></wtl:include>
+</head>
+<body>
+
+<!--top--> 
+      <wtl:include filename="top.html"></wtl:include>
+<!--top End--> 
+<div class="Banner002625">
+  <ul class="ul slides">
+    <wtl:list columnid="7">
+    <li>
+     <a href="{$linkurl}"></a>
+     <div class="xycenterbox"><img src="{$uploadpath}{$Imageurl}"></div>
+    <img src="{$uploadpath}{$Imageurl2}">
+    <div class="ban_btn">
+      <div class="ban_left">
+        <img src="{$sitepath}images/dl.png"/>
+        <a href="{$syspath}cn/denglu.aspx">登录</a>
+      </div>
+      <div class="ban_right">
+       <img src="{$sitepath}images/zc.png"/>
+       <a href="{$syspath}cn/zhuche.aspx">注册</a>
+     </div>
+    </div>
+    </li>
+        </wtl:list>
+  </ul>
+  <script>
+  window.onload=function() {
+   $('.Banner002625').flexslider({
+    slideshowSpeed: 6000
+   });
+ }
+  </script>
+ </div>
+ <!--Banner002625 end-->
+<!-- content -->
+<div class="HomeMain">
+  <div class="auto auto_1200">
+    <div class="HomeMain_box">
+      <div class="main_list">
+          <wtl:list columnid="4">
+              <div class="main_li">
+          <img src="{$uploadpath}{$Imageurl}"/>
+          <h1>{$title}</h1>
+          <p>{$content}</p>
+          <ul>
+              <wtl:list sql0="{$whir_U_COntent_pid}" sql="select Whir_U_Category_PId,CategoryName from Whir_U_Category  where isdel = 0 and Whir_U_Category_PId in (select value = substring(a.lable , b.number , charindex(',' , a.lable + ',' , b.number) - b.number)from (select lable from Whir_U_Content where typeid = 4 and Whir_U_Content_PId = {0} ) a join master..spt_values  b  on b.type='p' and b.number between 1 and len(a.lable) where substring(',' + a.lable , b.number , 1) = ',' )" > 
+                  <li>{$CategoryName}</li> 
+            </wtl:list> 
+
+       
+          </ul>
+          <div class="btn_a"><a href="{$pageurl}">立即订阅</a></div>
+        </div>
+         </wtl:list>
+        
+        
+      </div>
+    </div>
+
+    <div class="Home_bot">
+      <div class="home_bot_left">
+        <h2>真知灼见·管理风险</h2>
+        <p>面向全球华人，普及财经常识，构筑风控防线，守卫财务安康</p>
+      </div>
+      <div class="home_bot_right">
+		<wtl:list columnid="3">
+        <a href="{$title}" target="_blank"><img src="{$sitepath}images/fx.png"/></a>
+        <a href="{$lxdh}"  target="_blank"><img src="{$sitepath}images/weibo.png"/></a>
+		</wtl:list>
+      </div>
+    </div>
+
+  </div>
+</div>
+<!-- content -->
+<!--top--> 
+       <wtl:include filename="bottom.html"></wtl:include>
+<!--top End--> 
+</body>
+</html>

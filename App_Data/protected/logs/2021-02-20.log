@@ -1,0 +1,84 @@
+2021/2/20 9:00:26 # 引发类型为“System.Web.HttpUnhandledException”的异常。 -- 无法打开登录所请求的数据库 "Whir_ezEIP5_wzj"。登录失败。
+用户 'netuser' 登录失败。
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.index_aspx.ProcessRequest(HttpContext context) 位置 c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\wzj\ad15448c\e8e3de53\App_Web_34ur4fcz.2.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+2021/2/20 9:01:50 # 引发类型为“System.Web.HttpUnhandledException”的异常。 -- 无法打开登录所请求的数据库 "Whir_ezEIP5_wzj"。登录失败。
+用户 'netuser' 登录失败。
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.index_aspx.ProcessRequest(HttpContext context) 位置 c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\wzj\ad15448c\e8e3de53\App_Web_34ur4fcz.2.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+2021/2/20 9:09:13 # 引发类型为“System.Web.HttpUnhandledException”的异常。 -- 无法打开登录所请求的数据库 "Whir_ezEIP5_wzj"。登录失败。
+用户 'netuser' 登录失败。
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.index_aspx.ProcessRequest(HttpContext context) 位置 c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\wzj\ad15448c\e8e3de53\App_Web_34ur4fcz.2.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+2021/2/20 9:09:18 # 引发类型为“System.Web.HttpUnhandledException”的异常。 -- 无法打开登录所请求的数据库 "Whir_ezEIP5_wzj"。登录失败。
+用户 'netuser' 登录失败。
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.index_aspx.ProcessRequest(HttpContext context) 位置 c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\wzj\ad15448c\e8e3de53\App_Web_34ur4fcz.2.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+2021/2/20 9:09:33 # 引发类型为“System.Web.HttpUnhandledException”的异常。 -- 无法打开登录所请求的数据库 "Whir_ezEIP5_wzj"。登录失败。
+用户 'netuser' 登录失败。
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.index_aspx.ProcessRequest(HttpContext context) 位置 c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\wzj\ad15448c\e8e3de53\App_Web_34ur4fcz.2.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+2021/2/20 9:10:08 # 引发类型为“System.Web.HttpUnhandledException”的异常。 -- 无法打开登录所请求的数据库 "Whir_ezEIP5_wzj"。登录失败。
+用户 'netuser' 登录失败。
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.index_aspx.ProcessRequest(HttpContext context) 位置 c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\wzj\ad15448c\e8e3de53\App_Web_34ur4fcz.2.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+2021/2/20 9:10:23 # 引发类型为“System.Web.HttpUnhandledException”的异常。 -- 无法打开登录所请求的数据库 "Whir_ezEIP5_wzj"。登录失败。
+用户 'netuser' 登录失败。
+   在 System.Web.UI.Page.HandleError(Exception e)
+   在 System.Web.UI.Page.ProcessRequestMain(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest(Boolean includeStagesBeforeAsyncPoint, Boolean includeStagesAfterAsyncPoint)
+   在 System.Web.UI.Page.ProcessRequest()
+   在 System.Web.UI.Page.ProcessRequest(HttpContext context)
+   在 ASP.whir_system_main_aspx.ProcessRequest(HttpContext context) 位置 c:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\wzj\ad15448c\e8e3de53\App_Web_njwke5xv.6.cs:行号 0
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+

@@ -1,0 +1,55 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Net.Mail;
+using System.Text;
+using System.Web;
+
+/// <summary>
+/// EmailHelper 的摘要说明
+/// </summary>
+public class EmailHelper
+{
+    public static bool ESender(string displayname,string mailto, string subject1, string content, string froms, string mailusers, string smtps, string fromPWDs)
+    {
+        //发送邮件的帐号
+        string from = froms;
+        //发送的邮箱
+        string mailuser = mailusers;
+        //smtp服务器地址
+        string smtp = smtps;
+        //发送邮件帐号的密码
+        string fromPWD = fromPWDs;
+
+
+        //接收邮件的帐号
+        string to = mailto;
+        string subject = subject1;
+        string body = content;
+        MailAddress mailTOAddr = new MailAddress(to);
+        MailAddress mailFromAddr = new MailAddress(from, displayname, Encoding.UTF8);
+        MailMessage mail = new MailMessage(mailFromAddr, mailTOAddr);
+        mail.BodyEncoding = Encoding.UTF8;
+        mail.Subject = subject;
+        mail.IsBodyHtml = true;
+        mail.Body = body;
+
+        //大部分stmp默认端口是25
+        SmtpClient smtpMail = new SmtpClient(smtp, 465);
+
+        smtpMail.UseDefaultCredentials = true;
+        //设置发件箱账号密码
+        smtpMail.Credentials = new System.Net.NetworkCredential(mailuser, fromPWD);
+        smtpMail.EnableSsl = true; //不支持SSL
+        try
+        {
+            smtpMail.Send(mail);
+            return true;
+        }
+        catch (Exception ex)
+        {
+            return false;
+        }
+        //--------MailAddress 结束
+    }
+}

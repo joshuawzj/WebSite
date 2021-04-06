@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="EmailMass.aspx.cs" Inherits="Whir_System_Handler_Config_EmailMass" %>

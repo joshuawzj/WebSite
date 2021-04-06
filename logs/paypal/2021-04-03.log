@@ -1,0 +1,13 @@
+2021-04-03 10:28:04.234 INFO System.RuntimeType: 发送支付请求！订单号【2104031028038066】
+2021-04-03 10:30:47.487 INFO System.RuntimeType: 发送支付请求！订单号【2104031030477347】
+2021-04-03 15:42:27.996 INFO ASP.ajax_return_notify_aspx: 返回参数：mc_gross=1.00&invoice=2104021541568208&protection_eligibility=Eligible&payer_id=MDMHVPYQNYWQC&tax=0.00&payment_date=00%3a42%3a15+Apr+02%2c+2021+PDT&payment_status=Completed&charset=gb2312&first_name=%ufffd%u04ff%ufffd&mc_fee=0.34&notify_version=3.9&custom=&payer_status=verified&business=renfan.daxian%40yahoo.com&quantity=1&verify_sign=A6o980osSuGmfX-7olWc9-BqI12ZAAtd1hJGt5MjHQMMvXHJ9UCQRwx3&payer_email=89716235%40qq.com&txn_id=5U547049W5475553W&payment_type=instant&last_name=%ufffd%ufffd&receiver_email=renfan.daxian%40yahoo.com&payment_fee=0.34&shipping_discount=0.00&insurance_amount=0.00&receiver_id=9HYBPMKC8XKZU&txn_type=web_accept&item_name=%u4f21%ufffd%ufffd%ufffd&discount=0.00&mc_currency=USD&item_number=&residence_country=CN&handling_amount=0.00&shipping_method=Default&transaction_subject=&payment_gross=1.00&shipping=0.00&ipn_track_id=f87649f2a7d07
+2021-04-03 15:42:27.996 INFO ASP.ajax_return_notify_aspx: 进来了-------------------------------------：
+2021-04-03 15:42:28.005 INFO ASP.ajax_return_notify_aspx: 报错了---：在位置 0 处没有任何行。
+2021-04-03 16:57:56.606 INFO System.RuntimeType: 发送支付请求！订单号【2104031657550446】
+2021-04-03 16:58:20.754 INFO ASP.ajax_return_notify_aspx: 返回参数：mc_gross=105.00&invoice=2104031657550446&protection_eligibility=Eligible&payer_id=PTFQN9GHWGMUA&payment_date=01%3a58%3a12+Apr+03%2c+2021+PDT&payment_status=Completed&charset=gb2312&first_name=Chun+Yuan&mc_fee=4.92&notify_version=3.9&custom=&payer_status=unverified&business=renfan.daxian%40yahoo.com&quantity=1&verify_sign=ArKF4cTSLMwx5kuGT4NMgIl3R6ZjAmpDdprhIfsxPZiRoutA3SP5dbIH&payer_email=gogoafrica%40gmail.com&txn_id=0C141557EV177081W&payment_type=instant&last_name=Yu&receiver_email=renfan.daxian%40yahoo.com&payment_fee=4.92&shipping_discount=0.00&receiver_id=9HYBPMKC8XKZU&insurance_amount=0.00&txn_type=web_accept&item_name=%u4f21%ufffd%ufffd%ufffd&discount=0.00&mc_currency=USD&item_number=&residence_country=TW&shipping_method=Default&transaction_subject=&payment_gross=105.00&ipn_track_id=2f4e34e8e0cb7
+2021-04-03 16:58:20.754 INFO ASP.ajax_return_notify_aspx: 进来了-------------------------------------：
+2021-04-03 22:58:45.462 INFO System.RuntimeType: 发送支付请求！订单号【2104032258441461】
+2021-04-03 22:58:55.555 INFO System.RuntimeType: 发送支付请求！订单号【2104032258554993】
+2021-04-03 23:03:24.370 INFO System.RuntimeType: 发送支付请求！订单号【2104032303230979】
+2021-04-03 23:10:27.511 INFO System.RuntimeType: 发送支付请求！订单号【2104032310261886】
+2021-04-03 23:10:32.643 INFO System.RuntimeType: 发送支付请求！订单号【2104032310328046】

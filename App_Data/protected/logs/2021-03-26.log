@@ -1,0 +1,301 @@
+2021/3/26 9:07:12 # 开始下单 : 
+
+2021/3/26 9:07:12 # 下单签名 : F8A778D54CF21E8F5E21BCAB7581E18E
+
+2021/3/26 9:07:13 # 下单结果 : {"msg":"下单成功，请扫码支付","code":0,"data":"http://images.yungouos.com/merge/native/code/210326090712189415307.png"}
+
+2021/3/26 9:08:15 # 支付成功回调参数： payNo ------ 4200000945202103260925904582
+
+2021/3/26 9:08:15 # 支付成功回调参数： code ------ 1
+
+2021/3/26 9:08:15 # 支付成功回调参数： mchId ------ 1607191737
+
+2021/3/26 9:08:15 # 支付成功回调参数： orderNo ------ Y09075951447934
+
+2021/3/26 9:08:15 # 支付成功回调参数： money ------ 666.00
+
+2021/3/26 9:08:15 # 支付成功回调参数： openId ------ o-_-it5JUgHNwxSjC5Az5EdPfAQI
+
+2021/3/26 9:08:15 # 支付成功回调参数： outTradeNo ------ 2103260907121894
+
+2021/3/26 9:08:15 # 支付成功回调参数： sign ------ 8A5DDBE896ADF25F617899DD830B3285
+
+2021/3/26 9:08:15 # 支付成功回调参数： payChannel ------ wxpay
+
+2021/3/26 9:08:15 # 支付成功回调参数： time ------ 2021-03-26 09:08:13
+
+2021/3/26 9:08:15 # 支付成功回调的新签名为 : 8A5DDBE896ADF25F617899DD830B3285
+
+2021/3/26 9:08:15 # 支付成功回调签名验证通过 。
+
+2021/3/26 17:28:22 # 开始下单 : 
+
+2021/3/26 17:28:22 # 下单签名 : B22496DD9EE844DE2618714E0EC2CC4F
+
+2021/3/26 17:28:23 # 下单结果 : {"msg":"下单成功，请扫码支付","code":0,"data":"http://images.yungouos.com/merge/native/code/210326172822754415307.png"}
+
+2021/3/26 17:29:33 # 支付成功回调参数： payNo ------ 4200000988202103262916141408
+
+2021/3/26 17:29:33 # 支付成功回调参数： code ------ 1
+
+2021/3/26 17:29:33 # 支付成功回调参数： mchId ------ 1607191737
+
+2021/3/26 17:29:33 # 支付成功回调参数： orderNo ------ Y17290917650944
+
+2021/3/26 17:29:33 # 支付成功回调参数： money ------ 666.00
+
+2021/3/26 17:29:33 # 支付成功回调参数： openId ------ o-_-it47MGk-lZSyqQbsQQsNHAdM
+
+2021/3/26 17:29:33 # 支付成功回调参数： outTradeNo ------ 2103261728227544
+
+2021/3/26 17:29:33 # 支付成功回调参数： sign ------ 5EC3985C143D57856CBF66DD3429C57C
+
+2021/3/26 17:29:33 # 支付成功回调参数： payChannel ------ wxpay
+
+2021/3/26 17:29:33 # 支付成功回调参数： time ------ 2021-03-26 17:29:31
+
+2021/3/26 17:29:33 # 支付成功回调的新签名为 : 5EC3985C143D57856CBF66DD3429C57C
+
+2021/3/26 17:29:33 # 支付成功回调签名验证通过 。
+
+2021/3/26 18:21:19 # 开始下单 : 
+
+2021/3/26 18:21:19 # 下单签名 : 427F5593250BC6A00A12F59F0CDC8771
+
+2021/3/26 18:21:19 # 下单结果 : {"msg":"下单成功，请扫码支付","code":0,"data":"http://images.yungouos.com/merge/native/code/210326182119561215307.png"}
+
+2021/3/26 18:22:10 # 支付成功回调参数： payNo ------ 2021032622001401951428335166
+
+2021/3/26 18:22:10 # 支付成功回调参数： code ------ 1
+
+2021/3/26 18:22:10 # 支付成功回调参数： mchId ------ 2088110896172724
+
+2021/3/26 18:22:10 # 支付成功回调参数： orderNo ------ Y18215097213185
+
+2021/3/26 18:22:10 # 支付成功回调参数： money ------ 666.00
+
+2021/3/26 18:22:10 # 支付成功回调参数： outTradeNo ------ 2103261821195612
+
+2021/3/26 18:22:10 # 支付成功回调参数： sign ------ E50A8B02D2735541E57F651AF2CFCC2B
+
+2021/3/26 18:22:10 # 支付成功回调参数： payChannel ------ alipay
+
+2021/3/26 18:22:10 # 支付成功回调参数： time ------ 2021-03-26 18:22:08
+
+2021/3/26 18:22:10 # 支付成功回调的新签名为 : E50A8B02D2735541E57F651AF2CFCC2B
+
+2021/3/26 18:22:10 # 支付成功回调签名验证通过 。
+
+2021/3/26 20:30:10 # 开始下单 : 
+
+2021/3/26 20:30:10 # 下单签名 : 12A6A45193EF321E7345A5382F5F8FAD
+
+2021/3/26 20:30:11 # 下单结果 : {"msg":"下单成功，请扫码支付","code":0,"data":"http://images.yungouos.com/merge/native/code/210326203010642915307.png"}
+
+2021/3/26 20:30:48 # 支付成功回调参数： payNo ------ 4200000997202103268046777595
+
+2021/3/26 20:30:48 # 支付成功回调参数： code ------ 1
+
+2021/3/26 20:30:48 # 支付成功回调参数： mchId ------ 1607191737
+
+2021/3/26 20:30:48 # 支付成功回调参数： orderNo ------ Y20303188082628
+
+2021/3/26 20:30:48 # 支付成功回调参数： money ------ 666.00
+
+2021/3/26 20:30:48 # 支付成功回调参数： openId ------ o-_-it8HTaKNv9vqwVEB-TwBG9Vk
+
+2021/3/26 20:30:48 # 支付成功回调参数： outTradeNo ------ 2103262030106429
+
+2021/3/26 20:30:48 # 支付成功回调参数： sign ------ 803AD2CF03627D2A4C046957BFA46F48
+
+2021/3/26 20:30:48 # 支付成功回调参数： payChannel ------ wxpay
+
+2021/3/26 20:30:48 # 支付成功回调参数： time ------ 2021-03-26 20:30:43
+
+2021/3/26 20:30:48 # 支付成功回调的新签名为 : 803AD2CF03627D2A4C046957BFA46F48
+
+2021/3/26 20:30:48 # 支付成功回调签名验证通过 。
+
+2021/3/26 20:31:39 # 开始下单 : 
+
+2021/3/26 20:31:39 # 下单签名 : EF62C77BAE4D8C397FCD94B3510AAED0
+
+2021/3/26 20:31:40 # 下单结果 : {"msg":"下单成功，请扫码支付","code":0,"data":"http://images.yungouos.com/merge/native/code/210326203139581315307.png"}
+
+2021/3/26 20:39:02 # 开始下单 : 
+
+2021/3/26 20:39:02 # 下单签名 : 684A2A57321E4600992DCCA628DB3EC1
+
+2021/3/26 20:39:03 # 下单结果 : {"msg":"下单成功，请扫码支付","code":0,"data":"http://images.yungouos.com/merge/native/code/210326203902979215307.png"}
+
+2021/3/26 21:41:26 # 未能映射路径“/uploadfiles/2021/03/20210326214126132.”。
+   在 System.Web.Configuration.ProcessHostMapPath.MapPathCaching(String siteID, VirtualPath path)
+   在 System.Web.Configuration.ProcessHostMapPath.System.Web.Configuration.IConfigMapPath2.MapPath(String siteID, VirtualPath path)
+   在 System.Web.Hosting.HostingEnvironment.MapPathActual(VirtualPath virtualPath, Boolean permitNull)
+   在 System.Web.HttpRequest.MapPath(VirtualPath virtualPath, VirtualPath baseVirtualDir, Boolean allowCrossAppMapping)
+   在 System.Web.HttpServerUtility.MapPath(String path)
+   在 Crawler.Fetch() 位置 c:\wwwroot\WebSite\App_Code\Ueditor\CrawlerHandler.cs:行号 78
+   在 CrawlerHandler.<Process>b__0(String x) 位置 c:\wwwroot\WebSite\App_Code\Ueditor\CrawlerHandler.cs:行号 27
+   在 System.Linq.Enumerable.WhereSelectArrayIterator`2.MoveNext()
+   在 System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   在 System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   在 CrawlerHandler.Process() 位置 c:\wwwroot\WebSite\App_Code\Ueditor\CrawlerHandler.cs:行号 27
+   在 UEditorHandler.ProcessRequest(HttpContext context) 位置 c:\wwwroot\WebSite\Editor\ueditor\net\controller.ashx:行号 81
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+2021/3/26 22:00:38 # 未能映射路径“/uploadfiles/2021/03/20210326220038461.”。
+   在 System.Web.Configuration.ProcessHostMapPath.MapPathCaching(String siteID, VirtualPath path)
+   在 System.Web.Configuration.ProcessHostMapPath.System.Web.Configuration.IConfigMapPath2.MapPath(String siteID, VirtualPath path)
+   在 System.Web.Hosting.HostingEnvironment.MapPathActual(VirtualPath virtualPath, Boolean permitNull)
+   在 System.Web.HttpRequest.MapPath(VirtualPath virtualPath, VirtualPath baseVirtualDir, Boolean allowCrossAppMapping)
+   在 System.Web.HttpServerUtility.MapPath(String path)
+   在 Crawler.Fetch() 位置 c:\wwwroot\WebSite\App_Code\Ueditor\CrawlerHandler.cs:行号 78
+   在 CrawlerHandler.<Process>b__0(String x) 位置 c:\wwwroot\WebSite\App_Code\Ueditor\CrawlerHandler.cs:行号 27
+   在 System.Linq.Enumerable.WhereSelectArrayIterator`2.MoveNext()
+   在 System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   在 System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   在 CrawlerHandler.Process() 位置 c:\wwwroot\WebSite\App_Code\Ueditor\CrawlerHandler.cs:行号 27
+   在 UEditorHandler.ProcessRequest(HttpContext context) 位置 c:\wwwroot\WebSite\Editor\ueditor\net\controller.ashx:行号 81
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+2021/3/26 22:07:42 # 未能映射路径“/uploadfiles/2021/03/20210326220742486.”。
+   在 System.Web.Configuration.ProcessHostMapPath.MapPathCaching(String siteID, VirtualPath path)
+   在 System.Web.Configuration.ProcessHostMapPath.System.Web.Configuration.IConfigMapPath2.MapPath(String siteID, VirtualPath path)
+   在 System.Web.Hosting.HostingEnvironment.MapPathActual(VirtualPath virtualPath, Boolean permitNull)
+   在 System.Web.HttpRequest.MapPath(VirtualPath virtualPath, VirtualPath baseVirtualDir, Boolean allowCrossAppMapping)
+   在 System.Web.HttpServerUtility.MapPath(String path)
+   在 Crawler.Fetch() 位置 c:\wwwroot\WebSite\App_Code\Ueditor\CrawlerHandler.cs:行号 78
+   在 CrawlerHandler.<Process>b__0(String x) 位置 c:\wwwroot\WebSite\App_Code\Ueditor\CrawlerHandler.cs:行号 27
+   在 System.Linq.Enumerable.WhereSelectArrayIterator`2.MoveNext()
+   在 System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   在 System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   在 CrawlerHandler.Process() 位置 c:\wwwroot\WebSite\App_Code\Ueditor\CrawlerHandler.cs:行号 27
+   在 UEditorHandler.ProcessRequest(HttpContext context) 位置 c:\wwwroot\WebSite\Editor\ueditor\net\controller.ashx:行号 81
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+2021/3/26 22:07:50 # 未能映射路径“/uploadfiles/2021/03/20210326220750811.”。
+   在 System.Web.Configuration.ProcessHostMapPath.MapPathCaching(String siteID, VirtualPath path)
+   在 System.Web.Configuration.ProcessHostMapPath.System.Web.Configuration.IConfigMapPath2.MapPath(String siteID, VirtualPath path)
+   在 System.Web.Hosting.HostingEnvironment.MapPathActual(VirtualPath virtualPath, Boolean permitNull)
+   在 System.Web.HttpRequest.MapPath(VirtualPath virtualPath, VirtualPath baseVirtualDir, Boolean allowCrossAppMapping)
+   在 System.Web.HttpServerUtility.MapPath(String path)
+   在 Crawler.Fetch() 位置 c:\wwwroot\WebSite\App_Code\Ueditor\CrawlerHandler.cs:行号 78
+   在 CrawlerHandler.<Process>b__0(String x) 位置 c:\wwwroot\WebSite\App_Code\Ueditor\CrawlerHandler.cs:行号 27
+   在 System.Linq.Enumerable.WhereSelectArrayIterator`2.MoveNext()
+   在 System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   在 System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   在 CrawlerHandler.Process() 位置 c:\wwwroot\WebSite\App_Code\Ueditor\CrawlerHandler.cs:行号 27
+   在 UEditorHandler.ProcessRequest(HttpContext context) 位置 c:\wwwroot\WebSite\Editor\ueditor\net\controller.ashx:行号 81
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+2021/3/26 22:08:06 # 未能映射路径“/uploadfiles/2021/03/20210326220806843.”。
+   在 System.Web.Configuration.ProcessHostMapPath.MapPathCaching(String siteID, VirtualPath path)
+   在 System.Web.Configuration.ProcessHostMapPath.System.Web.Configuration.IConfigMapPath2.MapPath(String siteID, VirtualPath path)
+   在 System.Web.Hosting.HostingEnvironment.MapPathActual(VirtualPath virtualPath, Boolean permitNull)
+   在 System.Web.HttpRequest.MapPath(VirtualPath virtualPath, VirtualPath baseVirtualDir, Boolean allowCrossAppMapping)
+   在 System.Web.HttpServerUtility.MapPath(String path)
+   在 Crawler.Fetch() 位置 c:\wwwroot\WebSite\App_Code\Ueditor\CrawlerHandler.cs:行号 78
+   在 CrawlerHandler.<Process>b__0(String x) 位置 c:\wwwroot\WebSite\App_Code\Ueditor\CrawlerHandler.cs:行号 27
+   在 System.Linq.Enumerable.WhereSelectArrayIterator`2.MoveNext()
+   在 System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   在 System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   在 CrawlerHandler.Process() 位置 c:\wwwroot\WebSite\App_Code\Ueditor\CrawlerHandler.cs:行号 27
+   在 UEditorHandler.ProcessRequest(HttpContext context) 位置 c:\wwwroot\WebSite\Editor\ueditor\net\controller.ashx:行号 81
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+2021/3/26 22:11:11 # 未能映射路径“/uploadfiles/2021/03/20210326221111495.”。
+   在 System.Web.Configuration.ProcessHostMapPath.MapPathCaching(String siteID, VirtualPath path)
+   在 System.Web.Configuration.ProcessHostMapPath.System.Web.Configuration.IConfigMapPath2.MapPath(String siteID, VirtualPath path)
+   在 System.Web.Hosting.HostingEnvironment.MapPathActual(VirtualPath virtualPath, Boolean permitNull)
+   在 System.Web.HttpRequest.MapPath(VirtualPath virtualPath, VirtualPath baseVirtualDir, Boolean allowCrossAppMapping)
+   在 System.Web.HttpServerUtility.MapPath(String path)
+   在 Crawler.Fetch() 位置 c:\wwwroot\WebSite\App_Code\Ueditor\CrawlerHandler.cs:行号 78
+   在 CrawlerHandler.<Process>b__0(String x) 位置 c:\wwwroot\WebSite\App_Code\Ueditor\CrawlerHandler.cs:行号 27
+   在 System.Linq.Enumerable.WhereSelectArrayIterator`2.MoveNext()
+   在 System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   在 System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   在 CrawlerHandler.Process() 位置 c:\wwwroot\WebSite\App_Code\Ueditor\CrawlerHandler.cs:行号 27
+   在 UEditorHandler.ProcessRequest(HttpContext context) 位置 c:\wwwroot\WebSite\Editor\ueditor\net\controller.ashx:行号 81
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+2021/3/26 22:12:29 # 未能映射路径“/uploadfiles/2021/03/20210326221229104.”。
+   在 System.Web.Configuration.ProcessHostMapPath.MapPathCaching(String siteID, VirtualPath path)
+   在 System.Web.Configuration.ProcessHostMapPath.System.Web.Configuration.IConfigMapPath2.MapPath(String siteID, VirtualPath path)
+   在 System.Web.Hosting.HostingEnvironment.MapPathActual(VirtualPath virtualPath, Boolean permitNull)
+   在 System.Web.HttpRequest.MapPath(VirtualPath virtualPath, VirtualPath baseVirtualDir, Boolean allowCrossAppMapping)
+   在 System.Web.HttpServerUtility.MapPath(String path)
+   在 Crawler.Fetch() 位置 c:\wwwroot\WebSite\App_Code\Ueditor\CrawlerHandler.cs:行号 78
+   在 CrawlerHandler.<Process>b__0(String x) 位置 c:\wwwroot\WebSite\App_Code\Ueditor\CrawlerHandler.cs:行号 27
+   在 System.Linq.Enumerable.WhereSelectArrayIterator`2.MoveNext()
+   在 System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   在 System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   在 CrawlerHandler.Process() 位置 c:\wwwroot\WebSite\App_Code\Ueditor\CrawlerHandler.cs:行号 27
+   在 UEditorHandler.ProcessRequest(HttpContext context) 位置 c:\wwwroot\WebSite\Editor\ueditor\net\controller.ashx:行号 81
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+2021/3/26 22:29:43 # 未能映射路径“/uploadfiles/2021/03/20210326222943791.”。
+   在 System.Web.Configuration.ProcessHostMapPath.MapPathCaching(String siteID, VirtualPath path)
+   在 System.Web.Configuration.ProcessHostMapPath.System.Web.Configuration.IConfigMapPath2.MapPath(String siteID, VirtualPath path)
+   在 System.Web.Hosting.HostingEnvironment.MapPathActual(VirtualPath virtualPath, Boolean permitNull)
+   在 System.Web.HttpRequest.MapPath(VirtualPath virtualPath, VirtualPath baseVirtualDir, Boolean allowCrossAppMapping)
+   在 System.Web.HttpServerUtility.MapPath(String path)
+   在 Crawler.Fetch() 位置 c:\wwwroot\WebSite\App_Code\Ueditor\CrawlerHandler.cs:行号 78
+   在 CrawlerHandler.<Process>b__0(String x) 位置 c:\wwwroot\WebSite\App_Code\Ueditor\CrawlerHandler.cs:行号 27
+   在 System.Linq.Enumerable.WhereSelectArrayIterator`2.MoveNext()
+   在 System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   在 System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   在 CrawlerHandler.Process() 位置 c:\wwwroot\WebSite\App_Code\Ueditor\CrawlerHandler.cs:行号 27
+   在 UEditorHandler.ProcessRequest(HttpContext context) 位置 c:\wwwroot\WebSite\Editor\ueditor\net\controller.ashx:行号 81
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+2021/3/26 22:43:54 # 未能映射路径“/uploadfiles/2021/03/20210326224354279.”。
+   在 System.Web.Configuration.ProcessHostMapPath.MapPathCaching(String siteID, VirtualPath path)
+   在 System.Web.Configuration.ProcessHostMapPath.System.Web.Configuration.IConfigMapPath2.MapPath(String siteID, VirtualPath path)
+   在 System.Web.Hosting.HostingEnvironment.MapPathActual(VirtualPath virtualPath, Boolean permitNull)
+   在 System.Web.HttpRequest.MapPath(VirtualPath virtualPath, VirtualPath baseVirtualDir, Boolean allowCrossAppMapping)
+   在 System.Web.HttpServerUtility.MapPath(String path)
+   在 Crawler.Fetch() 位置 c:\wwwroot\WebSite\App_Code\Ueditor\CrawlerHandler.cs:行号 78
+   在 CrawlerHandler.<Process>b__0(String x) 位置 c:\wwwroot\WebSite\App_Code\Ueditor\CrawlerHandler.cs:行号 27
+   在 System.Linq.Enumerable.WhereSelectArrayIterator`2.MoveNext()
+   在 System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   在 System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   在 CrawlerHandler.Process() 位置 c:\wwwroot\WebSite\App_Code\Ueditor\CrawlerHandler.cs:行号 27
+   在 UEditorHandler.ProcessRequest(HttpContext context) 位置 c:\wwwroot\WebSite\Editor\ueditor\net\controller.ashx:行号 81
+   在 System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   在 System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   在 System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+2021/3/26 22:46:33 # 开始下单 : 
+
+2021/3/26 22:46:33 # 下单签名 : EBA0D7503EE82726C9AA8C131ADC2922
+
+2021/3/26 22:46:34 # 下单结果 : {"msg":"下单成功，请扫码支付","code":0,"data":"http://images.yungouos.com/merge/native/code/210326224633420415307.png"}
+
+2021/3/26 22:53:40 # 开始下单 : 
+
+2021/3/26 22:53:40 # 下单签名 : 4B0E596862CF8C150BF448DE73DF30F4
+
+2021/3/26 22:53:41 # 下单结果 : {"msg":"下单成功，请扫码支付","code":0,"data":"http://images.yungouos.com/merge/native/code/210326225340627115307.png"}
+
+2021/3/26 22:55:05 # 开始下单 : 
+
+2021/3/26 22:55:05 # 下单签名 : 324BDA3AD3F1F89885D4571277206A02
+
+2021/3/26 22:55:05 # 下单结果 : {"msg":"下单成功，请扫码支付","code":0,"data":"http://images.yungouos.com/merge/native/code/210326225505464815307.png"}
+

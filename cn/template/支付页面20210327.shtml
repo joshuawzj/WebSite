@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8">
+    <wtl:include filename="head.html"></wtl:include>
+    <link href="{$syspath}res/js/layer/skin/default/layer.css" rel="stylesheet" />
+    <script src="{$syspath}res/js/layer/layer.js"></script>
+</head>
+<body>
+    <!--top-->
+    <wtl:include filename="top.html"></wtl:include>
+    <!--top End-->
+    <div class="ban">
+        <img src='<wtl:banner></wtl:banner>' />
+    </div>
+    <div class="zf">
+        <div class="auto auto_1200">
+            <div class="zf_box">
+                <wtl:list columnid="4">
+                    <div class="zf_li">
+                        <div class="zf_li_box">
+                            <h3>{$title}</h3>
+                            <h1>{$price}<span>元</span></h1>
+                            <p>{$content}</p>
+                            <div class="zf_bot">
+                                <ul style="margin-top:0px;">
+                                   <wtl:list sql0="{$whir_U_COntent_pid}" sql="select Whir_U_Category_PId,CategoryName from Whir_U_Category  where isdel = 0 and Whir_U_Category_PId in (select value = substring(a.lable , b.number , charindex(',' , a.lable + ',' , b.number) - b.number)from (select lable from Whir_U_Content where typeid = 4 and Whir_U_Content_PId = {0} ) a join master..spt_values  b  on b.type='p' and b.number between 1 and len(a.lable) where substring(',' + a.lable , b.number , 1) = ',' )" > 
+										  <li>{$CategoryName}</li> 
+									</wtl:list> 
+                                </ul>
+                                <div class="zf_btn" >
+                                    <a href="javascript:dy({$whir_U_Content_pid});">立即订阅</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </wtl:list>
+            </div>
+        </div>
+    </div>
+
+    <div class="popbox" id="popbox1" style="display:none;">
+        <div class="content">
+            <a href="javascript:$('#popbox1').hide();" class="close"></a>
+            <div class="tithead">请用微信、支付宝扫码支付</div>
+            <dl>
+                <dd>
+                    <img src="" id="ewm" />
+                </dd> 
+				<dd>
+					<p>手机访问请长按识别二维码</p>
+				</dd>
+				<dd class="btn">
+					<button class="send" type="button" onclick="send()">支付完成</button>
+				</dd>
+            </dl> 
+        </div>
+    </div>
+
+
+    <script>
+        function dy(e) {
+            var member = "$whir.GetUserId()";
+            if (member == "0") {
+                alert("请先登录！");
+                location.href = "{$sitepath}denglu.aspx";
+            } else {
+                $.ajax({
+                    type: "GET",
+                    url: "{$syspath}ajax/addOrder.aspx",
+                    data: { id: e },
+					dataType: "json",
+                    success: function (data) {
+                        if (data.status == "y") {
+							$("#ewm").attr("src", data.info);
+                            $("#popbox1").show();  
+                        } else {
+                            layer.alert(data.info);
+                        }
+                    }
+                });
+            }
+        }
+
+        function send(){
+			$("#popbox1").hide();  
+		}
+    </script>
+
+    <!--bottom-->
+    <wtl:include filename="bottom.html"></wtl:include>
+    <!--bottom End-->
+</body>
+
+</html>

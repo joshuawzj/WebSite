@@ -1,0 +1,41 @@
+
+<div class="Top002999">
+  <div class="auto auto_1200">
+    <div class="logo">
+        <wtl:inforarea columnid="3">
+            <a href="{$indexurl}">
+                <img src="{$uploadpath}{$logo}">
+            </a>
+        </wtl:inforarea>
+      
+  </div>
+   <a class="open-nav"><i></i><i></i><i></i></a>
+   <div class="top-main">
+       <a class="open-menu" rel="absolute"><i></i><i></i><i></i></a>
+       <menu>
+           <ul class="ul clearfix" id="menu" type="Vertical" rel="li-relative">
+               <li><span><a href="{$syspath}yhzx/index.aspx">用户中心</a></span></li>
+               <li><span><a href="{$syspath}cn/zhuche.aspx">注册</a></span></li>
+               <li><span><a href="{$syspath}about/index.aspx">关于光盐财经</a></span> </li>
+               <li class="cont_box">
+                   <span><a href="javascript:void(0)">联系我们</a></span> 
+                   <div class="ewm">
+					<wtl:list columnid="14"><img src="{$uploadpath}{$logo}"/></wtl:list>
+                   </div>
+                </li>
+           </ul>
+       </menu>
+       <wtl:inforarea columnid="3">
+           <div class="gupiao">联系我们 <span>{$phone}</span></div>
+       </wtl:inforarea>
+   </div>
+  </div>
+</div>
+<script>
+var m="0" //选中
+whirmenu.main("Vertical","en",m);
+whirsearch.open(".open-search",".top-search");//打开搜索
+whirsearch.search("#TopBtn","TopKey","请输入关键字","跳转链接")//搜索
+whirOpen.one(".open-nav","body","pcmenu-show",".top-main");
+</script>
+<!--Top002999 end-->
